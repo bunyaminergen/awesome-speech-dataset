@@ -16,12 +16,13 @@ recognition (ASR), speaker identification, emotion analysis, and other speech pr
 ## Table of Contents
 
 - [Topic](#topic)
-    - [ASR](#asr)
+    - [Automatic Speech Recognition (ASR)](#asr)
+    - [Speech Emotion Recognition (SER)](#emotion-recognition)
     - [Speaker Recognition](#speaker-recognition)
-    - [Emotion Recognition](#emotion-recognition)
+    - [Speaker Identification & Verification](#speaker-recognition)
+    - [Text to Speech (TTS)](#tts)
     - [Multilingual Speech Corpora](#multilingual-speech-corpora)
-    - [TTS](#tts)
-    - [Speaker Diarization](#speaker-diarization)
+    - [Diarization](#speaker-diarization)
     - [Source Separation](#source-separation)
     - [Health & Clinical Speech Datasets](#health--clinical-speech-datasets)
     - [Audio Events and Music](#audio-events-and-music)
@@ -35,7 +36,7 @@ recognition (ASR), speaker identification, emotion analysis, and other speech pr
 
 ---
 
-### ASR
+### Automatic Speech Recognition (ASR)
 
 | Dataset                                                | Download                                                                                           | Description                                                                                                                                                                                |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
