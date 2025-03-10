@@ -2,8 +2,6 @@
 
 # Awesome Speech Dataset
 
----
-
 *Below is a markdown table summarizing the main sources for the Awesome Speech Dataset, including download links and a
 brief explanation for each resource. These datasets provide diverse and high-quality speech data covering various
 domains such as conversational, academic, political, and more. They are widely used for tasks like automatic speech
