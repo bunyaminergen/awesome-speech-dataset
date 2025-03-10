@@ -1,0 +1,15 @@
+# Directory
+.idea
+.temp
+.agile
+.data/input
+.cache
+.ipynb_checkpoints
+
+# Extension
+*.env
+*.srt
+*.txt
+
+# File
+config/manifest.json
