@@ -7,6 +7,9 @@ brief explanation for each resource. These datasets provide diverse and high-qua
 domains such as conversational, academic, political, and more. They are widely used for tasks like automatic speech
 recognition (ASR), speaker identification, emotion analysis, and other speech processing applications.*
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+
 ---
 
 | Source                         | Download                                                                                 | Description                                                                                                       |
