@@ -33,6 +33,7 @@ recognition (ASR), speaker identification, emotion analysis, and other speech pr
 | **CHiME Speech**            | [CHiME Challenge Datasets](http://chimechallenge.org)           | A series of datasets focusing on speech in noisy environments (streets, cafés, homes). Includes CHiME-4 and CHiME-5/6, used for robust, far-field ASR research.                                   |
 | **GigaSpeech**              | [OpenSLR SLR85 / GitHub GigaSpeech](https://www.openslr.org/85) | Extensive corpus with ~10,000 hours of transcribed speech and nearly 50,000 hours of audio from multiple sources, used for ASR training and evaluation.                                           |
 | **Spotify Podcast Dataset** | [Podcast Dataset](https://podcastsdataset.github.io/)           | A dataset of over 100,000 podcast episodes with more than 100,000 hours of speech and extensive transcripts, used for various speech processing applications including ASR and language modeling. |
+| **SPGISpeech (Kensho)**      | [Download Data](https://www.kensho.com/dataset)                 | A large-scale transcription dataset with 5,000 hours of professionally-transcribed financial audio from company earnings calls. Features diverse L1 and L2 English accents, varying audio quality, and fully formatted transcripts with proper punctuation and casing. Ideal for ASR research in the financial domain. |
 
 ---
 
@@ -51,7 +52,7 @@ recognition (ASR), speaker identification, emotion analysis, and other speech pr
 | Dataset     | Download Link                                                       | Description                                                                                                                                                                                         |
 |-------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **IEMOCAP** | [USC IEMOCAP](https://sail.usc.edu/iemocap)                         | A multimodal dataset with ~12 hours of acted dialogues from 10 trained actors in 5 dyadic sessions, annotated with 9 emotion categories; includes audio, video, and motion capture data.            |
-| *RAVDESS**  | [Zenodo RAVDESS](https://zenodo.org/record/1188976)                 | An emotional speech and song dataset recorded by 24 professional actors in North American English, comprising 7,356 clips covering 8 emotions and intensity levels.                                 |
+| **RAVDESS** | [Zenodo RAVDESS](https://zenodo.org/record/1188976)                 | An emotional speech and song dataset recorded by 24 professional actors in North American English, comprising 7,356 clips covering 8 emotions and intensity levels.                                 |
 | **CREMA-D** | [CREMA-D GitHub](https://github.com/CheyneyComputerScience/CREMA-D) | Contains 7,442 audio-visual clips from 91 actors performing 12 sentences in 6 emotions at varying intensities with crowd-sourced ratings; used for building multimodal emotion recognition systems. |
 
 ---
@@ -75,7 +76,3 @@ recognition (ASR), speaker identification, emotion analysis, and other speech pr
 | **LJSpeech-1.1**             | [LJSpeech Dataset](https://keithito.com/LJ-Speech-Dataset/) | A single-speaker English TTS dataset with 13,100 short audio clips (~24 hours) from a female speaker reading public-domain texts; widely used to train neural TTS models such as Tacotron and WaveGlow.                               |
 | **VCTK (CSTR VCTK Corpus)**  | [VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443) | A multi-speaker English speech corpus with 109 speakers from the UK, each recording about 400 sentences (~44 hours); provided at 48 kHz and used for accent-robust TTS, voice conversion, and ASR research.                           |
 | **AISHELL-3 (Mandarin TTS)** | [OpenSLR AISHELL-3](https://openslr.org/93/)                | A multi-speaker Mandarin Chinese TTS corpus with ~85 hours of high-quality, emotion-neutral recordings from 218 native speakers with manual transcripts; supports multi-speaker and expressive TTS as well as voice cloning research. |
-
-
-
-
