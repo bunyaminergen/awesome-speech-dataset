@@ -15,6 +15,7 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 
 ## Table of Contents
 
+- [Dataset Overview Table](#dataset-overview-table)
 - [Topic](#topic)
     - [Automatic Speech Recognition (ASR)](#automatic-speech-recognition-asr)
     - [Speaker Recognition & Identification & Verification](#speaker-recognition--identification--verification)
@@ -30,6 +31,86 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 - [Hub](#hub)
     - [TalkBank](#talkbank)
     - [OpenSLR](#openslr)
+
+---
+
+## Dataset Overview Table
+
+|    | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Multilingual |
+|---:|:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-------------|
+|  0 | Common Voice                                       | True |                     |                     |                   |            | True         |
+|  1 | MLS (Multilingual LibriSpeech)                     | True |                     |                     |                   |            | True         |
+|  2 | Speech Wikimedia                                   | True |                     |                     |                   |            |              |
+|  3 | MSR-86K                                            | True |                     |                     |                   |            |              |
+|  4 | Speech-MASSIVE                                     | True |                     |                     | True              |            | True         |
+|  5 | MSNER                                              |      |                     |                     |                   | True       |              |
+|  6 | VoxCeleb                                           |      | True                |                     |                   |            |              |
+|  7 | IEMOCAP                                            |      |                     | True                |                   |            |              |
+|  8 | CHiME Speech                                       | True |                     |                     |                   |            |              |
+|  9 | Spotify Podcast Dataset                            | True |                     |                     |                   |            |              |
+| 10 | SPGISpeech (Kensho)                                | True |                     |                     |                   |            |              |
+| 11 | AudioMNIST                                         | True |                     |                     |                   |            |              |
+| 12 | CMU Wilderness                                     | True |                     |                     |                   |            |              |
+| 13 | DAPS Dataset                                       | True |                     |                     |                   |            |              |
+| 14 | DIPCO                                              | True |                     |                     |                   |            |              |
+| 15 | Free Spoken Digit Dataset                          | True |                     |                     |                   |            |              |
+| 16 | Flickr Audio Caption                               | True |                     |                     |                   |            |              |
+| 17 | ISOLET Data Set                                    | True |                     |                     |                   |            |              |
+| 18 | Libriadapt                                         | True |                     |                     |                   |            |              |
+| 19 | Libri-CSS                                          | True |                     |                     |                   |            |              |
+| 20 | Microsoft Scalable Noisy Speech Dataset            | True |                     |                     |                   |            |              |
+| 21 | MSP Podcast Corpus                                 | True |                     |                     |                   |            |              |
+| 22 | Persian Consonant Vowel Combination (PCVC) Dataset | True |                     |                     |                   |            |              |
+| 23 | sample_voice_data                                  | True |                     |                     |                   |            |              |
+| 24 | Speech Accent Archive                              | True |                     |                     |                   |            |              |
+| 25 | Speech Commands Dataset                            | True |                     |                     |                   |            |              |
+| 26 | Spoken Commands dataset                            | True |                     |                     |                   |            |              |
+| 27 | Spoken Wikipedia Corpora                           | True |                     |                     |                   |            |              |
+| 28 | Tatoeba                                            | True |                     |                     |                   |            |              |
+| 29 | TIMIT dataset                                      | True |                     |                     |                   |            |              |
+| 30 | Zero Resource Speech Challenge                     | True |                     |                     |                   |            |              |
+| 31 | VoxCeleb1                                          |      | True                |                     |                   |            |              |
+| 32 | VoxCeleb2                                          |      | True                |                     |                   |            |              |
+| 33 | Voice Gender Detection                             |      | True                |                     |                   |            |              |
+| 34 | RAVDESS                                            |      |                     | True                |                   |            |              |
+| 35 | CREMA-D                                            |      |                     | True                |                   |            |              |
+| 36 | AESDD                                              |      |                     | True                |                   |            |              |
+| 37 | ANAD                                               |      |                     | True                |                   |            |              |
+| 38 | BAVED                                              |      |                     | True                |                   |            |              |
+| 39 | CaFE                                               |      |                     | True                |                   |            |              |
+| 40 | CMU-MOSEI                                          |      |                     | True                |                   |            |              |
+| 41 | CMU-MOSI                                           |      |                     | True                |                   |            |              |
+| 42 | DEMoS                                              |      |                     | True                |                   |            |              |
+| 43 | DES                                                |      |                     | True                |                   |            |              |
+| 44 | EEKK                                               |      |                     | True                |                   |            |              |
+| 45 | Emo-DB                                             |      |                     | True                |                   |            |              |
+| 46 | EmoFilm                                            |      |                     | True                |                   |            |              |
+| 47 | EmoSynth                                           |      |                     | True                |                   |            |              |
+| 48 | Emotional Voices Database                          |      |                     | True                |                   |            |              |
+| 49 | Emotional Voice dataset - Nature                   |      |                     | True                |                   |            |              |
+| 50 | EmotionTTS                                         |      |                     | True                |                   |            |              |
+| 51 | Emov-DB                                            |      |                     | True                |                   |            |              |
+| 52 | EMOVO                                              |      |                     | True                |                   |            |              |
+| 53 | eNTERFACE05                                        |      |                     | True                |                   |            |              |
+| 54 | GEMEP corpus                                       |      |                     | True                |                   |            |              |
+| 55 | JL corpus                                          |      |                     | True                |                   |            |              |
+| 56 | Keio-ESD                                           |      |                     | True                |                   |            |              |
+| 57 | LEGO Corpus                                        |      |                     | True                |                   |            |              |
+| 58 | MSP-IMPROV                                         |      |                     | True                |                   |            |              |
+| 59 | Multimodal EmotionLines Dataset (MELD)             |      |                     | True                |                   |            |              |
+| 60 | MuSe-CAR                                           |      |                     | True                |                   |            |              |
+| 61 | OGVC                                               |      |                     | True                |                   |            |              |
+| 62 | RECOLA                                             |      |                     | True                |                   |            |              |
+| 63 | SAVEE Dataset                                      |      |                     | True                |                   |            |              |
+| 64 | SEMAINE                                            |      |                     | True                |                   |            |              |
+| 65 | SER Datasets                                       |      |                     | True                |                   |            |              |
+| 66 | SEWA                                               |      |                     | True                |                   |            |              |
+| 67 | ShEMO                                              |      |                     | True                |                   |            |              |
+| 68 | TESS                                               |      |                     | True                |                   |            |              |
+| 69 | URDU-Dataset                                       |      |                     | True                |                   |            |              |
+| 70 | VIVAE                                              |      |                     | True                |                   |            |              |
+| 71 | VoxPopuli                                          | True |                     |                     |                   |            | True         |
+| 72 | MLCommons People's Speech                          | True |                     |                     |                   |            | True         |
 
 ---
 
