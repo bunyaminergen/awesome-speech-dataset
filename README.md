@@ -2,10 +2,10 @@
 
 # Awesome Speech Dataset
 
-*Below is a markdown table summarizing the main sources for the Awesome Speech Dataset, including download links and a
-brief explanation for each resource. These datasets provide diverse and high-quality speech data covering various
-domains such as conversational, academic, political, and more. They are widely used for tasks like automatic speech
-recognition (ASR), speaker identification, emotion recognition, and other speech processing applications.*
+*This repository provides information and resources related to open source speech datasets. These datasets provide
+diverse and high-quality speech data covering various domains such as conversational, academic, political, and more.
+They are widely used for tasks like automatic speech recognition (ASR), speaker identification, emotion recognition, and
+other speech processing applications.*
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -15,8 +15,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 
 ## Table of Contents
 
-- [Dataset Overview Table](#dataset-overview-table)
-- [Topic](#topic)
+- [Task](#task)
+    - [Dataset Overview Table by Task](#dataset-overview-table-by-task)
     - [Automatic Speech Recognition (ASR)](#automatic-speech-recognition-asr)
     - [Speaker Recognition & Identification & Verification](#speaker-recognition--identification--verification)
     - [Speech Emotion Recognition (SER)](#speech-emotion-recognition-ser)
@@ -34,119 +34,137 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 
 ---
 
-## Dataset Overview Table
+## Task
 
-|    | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Multilingual |
-|---:|:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-------------|
-|  0 | Common Voice                                       | True |                     |                     |                   |            | True         |
-|  1 | MLS (Multilingual LibriSpeech)                     | True |                     |                     |                   |            | True         |
-|  2 | Speech Wikimedia                                   | True |                     |                     |                   |            |              |
-|  3 | MSR-86K                                            | True |                     |                     |                   |            |              |
-|  4 | Speech-MASSIVE                                     | True |                     |                     | True              |            | True         |
-|  5 | MSNER                                              |      |                     |                     |                   | True       |              |
-|  6 | VoxCeleb                                           |      | True                |                     |                   |            |              |
-|  7 | IEMOCAP                                            |      |                     | True                |                   |            |              |
-|  8 | CHiME Speech                                       | True |                     |                     |                   |            |              |
-|  9 | Spotify Podcast Dataset                            | True |                     |                     |                   |            |              |
-| 10 | SPGISpeech (Kensho)                                | True |                     |                     |                   |            |              |
-| 11 | AudioMNIST                                         | True |                     |                     |                   |            |              |
-| 12 | CMU Wilderness                                     | True |                     |                     |                   |            |              |
-| 13 | DAPS Dataset                                       | True |                     |                     |                   |            |              |
-| 14 | DIPCO                                              | True |                     |                     |                   |            |              |
-| 15 | Free Spoken Digit Dataset                          | True |                     |                     |                   |            |              |
-| 16 | Flickr Audio Caption                               | True |                     |                     |                   |            |              |
-| 17 | ISOLET Data Set                                    | True |                     |                     |                   |            |              |
-| 18 | Libriadapt                                         | True |                     |                     |                   |            |              |
-| 19 | Libri-CSS                                          | True |                     |                     |                   |            |              |
-| 20 | Microsoft Scalable Noisy Speech Dataset            | True |                     |                     |                   |            |              |
-| 21 | MSP Podcast Corpus                                 | True |                     |                     |                   |            |              |
-| 22 | Persian Consonant Vowel Combination (PCVC) Dataset | True |                     |                     |                   |            |              |
-| 23 | sample_voice_data                                  | True |                     |                     |                   |            |              |
-| 24 | Speech Accent Archive                              | True |                     |                     |                   |            |              |
-| 25 | Speech Commands Dataset                            | True |                     |                     |                   |            |              |
-| 26 | Spoken Commands dataset                            | True |                     |                     |                   |            |              |
-| 27 | Spoken Wikipedia Corpora                           | True |                     |                     |                   |            |              |
-| 28 | Tatoeba                                            | True |                     |                     |                   |            |              |
-| 29 | TIMIT dataset                                      | True |                     |                     |                   |            |              |
-| 30 | Zero Resource Speech Challenge                     | True |                     |                     |                   |            |              |
-| 31 | VoxCeleb1                                          |      | True                |                     |                   |            |              |
-| 32 | VoxCeleb2                                          |      | True                |                     |                   |            |              |
-| 33 | Voice Gender Detection                             |      | True                |                     |                   |            |              |
-| 34 | RAVDESS                                            |      |                     | True                |                   |            |              |
-| 35 | CREMA-D                                            |      |                     | True                |                   |            |              |
-| 36 | AESDD                                              |      |                     | True                |                   |            |              |
-| 37 | ANAD                                               |      |                     | True                |                   |            |              |
-| 38 | BAVED                                              |      |                     | True                |                   |            |              |
-| 39 | CaFE                                               |      |                     | True                |                   |            |              |
-| 40 | CMU-MOSEI                                          |      |                     | True                |                   |            |              |
-| 41 | CMU-MOSI                                           |      |                     | True                |                   |            |              |
-| 42 | DEMoS                                              |      |                     | True                |                   |            |              |
-| 43 | DES                                                |      |                     | True                |                   |            |              |
-| 44 | EEKK                                               |      |                     | True                |                   |            |              |
-| 45 | Emo-DB                                             |      |                     | True                |                   |            |              |
-| 46 | EmoFilm                                            |      |                     | True                |                   |            |              |
-| 47 | EmoSynth                                           |      |                     | True                |                   |            |              |
-| 48 | Emotional Voices Database                          |      |                     | True                |                   |            |              |
-| 49 | Emotional Voice dataset - Nature                   |      |                     | True                |                   |            |              |
-| 50 | EmotionTTS                                         |      |                     | True                |                   |            |              |
-| 51 | Emov-DB                                            |      |                     | True                |                   |            |              |
-| 52 | EMOVO                                              |      |                     | True                |                   |            |              |
-| 53 | eNTERFACE05                                        |      |                     | True                |                   |            |              |
-| 54 | GEMEP corpus                                       |      |                     | True                |                   |            |              |
-| 55 | JL corpus                                          |      |                     | True                |                   |            |              |
-| 56 | Keio-ESD                                           |      |                     | True                |                   |            |              |
-| 57 | LEGO Corpus                                        |      |                     | True                |                   |            |              |
-| 58 | MSP-IMPROV                                         |      |                     | True                |                   |            |              |
-| 59 | Multimodal EmotionLines Dataset (MELD)             |      |                     | True                |                   |            |              |
-| 60 | MuSe-CAR                                           |      |                     | True                |                   |            |              |
-| 61 | OGVC                                               |      |                     | True                |                   |            |              |
-| 62 | RECOLA                                             |      |                     | True                |                   |            |              |
-| 63 | SAVEE Dataset                                      |      |                     | True                |                   |            |              |
-| 64 | SEMAINE                                            |      |                     | True                |                   |            |              |
-| 65 | SER Datasets                                       |      |                     | True                |                   |            |              |
-| 66 | SEWA                                               |      |                     | True                |                   |            |              |
-| 67 | ShEMO                                              |      |                     | True                |                   |            |              |
-| 68 | TESS                                               |      |                     | True                |                   |            |              |
-| 69 | URDU-Dataset                                       |      |                     | True                |                   |            |              |
-| 70 | VIVAE                                              |      |                     | True                |                   |            |              |
-| 71 | VoxPopuli                                          | True |                     |                     |                   |            | True         |
-| 72 | MLCommons People's Speech                          | True |                     |                     |                   |            | True         |
+### Dataset Overview Table by Task
+
+#### Verified
+
+|   | Dataset                        | Automatic Speech Recognition (ASR) | Speaker Identification | Speaker Verification |
+|--:|:-------------------------------|:-----------------------------------|:-----------------------|----------------------|
+| 0 | Common Voice                   | True                               |                        |                      |
+| 1 | Multilingual LibriSpeech (MLS) | True                               | True                   | True                 |
+
+#### Unverified
+
+| Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
+|:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
+| Speech Wikimedia                                   | True |                     |                     |                   |            |                        |
+| MSR-86K                                            | True |                     |                     |                   |            |                        |
+| Speech-MASSIVE                                     | True |                     |                     | True              |            | True                   |
+| MSNER                                              |      |                     |                     |                   | True       |                        |
+| VoxCeleb                                           |      | True                |                     |                   |            |                        |
+| IEMOCAP                                            |      |                     | True                |                   |            |                        |
+| CHiME Speech                                       | True |                     |                     |                   |            |                        |
+| Spotify Podcast Dataset                            | True |                     |                     |                   |            |                        |
+| SPGISpeech (Kensho)                                | True |                     |                     |                   |            |                        |
+| AudioMNIST                                         | True |                     |                     |                   |            |                        |
+| CMU Wilderness                                     | True |                     |                     |                   |            |                        |
+| DAPS Dataset                                       | True |                     |                     |                   |            |                        |
+| DIPCO                                              | True |                     |                     |                   |            |                        |
+| Free Spoken Digit Dataset                          | True |                     |                     |                   |            |                        |
+| Flickr Audio Caption                               | True |                     |                     |                   |            |                        |
+| ISOLET Data Set                                    | True |                     |                     |                   |            |                        |
+| Libriadapt                                         | True |                     |                     |                   |            |                        |
+| Libri-CSS                                          | True |                     |                     |                   |            |                        |
+| Microsoft Scalable Noisy Speech Dataset            | True |                     |                     |                   |            |                        |
+| MSP Podcast Corpus                                 | True |                     |                     |                   |            |                        |
+| Persian Consonant Vowel Combination (PCVC) Dataset | True |                     |                     |                   |            |                        |
+| sample_voice_data                                  | True |                     |                     |                   |            |                        |
+| Speech Accent Archive                              | True |                     |                     |                   |            |                        |
+| Speech Commands Dataset                            | True |                     |                     |                   |            |                        |
+| Spoken Commands dataset                            | True |                     |                     |                   |            |                        |
+| Spoken Wikipedia Corpora                           | True |                     |                     |                   |            |                        |
+| Tatoeba                                            | True |                     |                     |                   |            |                        |
+| TIMIT dataset                                      | True |                     |                     |                   |            |                        |
+| Zero Resource Speech Challenge                     | True |                     |                     |                   |            |                        |
+| VoxCeleb1                                          |      | True                |                     |                   |            |                        |
+| VoxCeleb2                                          |      | True                |                     |                   |            |                        |
+| Voice Gender Detection                             |      | True                |                     |                   |            |                        |
+| RAVDESS                                            |      |                     | True                |                   |            |                        |
+| CREMA-D                                            |      |                     | True                |                   |            |                        |
+| AESDD                                              |      |                     | True                |                   |            |                        |
+| ANAD                                               |      |                     | True                |                   |            |                        |
+| BAVED                                              |      |                     | True                |                   |            |                        |
+| CaFE                                               |      |                     | True                |                   |            |                        |
+| CMU-MOSEI                                          |      |                     | True                |                   |            |                        |
+| CMU-MOSI                                           |      |                     | True                |                   |            |                        |
+| DEMoS                                              |      |                     | True                |                   |            |                        |
+| DES                                                |      |                     | True                |                   |            |                        |
+| EEKK                                               |      |                     | True                |                   |            |                        |
+| Emo-DB                                             |      |                     | True                |                   |            |                        |
+| EmoFilm                                            |      |                     | True                |                   |            |                        |
+| EmoSynth                                           |      |                     | True                |                   |            |                        |
+| Emotional Voices Database                          |      |                     | True                |                   |            |                        |
+| Emotional Voice dataset - Nature                   |      |                     | True                |                   |            |                        |
+| EmotionTTS                                         |      |                     | True                |                   |            |                        |
+| Emov-DB                                            |      |                     | True                |                   |            |                        |
+| EMOVO                                              |      |                     | True                |                   |            |                        |
+| eNTERFACE05                                        |      |                     | True                |                   |            |                        |
+| GEMEP corpus                                       |      |                     | True                |                   |            |                        |
+| JL corpus                                          |      |                     | True                |                   |            |                        |
+| Keio-ESD                                           |      |                     | True                |                   |            |                        |
+| LEGO Corpus                                        |      |                     | True                |                   |            |                        |
+| MSP-IMPROV                                         |      |                     | True                |                   |            |                        |
+| Multimodal EmotionLines Dataset (MELD)             |      |                     | True                |                   |            |                        |
+| MuSe-CAR                                           |      |                     | True                |                   |            |                        |
+| OGVC                                               |      |                     | True                |                   |            |                        |
+| RECOLA                                             |      |                     | True                |                   |            |                        |
+| SAVEE Dataset                                      |      |                     | True                |                   |            |                        |
+| SEMAINE                                            |      |                     | True                |                   |            |                        |
+| SER Datasets                                       |      |                     | True                |                   |            |                        |
+| SEWA                                               |      |                     | True                |                   |            |                        |
+| ShEMO                                              |      |                     | True                |                   |            |                        |
+| TESS                                               |      |                     | True                |                   |            |                        |
+| URDU-Dataset                                       |      |                     | True                |                   |            |                        |
+| VIVAE                                              |      |                     | True                |                   |            |                        |
+| VoxPopuli                                          | True |                     |                     |                   |            | True                   |
+| MLCommons People's Speech                          | True |                     |                     |                   |            | True                   |
 
 ---
 
-## Topic
-
 ### Automatic Speech Recognition (ASR)
 
-| Dataset                                                | Download                                                                                           | Description                                                                                                                                                     | OpenSource |
-|--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **CHiME Speech**                                       | [CHiME Datasets](https://www.chimechallenge.org/)                                                  | A series of datasets focusing on speech in noisy environments (streets, cafés, homes). Includes CHiME-4 and CHiME-5/6, used for robust, far‐field ASR research. |    True    |
-| **Spotify Podcast Dataset**                            | [Podcast Dataset](https://podcastsdataset.github.io/)                                              | Over 100,000 podcast episodes with 100,000+ hours of speech and extensive transcripts for various speech processing applications.                               |    True    |
-| **SPGISpeech (Kensho)**                                | [SPGISpeech (Kensho) Data](https://www.kensho.com/dataset)                                         | 5,000 hours of professionally-transcribed financial audio from earnings calls; ideal for ASR research in the financial domain.                                  |    True    |
-| **AudioMNIST**                                         | [AudioMNIST](https://github.com/soerenab/AudioMNIST)                                               | 30,000 audio samples of spoken digits (0–9) from 60 different speakers.                                                                                         |    True    |
-| **CMU Wilderness**                                     | [CMU Wilderness](http://festvox.org/cmu_wilderness/)                                               | Speech dataset with multiple accents reciting passages from the Bible.                                                                                          |    True    |
-| **DAPS Dataset**                                       | [DAPS Dataset](https://archive.org/details/daps_dataset)                                           | 20 speakers reading 5 excerpts each from public domain books (~14 minutes per speaker).                                                                         |    True    |
-| **DIPCO**                                              | [DIPCO](https://zenodo.org/records/8122551)                                                        | Dinner Party Corpus – recordings via close‐talk and far‐field arrays from 10 sessions (15–45 minutes each).                                                     |    True    |
-| **Free Spoken Digit Dataset**                          | [Free Spoken Digit Dataset](https://github.com/Jakobovski/free-spoken-digit-dataset)               | 2,000 recordings (50 per digit per speaker) of spoken digits from 4 speakers.                                                                                   |    True    |
-| **Flickr Audio Caption**                               | [Flickr Audio Caption](https://groups.csail.mit.edu/sls/downloads/flickraudio/)                    | 40,000 spoken captions for 8,000 natural images (~4.2 GB).                                                                                                      |    True    |
-| **ISOLET Data Set**                                    | [ISOLET Data Set](https://data.world/uci/isolet)                                                   | 38.7 GB dataset for predicting letter-names from spoken audio.                                                                                                  |    True    |
-| **Libriadapt**                                         | [Libriadapt](https://github.com/akhilmathurs/libriadapt)                                           | Facilitates domain adaptation research for ASR models with three types of domain shifts.                                                                        |    True    |
-| **Libri-CSS**                                          | [Libri-CSS](https://github.com/chenzhuo1011/libri_css)                                             | Derived from LibriSpeech by concatenating utterances to simulate conversational far‐field replays.                                                              |    True    |
-| **Microsoft Scalable Noisy Speech Dataset**            | [MS-SNSD](https://github.com/microsoft/MS-SNSD)                                                    | Noisy speech dataset scalable to arbitrary sizes with varying speakers, noise types, and SNR levels.                                                            |    True    |
-| **MSP Podcast Corpus**                                 | [MSP Podcast Corpus](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)      | 100 hours of podcast speech from 100+ speakers, annotated with emotional labels and attribute-based descriptors.                                                |    True    |
-| **Persian Consonant Vowel Combination (PCVC) Dataset** | [PCVC](https://github.com/S-Malek/PCVC)                                                            | Modern Persian speech corpus of consonant-vowel combinations (138 samples per speaker) for ASR and speaker recognition.                                         |    True    |
-| **sample_voice_data**                                  | [sample_voice_data](https://github.com/jim-schwoebel/sample_voice_data)                            | 52 audio files per class (male & female) for testing purposes.                                                                                                  |    True    |
-| **Speech Accent Archive**                              | [Speech Accent Archive](https://www.kaggle.com/rtatman/speech-accent-archive/version/1)            | Dataset for various accent detection tasks.                                                                                                                     |    True    |
-| **Speech Commands Dataset**                            | [Speech Commands Dataset](http://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) | 65,000 one-second utterances of 30 short words for keyword spotting.                                                                                            |    True    |
-| **Spoken Commands dataset**                            | [Spoken Commands dataset](https://github.com/JohannesBuchner/spoken-command-recognition)           | Large database of free audio samples for voice activity detection and syllable recognition.                                                                     |    True    |
-| **Spoken Wikipedia Corpora**                           | [Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/)                                            | 38 GB dataset available in audio and non-audio formats based on Wikipedia articles.                                                                             |    True    |
-| **Tatoeba**                                            | [Tatoeba](https://tatoeba.org/eng/downloads)                                                       | Large database of sentences, translations, and spoken audio for language learning.                                                                              |    True    |
-| **TIMIT dataset**                                      | [TIMIT dataset](https://catalog.ldc.upenn.edu/LDC93S1)                                             | Broadband recordings of 630 speakers reading phonetically rich sentences with time-aligned transcriptions.                                                      |   False    |
-| **Zero Resource Speech Challenge**                     | [Zero Resource Speech Challenge](https://github.com/bootphon/zerospeech2017)                       | Challenge to build an end-to-end spoken dialogue system from scratch with zero linguistic expertise.                                                            |    True    |
+#### Verified
+
+|   | Dataset                        | Download                                                                                               | Multilingual | Source             | Version | Description                                                                                                                                                                                       |
+|--:|:-------------------------------|:-------------------------------------------------------------------------------------------------------|:-------------|:-------------------|---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0 | Common Voice                   | [Common Voice](https://commonvoice.mozilla.org/en/datasets)                                            | True         | Mozilla Foundation | 21      | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed).                                                                                         |
+| 1 | Multilingual LibriSpeech (MLS) | [facebook/multilingual_librispeech](https://huggingface.co/datasets/facebook/multilingual_librispeech) | True         | Facebook / Meta    | 1       | Multilingual LibriSpeech (MLS) is a large-scale multilingual corpus derived from LibriVox audiobooks, encompassing eight languages and designed to support research in speech processing tasks.   |
+
+#### Unverified
+
+| Dataset                                                | Download                                                                                           | Description                                                                                                                                                     | Source |
+|--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:------:|
+| **CHiME Speech**                                       | [CHiME Datasets](https://www.chimechallenge.org/)                                                  | A series of datasets focusing on speech in noisy environments (streets, cafés, homes). Includes CHiME-4 and CHiME-5/6, used for robust, far‐field ASR research. |  True  |
+| **Spotify Podcast Dataset**                            | [Podcast Dataset](https://podcastsdataset.github.io/)                                              | Over 100,000 podcast episodes with 100,000+ hours of speech and extensive transcripts for various speech processing applications.                               |  True  |
+| **SPGISpeech (Kensho)**                                | [SPGISpeech (Kensho) Data](https://www.kensho.com/dataset)                                         | 5,000 hours of professionally-transcribed financial audio from earnings calls; ideal for ASR research in the financial domain.                                  |  True  |
+| **AudioMNIST**                                         | [AudioMNIST](https://github.com/soerenab/AudioMNIST)                                               | 30,000 audio samples of spoken digits (0–9) from 60 different speakers.                                                                                         |  True  |
+| **CMU Wilderness**                                     | [CMU Wilderness](http://festvox.org/cmu_wilderness/)                                               | Speech dataset with multiple accents reciting passages from the Bible.                                                                                          |  True  |
+| **DAPS Dataset**                                       | [DAPS Dataset](https://archive.org/details/daps_dataset)                                           | 20 speakers reading 5 excerpts each from public domain books (~14 minutes per speaker).                                                                         |  True  |
+| **DIPCO**                                              | [DIPCO](https://zenodo.org/records/8122551)                                                        | Dinner Party Corpus – recordings via close‐talk and far‐field arrays from 10 sessions (15–45 minutes each).                                                     |  True  |
+| **Free Spoken Digit Dataset**                          | [Free Spoken Digit Dataset](https://github.com/Jakobovski/free-spoken-digit-dataset)               | 2,000 recordings (50 per digit per speaker) of spoken digits from 4 speakers.                                                                                   |  True  |
+| **Flickr Audio Caption**                               | [Flickr Audio Caption](https://groups.csail.mit.edu/sls/downloads/flickraudio/)                    | 40,000 spoken captions for 8,000 natural images (~4.2 GB).                                                                                                      |  True  |
+| **ISOLET Data Set**                                    | [ISOLET Data Set](https://data.world/uci/isolet)                                                   | 38.7 GB dataset for predicting letter-names from spoken audio.                                                                                                  |  True  |
+| **Libriadapt**                                         | [Libriadapt](https://github.com/akhilmathurs/libriadapt)                                           | Facilitates domain adaptation research for ASR models with three types of domain shifts.                                                                        |  True  |
+| **Libri-CSS**                                          | [Libri-CSS](https://github.com/chenzhuo1011/libri_css)                                             | Derived from LibriSpeech by concatenating utterances to simulate conversational far‐field replays.                                                              |  True  |
+| **Microsoft Scalable Noisy Speech Dataset**            | [MS-SNSD](https://github.com/microsoft/MS-SNSD)                                                    | Noisy speech dataset scalable to arbitrary sizes with varying speakers, noise types, and SNR levels.                                                            |  True  |
+| **MSP Podcast Corpus**                                 | [MSP Podcast Corpus](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)      | 100 hours of podcast speech from 100+ speakers, annotated with emotional labels and attribute-based descriptors.                                                |  True  |
+| **Persian Consonant Vowel Combination (PCVC) Dataset** | [PCVC](https://github.com/S-Malek/PCVC)                                                            | Modern Persian speech corpus of consonant-vowel combinations (138 samples per speaker) for ASR and speaker recognition.                                         |  True  |
+| **sample_voice_data**                                  | [sample_voice_data](https://github.com/jim-schwoebel/sample_voice_data)                            | 52 audio files per class (male & female) for testing purposes.                                                                                                  |  True  |
+| **Speech Accent Archive**                              | [Speech Accent Archive](https://www.kaggle.com/rtatman/speech-accent-archive/version/1)            | Dataset for various accent detection tasks.                                                                                                                     |  True  |
+| **Speech Commands Dataset**                            | [Speech Commands Dataset](http://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) | 65,000 one-second utterances of 30 short words for keyword spotting.                                                                                            |  True  |
+| **Spoken Commands dataset**                            | [Spoken Commands dataset](https://github.com/JohannesBuchner/spoken-command-recognition)           | Large database of free audio samples for voice activity detection and syllable recognition.                                                                     |  True  |
+| **Spoken Wikipedia Corpora**                           | [Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/)                                            | 38 GB dataset available in audio and non-audio formats based on Wikipedia articles.                                                                             |  True  |
+| **Tatoeba**                                            | [Tatoeba](https://tatoeba.org/eng/downloads)                                                       | Large database of sentences, translations, and spoken audio for language learning.                                                                              |  True  |
+| **TIMIT dataset**                                      | [TIMIT dataset](https://catalog.ldc.upenn.edu/LDC93S1)                                             | Broadband recordings of 630 speakers reading phonetically rich sentences with time-aligned transcriptions.                                                      | False  |
+| **Zero Resource Speech Challenge**                     | [Zero Resource Speech Challenge](https://github.com/bootphon/zerospeech2017)                       | Challenge to build an end-to-end spoken dialogue system from scratch with zero linguistic expertise.                                                            |  True  |
 
 ---
 
 ### Speaker Recognition & Identification & Verification
+
+#### Unverified
 
 | Dataset                    | Download                                                                          | Description                                                                                                     | OpenSource |
 |----------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|:----------:|
@@ -157,6 +175,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 ---
 
 ### Speech Emotion Recognition (SER)
+
+#### Unverified
 
 | Dataset                                    | Download                                                                                                              | Description                                                                                                                 | OpenSource |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|:----------:|
@@ -203,6 +223,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 
 ### Multilingual Speech Corpora
 
+#### Unverified
+
 | Dataset                            | Download                                                                    | Description                                                                                                                   | OpenSource |
 |------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|:----------:|
 | **Mozilla Common Voice**           | [Common Voice Datasets](https://commonvoice.mozilla.org/en/datasets)        | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed).                     |    True    |
@@ -213,6 +235,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 ---
 
 ### Text to Speech (TTS)
+
+#### Unverified
 
 | Dataset                     | Download                                                                         | Description                                                                                                                | OpenSource |
 |-----------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|:----------:|
@@ -225,6 +249,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 ---
 
 ### Diarization
+
+#### Unverified
 
 | Dataset                            | Download                                                                                      | Description                                                                                                               | OpenSource |
 |------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|:----------:|
@@ -247,6 +273,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 
 ### Source Separation
 
+#### Unverified
+
 | Dataset                     | Download                                                              | Description                                                                                               | OpenSource |
 |-----------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|:----------:|
 | **Deep Clustering Dataset** | [Deep Clustering Dataset](https://www.merl.com/demos/deep-clustering) | For training deep discriminative embeddings to solve the cocktail party problem.                          |    True    |
@@ -259,6 +287,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 
 ### Health & Clinical Speech Datasets
 
+#### Unverified
+
 | Dataset                        | Download                                                               | Description                                                                                            | OpenSource |
 |--------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|:----------:|
 | **Coswara**                    | [Coswara](https://github.com/iiscleap/Coswara-Data)                    | Database of respiratory sounds (cough, breath, speech) from healthy and COVID-19 positive individuals. |    True    |
@@ -267,6 +297,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 ---
 
 ### Audio Events and Music
+
+#### Unverified
 
 | Dataset                            | Download                                                                                                   | Description                                                                                            | OpenSource |
 |------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|:----------:|
@@ -286,6 +318,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 
 ### Answering Machine Detection (AMD)
 
+#### Unverified
+
 | Dataset                  | Download                                                                                                                    | Description                                                                                                                          | OpenSource |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|:----------:|
 | **IBM Voicemail Corpus** | [Voicemail Corpus Part I](https://catalog.ldc.upenn.edu/LDC98S77)                                                           | IBM Voicemail Corpus with 1,801 messages (avg. 31s each; total ~15h) of actual voicemail recordings.                                 |   False    |
@@ -295,6 +329,8 @@ recognition (ASR), speaker identification, emotion recognition, and other speech
 ---
 
 ### Audio Classification
+
+#### Unverified
 
 | Dataset                                                                 | Download                                                                                           | Description                                                                                                                                     | OpenSource |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|:----------:|
