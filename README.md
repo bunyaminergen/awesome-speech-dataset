@@ -15,7 +15,7 @@ other speech processing applications.*
 
 ## Table of Contents
 
-- [Overview Table of Datasets](#overview-table-of-datasets)
+- [Overview Table](#overview-table)
     - [Verified](#verified)
     - [Unverified](#unverified)
     - [Unlisted](#unlisted)
@@ -25,7 +25,7 @@ other speech processing applications.*
 
 ---
 
-## Overview Table of Datasets
+## Overview Table
 
 ### Verified
 
