@@ -40,10 +40,10 @@ other speech processing applications.*
 
 #### Verified
 
-|   | Dataset                        | Automatic Speech Recognition (ASR) | Speaker Identification | Speaker Verification |
-|--:|:-------------------------------|:-----------------------------------|:-----------------------|----------------------|
-| 0 | Common Voice                   | True                               |                        |                      |
-| 1 | Multilingual LibriSpeech (MLS) | True                               | True                   | True                 |
+|   | Dataset                        | Automatic Speech Recognition (ASR) | Speaker Identification | Speaker Verification | Download                                                                                               | Multilingual | Source             | Version | Description                                                                                                                                                                                     |
+|--:|:-------------------------------|:-----------------------------------|:-----------------------|----------------------|--------------------------------------------------------------------------------------------------------|--------------|--------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0 | Common Voice                   | True                               |                        |                      | [Common Voice](https://commonvoice.mozilla.org/en/datasets)                                            | True         | Mozilla Foundation | 21      | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed).                                                                                       |
+| 1 | Multilingual LibriSpeech (MLS) | True                               | True                   | True                 | [facebook/multilingual_librispeech](https://huggingface.co/datasets/facebook/multilingual_librispeech) | True         | Facebook / Meta    | 1       | Multilingual LibriSpeech (MLS) is a large-scale multilingual corpus derived from LibriVox audiobooks, encompassing eight languages and designed to support research in speech processing tasks. |
 
 #### Unverified
 
@@ -127,10 +127,10 @@ other speech processing applications.*
 
 #### Verified
 
-|   | Dataset                        | Download                                                                                               | Multilingual | Source             | Version | Description                                                                                                                                                                                       |
-|--:|:-------------------------------|:-------------------------------------------------------------------------------------------------------|:-------------|:-------------------|---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 | Common Voice                   | [Common Voice](https://commonvoice.mozilla.org/en/datasets)                                            | True         | Mozilla Foundation | 21      | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed).                                                                                         |
-| 1 | Multilingual LibriSpeech (MLS) | [facebook/multilingual_librispeech](https://huggingface.co/datasets/facebook/multilingual_librispeech) | True         | Facebook / Meta    | 1       | Multilingual LibriSpeech (MLS) is a large-scale multilingual corpus derived from LibriVox audiobooks, encompassing eight languages and designed to support research in speech processing tasks.   |
+|   | Dataset                        | Download                                                                                               | Multilingual | Source             | Version | Description                                                                                                                                                                                     |
+|--:|:-------------------------------|:-------------------------------------------------------------------------------------------------------|:-------------|:-------------------|---------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0 | Common Voice                   | [Common Voice](https://commonvoice.mozilla.org/en/datasets)                                            | True         | Mozilla Foundation | 21      | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed).                                                                                       |
+| 1 | Multilingual LibriSpeech (MLS) | [facebook/multilingual_librispeech](https://huggingface.co/datasets/facebook/multilingual_librispeech) | True         | Facebook / Meta    | 1       | Multilingual LibriSpeech (MLS) is a large-scale multilingual corpus derived from LibriVox audiobooks, encompassing eight languages and designed to support research in speech processing tasks. |
 
 #### Unverified
 
