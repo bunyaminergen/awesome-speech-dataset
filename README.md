@@ -45,8 +45,6 @@ other speech processing applications.*
 
 | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
 |:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-|                                                    |      |                     | True                |                   |            |                        |
-| Spotify Podcast Dataset                            | True |                     |                     |                   |            |                        |
 | SPGISpeech (Kensho)                                | True |                     |                     |                   |            |                        |
 | DAPS Dataset                                       | True |                     |                     |                   |            |                        |
 | DIPCO                                              | True |                     |                     |                   |            |                        |
@@ -106,7 +104,6 @@ other speech processing applications.*
 
 | Dataset                                                | Download                                                                                           | Description                                                                                                                       | Source |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|:------:|
-| **SPGISpeech (Kensho)**                                | [SPGISpeech (Kensho) Data](https://www.kensho.com/dataset)                                         | 5,000 hours of professionally-transcribed financial audio from earnings calls; ideal for ASR research in the financial domain.    |  True  |
 | **CMU Wilderness**                                     | [CMU Wilderness](http://festvox.org/cmu_wilderness/)                                               | Speech dataset with multiple accents reciting passages from the Bible.                                                            |  True  |
 | **DAPS Dataset**                                       | [DAPS Dataset](https://archive.org/details/daps_dataset)                                           | 20 speakers reading 5 excerpts each from public domain books (~14 minutes per speaker).                                           |  True  |
 | **DIPCO**                                              | [DIPCO](https://zenodo.org/records/8122551)                                                        | Dinner Party Corpus – recordings via close‐talk and far‐field arrays from 10 sessions (15–45 minutes each).                       |  True  |
