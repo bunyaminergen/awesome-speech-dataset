@@ -45,7 +45,6 @@ other speech processing applications.*
 
 | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
 |:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-| SPGISpeech (Kensho)                                | True |                     |                     |                   |            |                        |
 | DAPS Dataset                                       | True |                     |                     |                   |            |                        |
 | DIPCO                                              | True |                     |                     |                   |            |                        |
 | Flickr Audio Caption                               | True |                     |                     |                   |            |                        |
