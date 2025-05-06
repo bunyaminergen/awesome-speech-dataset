@@ -56,7 +56,6 @@ other speech processing applications.*
 | Microsoft Scalable Noisy Speech Dataset            | True           |                     |                     |                   |            |                        |
 | MSP Podcast Corpus                                 | True           |                     |                     |                   |            |                        |
 | Persian Consonant Vowel Combination (PCVC) Dataset | True           |                     |                     |                   |            |                        |
-| sample_voice_data                                  | True           |                     |                     |                   |            |                        |
 | Speech Accent Archive                              | True           |                     |                     |                   |            |                        |
 | Speech Commands Dataset                            | True           |                     |                     |                   |            |                        |
 | Spoken Commands dataset                            | True           |                     |                     |                   |            |                        |
