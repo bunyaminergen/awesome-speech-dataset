@@ -47,7 +47,6 @@ other speech processing applications.*
 | IEMOCAP                                            |                |                     | True                |                   |            |                        |
 | Spotify Podcast Dataset                            | True           |                     |                     |                   |            |                        |
 | SPGISpeech (Kensho)                                | True           |                     |                     |                   |            |                        |
- y                                                  | CMU Wilderness | True                |                     |                   |            |                        |                        |
 | DAPS Dataset                                       | True           |                     |                     |                   |            |                        |
 | DIPCO                                              | True           |                     |                     |                   |            |                        |
 | Flickr Audio Caption                               | True           |                     |                     |                   |            |                        |
