@@ -210,12 +210,6 @@ LibriVox
 | **RSC Sounds**                     | [RSC Sounds](https://github.com/2003scape/rsc-sounds)                                                      | 8-bit, u-law encoded, 8000 Hz PCM samples from RuneScape Classic.                                      |    True    |
 | **Urban Sound Dataset**            | [Urban Sound Dataset](https://urbansounddataset.weebly.com/)                                               | 8,732 labeled urban sound excerpts (≤4s) from 10 classes.                                              |    True    |
 
-| Dataset                  | Download                                                                                                                    | Description                                                                                                                          | OpenSource |
-|--------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **IBM Voicemail Corpus** | [Voicemail Corpus Part I](https://catalog.ldc.upenn.edu/LDC98S77)                                                           | IBM Voicemail Corpus with 1,801 messages (avg. 31s each; total ~15h) of actual voicemail recordings.                                 |   False    |
-| **Infobip AMD**          | [Infobip AMD](https://www.infobip.com/docs/voice-and-video/getting-started#answering-machine-detection-add-ons-and-options) | Internal Infobip dataset with ~4,200 phone call audio files (trimmed to ~4s) used in AMD research.                                   |   False    |
-| **Wavix Voicemail**      | [Wavix Voicemail](https://wavix.com/amd)                                                                                    | Wavix’s proprietary dataset supporting its AI-based answering machine detection engine, incorporating diverse accents and languages. |   False    |
-
 | Dataset                                                                 | Download                                                                                           | Description                                                                                                                                     | OpenSource |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|:----------:|
 | **AudioSet**                                                            | [AudioSet](https://research.google.com/audioset/)                                                  | Audio event dataset of 10-second clips from YouTube, annotated with a hierarchical ontology of 632 classes.                                     |    True    |
@@ -276,6 +270,9 @@ Reasons: Insufficient information, extracted/derived from another dataset, not o
 - Russian LibriSpeech
 - Libri-Mixed-Speakers
 - LibriTTS-R
+- IBM Voicemail Corpus
+- Infobip AMD
+- Wavix Voicemail
 
 ---
 
