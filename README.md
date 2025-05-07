@@ -46,7 +46,6 @@ other speech processing applications.*
 
 | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
 |:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-| Flickr Audio Caption                               | True |                     |                     |                   |            |                        |
 | ISOLET Data Set                                    | True |                     |                     |                   |            |                        |
 | Libriadapt                                         | True |                     |                     |                   |            |                        |
 | Libri-CSS                                          | True |                     |                     |                   |            |                        |
@@ -104,7 +103,6 @@ other speech processing applications.*
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|:------:|
 | **CMU Wilderness**                                     | [CMU Wilderness](http://festvox.org/cmu_wilderness/)                                               | Speech dataset with multiple accents reciting passages from the Bible.                                                            |  True  |
 | **DAPS Dataset**                                       | [DAPS Dataset](https://archive.org/details/daps_dataset)                                           | 20 speakers reading 5 excerpts each from public domain books (~14 minutes per speaker).                                           |  True  |
-| **Flickr Audio Caption**                               | [Flickr Audio Caption](https://groups.csail.mit.edu/sls/downloads/flickraudio/)                    | 40,000 spoken captions for 8,000 natural images (~4.2 GB).                                                                        |  True  |
 | **ISOLET Data Set**                                    | [ISOLET Data Set](https://data.world/uci/isolet)                                                   | 38.7 GB dataset for predicting letter-names from spoken audio.                                                                    |  True  |
 | **Libriadapt**                                         | [Libriadapt](https://github.com/akhilmathurs/libriadapt)                                           | Facilitates domain adaptation research for ASR models with three types of domain shifts.                                          |  True  |
 | **Libri-CSS**                                          | [Libri-CSS](https://github.com/chenzhuo1011/libri_css)                                             | Derived from LibriSpeech by concatenating utterances to simulate conversational far‐field replays.                                |  True  |
@@ -273,6 +271,7 @@ Reasons: Insufficient information, extracted from another dataset, not open sour
 - MSNER
 - IEMOCAP
 - Spotify Podcast Datase
+- Flickr Audio Caption Corpus
 
 ---
 
