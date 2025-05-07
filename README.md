@@ -46,7 +46,6 @@ other speech processing applications.*
 
 | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
 |:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-| ISOLET Data Set                                    | True |                     |                     |                   |            |                        |
 | Libriadapt                                         | True |                     |                     |                   |            |                        |
 | Libri-CSS                                          | True |                     |                     |                   |            |                        |
 | Microsoft Scalable Noisy Speech Dataset            | True |                     |                     |                   |            |                        |
@@ -103,7 +102,6 @@ other speech processing applications.*
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|:------:|
 | **CMU Wilderness**                                     | [CMU Wilderness](http://festvox.org/cmu_wilderness/)                                               | Speech dataset with multiple accents reciting passages from the Bible.                                                            |  True  |
 | **DAPS Dataset**                                       | [DAPS Dataset](https://archive.org/details/daps_dataset)                                           | 20 speakers reading 5 excerpts each from public domain books (~14 minutes per speaker).                                           |  True  |
-| **ISOLET Data Set**                                    | [ISOLET Data Set](https://data.world/uci/isolet)                                                   | 38.7 GB dataset for predicting letter-names from spoken audio.                                                                    |  True  |
 | **Libriadapt**                                         | [Libriadapt](https://github.com/akhilmathurs/libriadapt)                                           | Facilitates domain adaptation research for ASR models with three types of domain shifts.                                          |  True  |
 | **Libri-CSS**                                          | [Libri-CSS](https://github.com/chenzhuo1011/libri_css)                                             | Derived from LibriSpeech by concatenating utterances to simulate conversational far‐field replays.                                |  True  |
 | **Microsoft Scalable Noisy Speech Dataset**            | [MS-SNSD](https://github.com/microsoft/MS-SNSD)                                                    | Noisy speech dataset scalable to arbitrary sizes with varying speakers, noise types, and SNR levels.                              |  True  |
@@ -272,6 +270,7 @@ Reasons: Insufficient information, extracted from another dataset, not open sour
 - IEMOCAP
 - Spotify Podcast Datase
 - Flickr Audio Caption Corpus
+- ISOLET
 
 ---
 
