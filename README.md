@@ -165,7 +165,6 @@ LibriVox
 
 | Dataset                     | Download                                                                         | Description                                                                                                                | OpenSource |
 |-----------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **LJSpeech-1.1**            | [LJSpeech Dataset](https://keithito.com/LJ-Speech-Dataset/)                      | Single-speaker English TTS dataset with 13,100 short audio clips (~24h) from a female speaker reading public-domain texts. |    True    |
 | **VCTK (CSTR VCTK Corpus)** | [VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443)                      | Multi-speaker English speech corpus with 109 speakers (≈44h total); used for accent-robust TTS and voice conversion.       |    True    |
 | **Arabic Speech Corpus**    | [Arabic Speech Corpus](http://en.arabicspeechcorpus.com/)                        | Modern Standard Arabic (MSA) TTS corpus (1.5GB) with phonetic and orthographic transcriptions.                             |    True    |
 | **EmotionTTS**              | [EmotionTTS](https://github.com/emotiontts/emotiontts_open_db)                   | TTS dataset with recordings in 4 emotions (general, joy, anger, sadness) for emotionally expressive synthesis.             |    True    |
@@ -270,6 +269,7 @@ Reasons: Insufficient information, extracted/derived from another dataset, not o
 - Russian LibriSpeech
 - Libri-Mixed-Speakers
 - LibriTTS-R
+- LJSpeech-1.1
 - IBM Voicemail Corpus
 - Infobip AMD
 - Wavix Voicemail
