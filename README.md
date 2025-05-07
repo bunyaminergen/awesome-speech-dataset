@@ -57,7 +57,6 @@ LibriVox
 | Spoken Commands dataset                            | True |                     |                     |                   |            |                        |
 | Spoken Wikipedia Corpora                           | True |                     |                     |                   |            |                        |
 | Tatoeba                                            | True |                     |                     |                   |            |                        |
-| TIMIT dataset                                      | True |                     |                     |                   |            |                        |
 | Zero Resource Speech Challenge                     | True |                     |                     |                   |            |                        |
 | Voice Gender Detection                             |      | True                |                     |                   |            |                        |
 | RAVDESS                                            |      |                     | True                |                   |            |                        |
@@ -112,7 +111,6 @@ LibriVox
 | **Spoken Commands dataset**                            | [Spoken Commands dataset](https://github.com/JohannesBuchner/spoken-command-recognition)           | Large database of free audio samples for voice activity detection and syllable recognition.                             |  True  |
 | **Spoken Wikipedia Corpora**                           | [Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/)                                            | 38 GB dataset available in audio and non-audio formats based on Wikipedia articles.                                     |  True  |
 | **Tatoeba**                                            | [Tatoeba](https://tatoeba.org/eng/downloads)                                                       | Large database of sentences, translations, and spoken audio for language learning.                                      |  True  |
-| **TIMIT dataset**                                      | [TIMIT dataset](https://catalog.ldc.upenn.edu/LDC93S1)                                             | Broadband recordings of 630 speakers reading phonetically rich sentences with time-aligned transcriptions.              | False  |
 | **Zero Resource Speech Challenge**                     | [Zero Resource Speech Challenge](https://github.com/bootphon/zerospeech2017)                       | Challenge to build an end-to-end spoken dialogue system from scratch with zero linguistic expertise.                    |  True  |
 
 | Dataset                    | Download                                                                          | Description                                                                   | OpenSource |
@@ -163,18 +161,17 @@ LibriVox
 |---------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|:----------:|
 | **VoxPopuli** | [VoxPopuli GitHub](https://github.com/facebookresearch/voxpopuli) | European Parliament recordings (2009–2020) in 23 languages; 400,000 hours of unlabeled and 1,800 hours of transcribed speech. |    True    |
 
-| Dataset                     | Download                                                                         | Description                                                                                                                | OpenSource |
-|-----------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **VCTK (CSTR VCTK Corpus)** | [VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443)                      | Multi-speaker English speech corpus with 109 speakers (≈44h total); used for accent-robust TTS and voice conversion.       |    True    |
-| **Arabic Speech Corpus**    | [Arabic Speech Corpus](http://en.arabicspeechcorpus.com/)                        | Modern Standard Arabic (MSA) TTS corpus (1.5GB) with phonetic and orthographic transcriptions.                             |    True    |
-| **EmotionTTS**              | [EmotionTTS](https://github.com/emotiontts/emotiontts_open_db)                   | TTS dataset with recordings in 4 emotions (general, joy, anger, sadness) for emotionally expressive synthesis.             |    True    |
-| **Thorsten dataset**        | [Thorsten dataset](https://github.com/thorstenMueller/deep-learning-german-tts/) | German TTS dataset with 22,668 recorded phrases (~23h); ideal for deep-learning based TTS.                                 |    True    |
+| Dataset                     | Download                                                                         | Description                                                                                                          | OpenSource |
+|-----------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|:----------:|
+| **VCTK (CSTR VCTK Corpus)** | [VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443)                      | Multi-speaker English speech corpus with 109 speakers (≈44h total); used for accent-robust TTS and voice conversion. |    True    |
+| **Arabic Speech Corpus**    | [Arabic Speech Corpus](http://en.arabicspeechcorpus.com/)                        | Modern Standard Arabic (MSA) TTS corpus (1.5GB) with phonetic and orthographic transcriptions.                       |    True    |
+| **EmotionTTS**              | [EmotionTTS](https://github.com/emotiontts/emotiontts_open_db)                   | TTS dataset with recordings in 4 emotions (general, joy, anger, sadness) for emotionally expressive synthesis.       |    True    |
+| **Thorsten dataset**        | [Thorsten dataset](https://github.com/thorstenMueller/deep-learning-german-tts/) | German TTS dataset with 22,668 recorded phrases (~23h); ideal for deep-learning based TTS.                           |    True    |
 
 | Dataset                            | Download                                                                                      | Description                                                                                                               | OpenSource |
 |------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|:----------:|
 | **Awesome_Diarization**            | [Awesome_Diarization](https://github.com/jim-schwoebel/awesome-diarization)                   | Curated list of papers, libraries, datasets, and resources for speaker diarization research.                              |    True    |
-| **AMI Corpus**                     | [AMI Corpus](http://groups.inf.ed.ac.uk/ami/corpus/)                                          | ~100h multi-party meetings recorded with multiple microphones and video; used for benchmarking diarization and ASR tasks. |   False    |
-| **CallHome American English**      | [CallHome](https://catalog.ldc.upenn.edu/LDC97S42)                                            | Telephone conversations (~120 calls/~120h) frequently used for speaker diarization research.                              |   False    |
+| **AMI Corpus**                     | [AMI Corpus](http://groups.inf.ed.ac.uk/ami/corpus/)                                          | ~100h multi-party meetings recorded with multiple microphones and video; used for benchmarking diarization and ASR tasks. |    True    |
 | **DIHARD Challenge datasets**      | [DIHARD Challenges](https://dihardchallenge.github.io/data.html)                              | Diverse, challenging audio datasets from various domains for diarization benchmarking.                                    |    True    |
 | **Fisher English Training Speech** | [Fisher English](https://catalog.ldc.upenn.edu/LDC2004S13)                                    | ~2,000h conversational telephone speech recorded between pairs of strangers for ASR and diarization.                      |   False    |
 | **AMI Headset Mix Dataset**        | [AMI Corpus](https://groups.inf.ed.ac.uk/ami/download/)                                       | Subset of AMI corpus designed for diarization research (close-talk recordings).                                           |   False    |
@@ -273,6 +270,9 @@ Reasons: Insufficient information, extracted/derived from another dataset, not o
 - IBM Voicemail Corpus
 - Infobip AMD
 - Wavix Voicemail
+- TIMIT
+- NTIMIT
+- CALLHOME American English Speech
 
 ---
 
@@ -487,3 +487,6 @@ identification, TTS, and related fields. Learn more at [OpenSLR.org](http://www.
 | **SLR156: SMIIP-TV**             | Short-term time-varying speaker verification dataset.                                                                 |    True    |
 | **SLR157: Sagalee**              | ASR dataset for Oromo (“Sagalee”).                                                                                    |    True    |
 
+---
+
+## Linguistic Data Consortium
