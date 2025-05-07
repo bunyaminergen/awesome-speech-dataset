@@ -46,7 +46,6 @@ other speech processing applications.*
 
 | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
 |:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-| Libri-CSS                                          | True |                     |                     |                   |            |                        |
 | Microsoft Scalable Noisy Speech Dataset            | True |                     |                     |                   |            |                        |
 | MSP Podcast Corpus                                 | True |                     |                     |                   |            |                        |
 | Persian Consonant Vowel Combination (PCVC) Dataset | True |                     |                     |                   |            |                        |
@@ -101,7 +100,6 @@ other speech processing applications.*
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|:------:|
 | **CMU Wilderness**                                     | [CMU Wilderness](http://festvox.org/cmu_wilderness/)                                               | Speech dataset with multiple accents reciting passages from the Bible.                                                            |  True  |
 | **DAPS Dataset**                                       | [DAPS Dataset](https://archive.org/details/daps_dataset)                                           | 20 speakers reading 5 excerpts each from public domain books (~14 minutes per speaker).                                           |  True  |
-| **Libri-CSS**                                          | [Libri-CSS](https://github.com/chenzhuo1011/libri_css)                                             | Derived from LibriSpeech by concatenating utterances to simulate conversational far‐field replays.                                |  True  |
 | **Microsoft Scalable Noisy Speech Dataset**            | [MS-SNSD](https://github.com/microsoft/MS-SNSD)                                                    | Noisy speech dataset scalable to arbitrary sizes with varying speakers, noise types, and SNR levels.                              |  True  |
 | **MSP Podcast Corpus**                                 | [MSP Podcast Corpus](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)      | 100 hours of podcast speech from 100+ speakers, annotated with emotional labels and attribute-based descriptors.                  |  True  |
 | **Persian Consonant Vowel Combination (PCVC) Dataset** | [PCVC](https://github.com/S-Malek/PCVC)                                                            | Modern Persian speech corpus of consonant-vowel combinations (138 samples per speaker) for ASR and speaker recognition.           |  True  |
@@ -181,15 +179,12 @@ other speech processing applications.*
 | **DIHARD Challenges**              | [DIHARD](https://dihardchallenge.github.io/)                                                  | Regularly updated challenges and datasets for evaluating diarization systems.                                             |    True    |
 | **ICSI Meeting Corpus**            | [ICSI Corpus](https://catalog.ldc.upenn.edu/LDC2004S02)                                       | 75 multi-party meetings (72h) from multiple microphone channels with annotations for diarization.                         |   False    |
 | **AMI Meeting Corpus**             | [AMI](https://groups.inf.ed.ac.uk/ami/corpus/)                                                | ~100h business meeting recordings with extensive annotations (diarization labels, speaker roles, dialogue acts).          |   False    |
-| **LibriCSS**                       | [Libri-CSS](https://github.com/chenzhuo1011/libri_css)                                        | Derived from LibriSpeech to simulate diarization scenarios with varying speaker overlap and noise.                        |    True    |
 | **CH-109 Dataset**                 | [CH109 Dataset](https://github.com/pyannote/pyannote-audio/tree/develop/tutorials/data/ch109) | Subset of CALLHOME corpus for diarization benchmarking (telephone conversations).                                         |    True    |
 | **VoxSRC Challenges (VoxCeleb)**   | [VoxSRC](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition.html)                     | Diarization challenge dataset based on VoxCeleb recordings with celebrity conversations.                                  |    True    |
 
 | Dataset                     | Download                                                              | Description                                                                                               | OpenSource |
 |-----------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|:----------:|
 | **Deep Clustering Dataset** | [Deep Clustering Dataset](https://www.merl.com/demos/deep-clustering) | For training deep discriminative embeddings to solve the cocktail party problem.                          |    True    |
-| **LibriMix**                | [LibriMix](https://github.com/JorisCos/LibriMix)                      | Open source dataset for source separation in noisy environments, derived from LibriSpeech and WHAM noise. |    True    |
-| **SparseLibriMix**          | [SparseLibriMix](https://github.com/popcornell/SparseLibriMix)        | Test-set-only version for source separation with variable overlap-ratio.                                  |    True    |
 | **VCTK-2Mix**               | [VCTK-2Mix](https://github.com/JorisCos/VCTK-2Mix)                    | Derived from VCTK and WHAM noise; designed as a test set for source separation experiments.               |    True    |
 | **WHAM! and WHAMR!**        | [WHAM! and WHAMR!](http://wham.whisper.ai/)                           | Pairs two-speaker mixtures with real noise backgrounds; WHAMR! adds artificial reverberation.             |    True    |
 
@@ -271,6 +266,8 @@ Reasons: Insufficient information, extracted from another dataset, not open sour
 - ISOLET
 - Libri-Adapt
 - LibriCSS
+- LibriMix
+- SparseLibriMix
 
 ---
 
