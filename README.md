@@ -44,6 +44,7 @@ other speech processing applications.*
 
 LibriSpeech
 LibriVox
+HowTo100M ?
 
 ### Unverified
 
@@ -173,7 +174,6 @@ LibriVox
 | **Awesome_Diarization**            | [Awesome_Diarization](https://github.com/jim-schwoebel/awesome-diarization)                   | Curated list of papers, libraries, datasets, and resources for speaker diarization research.                              |    True    |
 | **AMI Corpus**                     | [AMI Corpus](http://groups.inf.ed.ac.uk/ami/corpus/)                                          | ~100h multi-party meetings recorded with multiple microphones and video; used for benchmarking diarization and ASR tasks. |    True    |
 | **DIHARD Challenge datasets**      | [DIHARD Challenges](https://dihardchallenge.github.io/data.html)                              | Diverse, challenging audio datasets from various domains for diarization benchmarking.                                    |    True    |
-| **Fisher English Training Speech** | [Fisher English](https://catalog.ldc.upenn.edu/LDC2004S13)                                    | ~2,000h conversational telephone speech recorded between pairs of strangers for ASR and diarization.                      |   False    |
 | **AMI Headset Mix Dataset**        | [AMI Corpus](https://groups.inf.ed.ac.uk/ami/download/)                                       | Subset of AMI corpus designed for diarization research (close-talk recordings).                                           |   False    |
 | **DIHARD Challenges**              | [DIHARD](https://dihardchallenge.github.io/)                                                  | Regularly updated challenges and datasets for evaluating diarization systems.                                             |    True    |
 | **ICSI Meeting Corpus**            | [ICSI Corpus](https://catalog.ldc.upenn.edu/LDC2004S02)                                       | 75 multi-party meetings (72h) from multiple microphone channels with annotations for diarization.                         |   False    |
@@ -222,7 +222,7 @@ LibriVox
 | **VocalSound**                                                          | N/A                                                                                                | Free dataset of 21,024 crowdsourced recordings of laughter, coughs, sighs, and other vocalizations with speaker metadata.                       |    True    |
 | **ICBHI Respiratory Sound Database**                                    | [ICBHI](https://www.icbhi.org/respiratory-sound-database/)                                         | Respiratory sound dataset originally compiled for the ICBHI 2017 Challenge.                                                                     |    True    |
 | **EPIC-SOUNDS**                                                         | [EPIC-SOUNDS](https://epic-kitchens.github.io/EPIC-SOUNDS/)                                        | Large-scale dataset of audio annotations capturing temporal extents and class labels within egocentric video streams.                           |    True    |
-| **YouTube-100M**                                                        | [YouTube-100M](https://research.google.com/youtube-100m/)                                          | 100 million YouTube videos with topic labels; extensive audio content; note: labels are machine-generated and may be noisy.                     |   False    |
+| **YouTube-8M**                                                          | [YouTube-100M](https://research.google.com/youtube-100m/)                                          | 100 million YouTube videos with topic labels; extensive audio content; note: labels are machine-generated and may be noisy.                     |   True     |
 | **SSC (Spiking Speech Commands v0.2)**                                  | [SSC](https://github.com/neuromorphic-computing-group/SSC)                                         | Spiking version of the Speech Commands dataset generated using an artificial cochlea model.                                                     |    True    |
 | **aGender**                                                             | N/A                                                                                                | Dataset containing audio recordings labeled by age and gender.                                                                                  |    True    |
 | **SONYC-UST-V2**                                                        | [SONYC-UST-V2](https://zenodo.org/record/3960431)                                                  | Urban sound tagging dataset from the SONYC acoustic sensor network with spatiotemporal metadata.                                                |    True    |
@@ -273,6 +273,7 @@ Reasons: Insufficient information, extracted/derived from another dataset, not o
 - TIMIT
 - NTIMIT
 - CALLHOME American English Speech
+- Fisher English Training Speech
 
 ---
 
