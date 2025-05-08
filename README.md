@@ -473,7 +473,6 @@ identification, TTS, and related fields. Learn more at [OpenSLR.org](http://www.
 | **SLR147: Veracruz Orizaba**     | Orizaba Nahuatl (ISO 639-3: nlv) speech corpus.                                                                       |    True    |
 | **SLR148: Tepetzintla**          | Zacatlán-Ahuacatlán-Tepetzintla (Puebla) Nahuatl (ISO 639-3: nhi) speech corpus.                                      |    True    |
 | **SLR149: Tibetan Greetings**    | Selected Tibetan greetings data from various dialectal regions.                                                       |    True    |
-| **SLR150: CHiME-6**              | English multi-channel far-field meeting data from CHiME-5 with synchronization fixes.                                 |    True    |
 | **SLR151: Kallaama**             | Wolof, Pulaar, and Sereer speech data.                                                                                |    True    |
 | **SLR152: Pragmatic Similarity** | Perceived similarity judgments between utterance pairs (English & Spanish).                                           |    True    |
 | **SLR153: Yerevan City Mag**     | Free Armenian news text corpus from Yerevan City Magazine.                                                            |    True    |
