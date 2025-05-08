@@ -55,7 +55,6 @@ HowTo100M ?
 | Microsoft Scalable Noisy Speech Dataset            | True |                     |                     |                   |            |                        |
 | MSP Podcast Corpus                                 | True |                     |                     |                   |            |                        |
 | Persian Consonant Vowel Combination (PCVC) Dataset | True |                     |                     |                   |            |                        |
-| Speech Accent Archive                              | True |                     |                     |                   |            |                        |
 | Speech Commands Dataset                            | True |                     |                     |                   |            |                        |
 | Spoken Commands dataset                            | True |                     |                     |                   |            |                        |
 | Spoken Wikipedia Corpora                           | True |                     |                     |                   |            |                        |
@@ -109,7 +108,6 @@ HowTo100M ?
 | **MSP Podcast Corpus**                                 | [MSP Podcast Corpus](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)      | 100 hours of podcast speech from 100+ speakers, annotated with emotional labels and attribute-based descriptors.        |  True  |
 | **Persian Consonant Vowel Combination (PCVC) Dataset** | [PCVC](https://github.com/S-Malek/PCVC)                                                            | Modern Persian speech corpus of consonant-vowel combinations (138 samples per speaker) for ASR and speaker recognition. |  True  |
 | **sample_voice_data**                                  | [sample_voice_data](https://github.com/jim-schwoebel/sample_voice_data)                            | 52 audio files per class (male & female) for testing purposes.                                                          |  True  |
-| **Speech Accent Archive**                              | [Speech Accent Archive](https://www.kaggle.com/rtatman/speech-accent-archive/version/1)            | Dataset for various accent detection tasks.                                                                             |  True  |
 | **Speech Commands Dataset**                            | [Speech Commands Dataset](http://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) | 65,000 one-second utterances of 30 short words for keyword spotting.                                                    |  True  |
 | **Spoken Commands dataset**                            | [Spoken Commands dataset](https://github.com/JohannesBuchner/spoken-command-recognition)           | Large database of free audio samples for voice activity detection and syllable recognition.                             |  True  |
 | **Spoken Wikipedia Corpora**                           | [Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/)                                            | 38 GB dataset available in audio and non-audio formats based on Wikipedia articles.                                     |  True  |
@@ -269,6 +267,7 @@ Reasons: Insufficient information, extracted/derived from another dataset, not o
 - ReefSet
 - HumBug Zooniverse
 - Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
+- Speech Accent Archive
 
 ---
 
