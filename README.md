@@ -218,22 +218,15 @@ HowTo100M ?
 | **DiCOVA**                                                              | [DiCOVA Challenge](https://dcase.community/challenge/2020/task-diCOVA/)                            | Dataset derived from Coswara for detecting COVID-19 from respiratory sounds.                                                                    |    True    |
 | **FSDnoisy18k**                                                         | [FSDnoisy18k](https://zenodo.org/record/4060432) *(placeholder)*                                   | Open dataset with 42.5 hours of noisy audio clips across 20 sound event classes.                                                                |    True    |
 | **SHD (Spiking Heidelberg Digits)**                                     | [SHD](https://github.com/Neuromorphic-Computing-Group/SHD-dataset)                                 | Spiking version of the Heidelberg Digits dataset, with audio converted into spike trains.                                                       |    True    |
-| **VocalSound**                                                          | N/A                                                                                                | Free dataset of 21,024 crowdsourced recordings of laughter, coughs, sighs, and other vocalizations with speaker metadata.                       |    True    |
 | **ICBHI Respiratory Sound Database**                                    | [ICBHI](https://www.icbhi.org/respiratory-sound-database/)                                         | Respiratory sound dataset originally compiled for the ICBHI 2017 Challenge.                                                                     |    True    |
 | **EPIC-SOUNDS**                                                         | [EPIC-SOUNDS](https://epic-kitchens.github.io/EPIC-SOUNDS/)                                        | Large-scale dataset of audio annotations capturing temporal extents and class labels within egocentric video streams.                           |    True    |
 | **YouTube-8M**                                                          | [YouTube-100M](https://research.google.com/youtube-100m/)                                          | 100 million YouTube videos with topic labels; extensive audio content; note: labels are machine-generated and may be noisy.                     |    True    |
 | **SSC (Spiking Speech Commands v0.2)**                                  | [SSC](https://github.com/neuromorphic-computing-group/SSC)                                         | Spiking version of the Speech Commands dataset generated using an artificial cochlea model.                                                     |    True    |
-| **aGender**                                                             | N/A                                                                                                | Dataset containing audio recordings labeled by age and gender.                                                                                  |    True    |
 | **SONYC-UST-V2**                                                        | [SONYC-UST-V2](https://zenodo.org/record/3960431)                                                  | Urban sound tagging dataset from the SONYC acoustic sensor network with spatiotemporal metadata.                                                |    True    |
 | **TAU-NIGENS Spatial Sound Events 2021**                                | [TAU-NIGENS](https://zenodo.org/record/4643708)                                                    | Spatial sound-scene recordings with annotated sound events in both microphone array and Ambisonics formats.                                     |    True    |
 | **DCASE 2014**                                                          | [DCASE 2014](http://dcase.community/challenge2014/)                                                | Benchmark dataset for audio classification challenges organized in 2014.                                                                        |    True    |
-| **HUME-VB**                                                             | [HUME-VB](https://github.com/hume-research/HUME-VB)                                                | The Hume Vocal Burst Database with emotion ratings for vocal bursts.                                                                            |    True    |
 | **VGGSound-Sparse**                                                     | [VGGSound-Sparse](https://github.com/karoldvl/VGGSound-Sparse)                                     | Subset of VGG-Sound containing temporally sparse audio-visual clips for classification.                                                         |    True    |
-| **InfantMarmosetsVox**                                                  | N/A                                                                                                | Dataset for multi-class call-type and caller identification from infant marmosets.                                                              |    True    |
 | **SINGA:PURA**                                                          | [SINGA:PURA](https://github.com/singaporepolytechnic/singa-pura)                                   | Strongly-labelled polyphonic urban sound dataset collected across Singapore for noise monitoring and classification.                            |    True    |
-| **BGG dataset (PUBG Gun Sound Dataset)**                                | N/A                                                                                                | Gun sound recordings from the PUBG game environment, covering various gun types, directions, and distances.                                     |   False    |
-| **DEEP-VOICE: DeepFake Voice Recognition**                              | [DEEP-VOICE](https://github.com/jordanbird/deep-voice)                                             | Dataset containing real human speech and AI-generated (DeepFake) versions for voice conversion detection.                                       |   False    |
-| **MeerKAT: Meerkat Kalahari Audio Transcripts**                         | N/A                                                                                                | Large-scale audio recordings and transcripts from free-ranging meerkats in the Kalahari, South Africa.                                          |    True    |
 | **Multimodal PISA (Multimodal Piano Skills Assessment)**                | N/A                                                                                                | Dataset for multimodal piano skill assessment including audio recordings and hand bounding box annotations.                                     |    True    |
 | **PC-GITA**                                                             | N/A                                                                                                | Spanish speech corpus designed to analyze speech impairments in individuals with Parkinson's Disease.                                           |    True    |
 | **RESPIRATORY AND DRUG ACTUATION DATASET**                              | N/A                                                                                                | Dataset of respiratory and drug actuation sounds for evaluating inhalation technique in asthma treatment.                                       |    True    |
@@ -245,7 +238,7 @@ HowTo100M ?
 
 ### Unlisted
 
-Reasons: Insufficient information, extracted/derived from another dataset, not open source, etc.
+Reasons: Insufficient information, extracted/derived from another dataset, not open source, specific tasks, etc.
 
 - Speech Wikimedia
 - AudioMNIST
@@ -274,6 +267,13 @@ Reasons: Insufficient information, extracted/derived from another dataset, not o
 - CALLHOME American English Speech
 - Fisher English Training Speech
 - ICSI Corpus
+- DEEP-VOICE
+- Hume-VB
+- aGender
+- VocalSound
+- InfantMarmosetsVox
+- MeerKAT: Meerkat Kalahari Audio Transcripts
+- Multimodal PISA (Multimodal Piano Skills Assessment)
 
 ---
 
