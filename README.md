@@ -53,50 +53,50 @@ HowTo100M ?
 
 ### Unverified
 
-| Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
-|:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-| Spoken Wikipedia Corpora                           | True |                     |                     |                   |            |                        |
-| Tatoeba                                            | True |                     |                     |                   |            |                        |
-| Zero Resource Speech Challenge                     | True |                     |                     |                   |            |                        |
-| Voice Gender Detection                             |      | True                |                     |                   |            |                        |
-| RAVDESS                                            |      |                     | True                |                   |            |                        |
-| CREMA-D                                            |      |                     | True                |                   |            |                        |
-| AESDD                                              |      |                     | True                |                   |            |                        |
-| ANAD                                               |      |                     | True                |                   |            |                        |
-| BAVED                                              |      |                     | True                |                   |            |                        |
-| CaFE                                               |      |                     | True                |                   |            |                        |
-| CMU-MOSEI                                          |      |                     | True                |                   |            |                        |
-| CMU-MOSI                                           |      |                     | True                |                   |            |                        |
-| DEMoS                                              |      |                     | True                |                   |            |                        |
-| DES                                                |      |                     | True                |                   |            |                        |
-| EEKK                                               |      |                     | True                |                   |            |                        |
-| Emo-DB                                             |      |                     | True                |                   |            |                        |
-| EmoFilm                                            |      |                     | True                |                   |            |                        |
-| EmoSynth                                           |      |                     | True                |                   |            |                        |
-| Emotional Voices Database                          |      |                     | True                |                   |            |                        |
-| Emotional Voice dataset - Nature                   |      |                     | True                |                   |            |                        |
-| EmotionTTS                                         |      |                     | True                |                   |            |                        |
-| Emov-DB                                            |      |                     | True                |                   |            |                        |
-| EMOVO                                              |      |                     | True                |                   |            |                        |
-| eNTERFACE05                                        |      |                     | True                |                   |            |                        |
-| GEMEP corpus                                       |      |                     | True                |                   |            |                        |
-| JL corpus                                          |      |                     | True                |                   |            |                        |
-| Keio-ESD                                           |      |                     | True                |                   |            |                        |
-| LEGO Corpus                                        |      |                     | True                |                   |            |                        |
-| MSP-IMPROV                                         |      |                     | True                |                   |            |                        |
-| Multimodal EmotionLines Dataset (MELD)             |      |                     | True                |                   |            |                        |
-| MuSe-CAR                                           |      |                     | True                |                   |            |                        |
-| OGVC                                               |      |                     | True                |                   |            |                        |
-| RECOLA                                             |      |                     | True                |                   |            |                        |
-| SAVEE Dataset                                      |      |                     | True                |                   |            |                        |
-| SEMAINE                                            |      |                     | True                |                   |            |                        |
-| SER Datasets                                       |      |                     | True                |                   |            |                        |
-| SEWA                                               |      |                     | True                |                   |            |                        |
-| ShEMO                                              |      |                     | True                |                   |            |                        |
-| TESS                                               |      |                     | True                |                   |            |                        |
-| URDU-Dataset                                       |      |                     | True                |                   |            |                        |
-| VIVAE                                              |      |                     | True                |                   |            |                        |
-| VoxPopuli                                          | True |                     |                     |                   |            | True                   |
+| Dataset                                | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
+|:---------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
+| Spoken Wikipedia Corpora               | True |                     |                     |                   |            |                        |
+| Tatoeba                                | True |                     |                     |                   |            |                        |
+| Zero Resource Speech Challenge         | True |                     |                     |                   |            |                        |
+| Voice Gender Detection                 |      | True                |                     |                   |            |                        |
+| RAVDESS                                |      |                     | True                |                   |            |                        |
+| CREMA-D                                |      |                     | True                |                   |            |                        |
+| AESDD                                  |      |                     | True                |                   |            |                        |
+| ANAD                                   |      |                     | True                |                   |            |                        |
+| BAVED                                  |      |                     | True                |                   |            |                        |
+| CaFE                                   |      |                     | True                |                   |            |                        |
+| CMU-MOSEI                              |      |                     | True                |                   |            |                        |
+| CMU-MOSI                               |      |                     | True                |                   |            |                        |
+| DEMoS                                  |      |                     | True                |                   |            |                        |
+| DES                                    |      |                     | True                |                   |            |                        |
+| EEKK                                   |      |                     | True                |                   |            |                        |
+| Emo-DB                                 |      |                     | True                |                   |            |                        |
+| EmoFilm                                |      |                     | True                |                   |            |                        |
+| EmoSynth                               |      |                     | True                |                   |            |                        |
+| Emotional Voices Database              |      |                     | True                |                   |            |                        |
+| Emotional Voice dataset - Nature       |      |                     | True                |                   |            |                        |
+| EmotionTTS                             |      |                     | True                |                   |            |                        |
+| Emov-DB                                |      |                     | True                |                   |            |                        |
+| EMOVO                                  |      |                     | True                |                   |            |                        |
+| eNTERFACE05                            |      |                     | True                |                   |            |                        |
+| GEMEP corpus                           |      |                     | True                |                   |            |                        |
+| JL corpus                              |      |                     | True                |                   |            |                        |
+| Keio-ESD                               |      |                     | True                |                   |            |                        |
+| LEGO Corpus                            |      |                     | True                |                   |            |                        |
+| MSP-IMPROV                             |      |                     | True                |                   |            |                        |
+| Multimodal EmotionLines Dataset (MELD) |      |                     | True                |                   |            |                        |
+| MuSe-CAR                               |      |                     | True                |                   |            |                        |
+| OGVC                                   |      |                     | True                |                   |            |                        |
+| RECOLA                                 |      |                     | True                |                   |            |                        |
+| SAVEE Dataset                          |      |                     | True                |                   |            |                        |
+| SEMAINE                                |      |                     | True                |                   |            |                        |
+| SER Datasets                           |      |                     | True                |                   |            |                        |
+| SEWA                                   |      |                     | True                |                   |            |                        |
+| ShEMO                                  |      |                     | True                |                   |            |                        |
+| TESS                                   |      |                     | True                |                   |            |                        |
+| URDU-Dataset                           |      |                     | True                |                   |            |                        |
+| VIVAE                                  |      |                     | True                |                   |            |                        |
+| VoxPopuli                              | True |                     |                     |                   |            | True                   |
 
 | Dataset                                                | Download                                                                                           | Description                                                                                                             | Source |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|:------:|
@@ -162,11 +162,11 @@ HowTo100M ?
 | **EmotionTTS**              | [EmotionTTS](https://github.com/emotiontts/emotiontts_open_db)                   | TTS dataset with recordings in 4 emotions (general, joy, anger, sadness) for emotionally expressive synthesis.       |    True    |
 | **Thorsten dataset**        | [Thorsten dataset](https://github.com/thorstenMueller/deep-learning-german-tts/) | German TTS dataset with 22,668 recorded phrases (~23h); ideal for deep-learning based TTS.                           |    True    |
 
-| Dataset                          | Download                                                                    | Description                                                                                                               | OpenSource |
-|----------------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **DIHARD Challenge datasets**    | [DIHARD Challenges](https://dihardchallenge.github.io/data.html)            | Diverse, challenging audio datasets from various domains for diarization benchmarking.                                    |    True    |
-| **DIHARD Challenges**            | [DIHARD](https://dihardchallenge.github.io/)                                | Regularly updated challenges and datasets for evaluating diarization systems.                                             |    True    |
-| **VoxSRC Challenges (VoxCeleb)** | [VoxSRC](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition.html)   | Diarization challenge dataset based on VoxCeleb recordings with celebrity conversations.                                  |    True    |
+| Dataset                          | Download                                                                  | Description                                                                              | OpenSource |
+|----------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------|:----------:|
+| **DIHARD Challenge datasets**    | [DIHARD Challenges](https://dihardchallenge.github.io/data.html)          | Diverse, challenging audio datasets from various domains for diarization benchmarking.   |    True    |
+| **DIHARD Challenges**            | [DIHARD](https://dihardchallenge.github.io/)                              | Regularly updated challenges and datasets for evaluating diarization systems.            |    True    |
+| **VoxSRC Challenges (VoxCeleb)** | [VoxSRC](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition.html) | Diarization challenge dataset based on VoxCeleb recordings with celebrity conversations. |    True    |
 
 | Dataset                     | Download                                                              | Description                                                                                   | OpenSource |
 |-----------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|:----------:|
@@ -179,40 +179,40 @@ HowTo100M ?
 | **Coswara**                    | [Coswara](https://github.com/iiscleap/Coswara-Data)                    | Database of respiratory sounds (cough, breath, speech) from healthy and COVID-19 positive individuals. |    True    |
 | **Parkinson's Speech Dataset** | [Parkinson's Speech Dataset](https://archive.org/details/daps_dataset) | Recordings from 20 Parkinson’s patients and 20 healthy subjects across 26 sound types (~20 MB).        |    True    |
 
-| Dataset                            | Download                                                                                                   | Description                                                                                            | OpenSource |
-|------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|:----------:|
-| **AudioSet**                       | [AudioSet](https://research.google.com/audioset/)                                                          | Over 2M human-annotated 10-second video clips with a hierarchical ontology of 632 audio event classes. |    True    |
-| **Environmental Audio Dataset**    | [Environmental Audio Dataset](http://www.cs.tut.fi/~heittolt/datasets)                                     | Manually annotated environmental audio recordings for sound research.                                  |    True    |
-| **Free Music Archive**             | [Free Music Archive](https://github.com/mdeff/fma)                                                         | Approximately 1000 GB dataset for music analysis.                                                      |    True    |
-| **Freesound Dataset**              | [Freesound Dataset](https://www.kaggle.com/c/freesound-audio-tagging-2019/data)                            | 678,511 candidate annotations for sound sources in audio clips from Freesound.                         |    True    |
-| **Karoldvl-ESC**                   | [ESC-50](https://github.com/karoldvl/ESC-50)                                                               | 2,000 5-second environmental audio clips across 50 classes.                                            |    True    |
-| **Million Song Dataset**           | [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/)                                       | Audio features and metadata for one million popular music tracks (~280 GB).                            |    True    |
-| **MUSDB18**                        | [MUSDB18](https://sigsep.github.io/datasets/musdb.html)                                                    | Multi-track music dataset for source separation (150 tracks, ~22 GB).                                  |    True    |
-| **Public Domain Sounds**           | [Public Domain Sounds](http://pdsounds.tuxfamily.org/)                                                     | 524 MB collection of public domain sounds (635 sounds) for tasks like wake word detection.             |    True    |
-| **RSC Sounds**                     | [RSC Sounds](https://github.com/2003scape/rsc-sounds)                                                      | 8-bit, u-law encoded, 8000 Hz PCM samples from RuneScape Classic.                                      |    True    |
-| **Urban Sound Dataset**            | [Urban Sound Dataset](https://urbansounddataset.weebly.com/)                                               | 8,732 labeled urban sound excerpts (≤4s) from 10 classes.                                              |    True    |
+| Dataset                         | Download                                                                        | Description                                                                                            | OpenSource |
+|---------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|:----------:|
+| **AudioSet**                    | [AudioSet](https://research.google.com/audioset/)                               | Over 2M human-annotated 10-second video clips with a hierarchical ontology of 632 audio event classes. |    True    |
+| **Environmental Audio Dataset** | [Environmental Audio Dataset](http://www.cs.tut.fi/~heittolt/datasets)          | Manually annotated environmental audio recordings for sound research.                                  |    True    |
+| **Free Music Archive**          | [Free Music Archive](https://github.com/mdeff/fma)                              | Approximately 1000 GB dataset for music analysis.                                                      |    True    |
+| **Freesound Dataset**           | [Freesound Dataset](https://www.kaggle.com/c/freesound-audio-tagging-2019/data) | 678,511 candidate annotations for sound sources in audio clips from Freesound.                         |    True    |
+| **Karoldvl-ESC**                | [ESC-50](https://github.com/karoldvl/ESC-50)                                    | 2,000 5-second environmental audio clips across 50 classes.                                            |    True    |
+| **Million Song Dataset**        | [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/)            | Audio features and metadata for one million popular music tracks (~280 GB).                            |    True    |
+| **MUSDB18**                     | [MUSDB18](https://sigsep.github.io/datasets/musdb.html)                         | Multi-track music dataset for source separation (150 tracks, ~22 GB).                                  |    True    |
+| **Public Domain Sounds**        | [Public Domain Sounds](http://pdsounds.tuxfamily.org/)                          | 524 MB collection of public domain sounds (635 sounds) for tasks like wake word detection.             |    True    |
+| **RSC Sounds**                  | [RSC Sounds](https://github.com/2003scape/rsc-sounds)                           | 8-bit, u-law encoded, 8000 Hz PCM samples from RuneScape Classic.                                      |    True    |
+| **Urban Sound Dataset**         | [Urban Sound Dataset](https://urbansounddataset.weebly.com/)                    | 8,732 labeled urban sound excerpts (≤4s) from 10 classes.                                              |    True    |
 
-| Dataset                                                                 | Download                                                                                           | Description                                                                                                                                     | OpenSource |
-|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **AudioSet**                                                            | [AudioSet](https://research.google.com/audioset/)                                                  | Audio event dataset of 10-second clips from YouTube, annotated with a hierarchical ontology of 632 classes.                                     |    True    |
-| **Speech Commands**                                                     | [Speech Commands Dataset](http://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) | Spoken words dataset designed for keyword spotting.                                                                                             |    True    |
-| **ESC-50**                                                              | [ESC-50](https://github.com/karoldvl/ESC-50)                                                       | Labeled collection of 2,000 5-second environmental audio recordings across 50 classes.                                                          |    True    |
-| **VGG-Sound**                                                           | [VGG-Sound](https://www.robots.ox.ac.uk/~vgg/data/vggsound/)                                       | Over 210k videos covering 310 audio classes, collected from YouTube.                                                                            |    True    |
-| **EPIC-KITCHENS-100**                                                   | [EPIC-KITCHENS-100](https://epic-kitchens.github.io/EPIC-Kitchens-100/)                            | 100-hour, 20M-frame, 90K-action egocentric video dataset capturing long-term unscripted activities in 45 environments.                          |    True    |
-| **FSD50K**                                                              | [FSD50K](https://zenodo.org/record/4060432)                                                        | Open dataset of 51,197 Freesound clips labeled with 200 classes (AudioSet ontology).                                                            |    True    |
-| **UrbanSound8K**                                                        | [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html)                             | 8,732 labeled urban sound excerpts (≤4s) from 10 classes.                                                                                       |    True    |
-| **DiCOVA**                                                              | [DiCOVA Challenge](https://dcase.community/challenge/2020/task-diCOVA/)                            | Dataset derived from Coswara for detecting COVID-19 from respiratory sounds.                                                                    |    True    |
-| **FSDnoisy18k**                                                         | [FSDnoisy18k](https://zenodo.org/record/4060432) *(placeholder)*                                   | Open dataset with 42.5 hours of noisy audio clips across 20 sound event classes.                                                                |    True    |
-| **SHD (Spiking Heidelberg Digits)**                                     | [SHD](https://github.com/Neuromorphic-Computing-Group/SHD-dataset)                                 | Spiking version of the Heidelberg Digits dataset, with audio converted into spike trains.                                                       |    True    |
-| **ICBHI Respiratory Sound Database**                                    | [ICBHI](https://www.icbhi.org/respiratory-sound-database/)                                         | Respiratory sound dataset originally compiled for the ICBHI 2017 Challenge.                                                                     |    True    |
-| **EPIC-SOUNDS**                                                         | [EPIC-SOUNDS](https://epic-kitchens.github.io/EPIC-SOUNDS/)                                        | Large-scale dataset of audio annotations capturing temporal extents and class labels within egocentric video streams.                           |    True    |
-| **YouTube-8M**                                                          | [YouTube-100M](https://research.google.com/youtube-100m/)                                          | 100 million YouTube videos with topic labels; extensive audio content; note: labels are machine-generated and may be noisy.                     |    True    |
-| **SSC (Spiking Speech Commands v0.2)**                                  | [SSC](https://github.com/neuromorphic-computing-group/SSC)                                         | Spiking version of the Speech Commands dataset generated using an artificial cochlea model.                                                     |    True    |
-| **SONYC-UST-V2**                                                        | [SONYC-UST-V2](https://zenodo.org/record/3960431)                                                  | Urban sound tagging dataset from the SONYC acoustic sensor network with spatiotemporal metadata.                                                |    True    |
-| **TAU-NIGENS Spatial Sound Events 2021**                                | [TAU-NIGENS](https://zenodo.org/record/4643708)                                                    | Spatial sound-scene recordings with annotated sound events in both microphone array and Ambisonics formats.                                     |    True    |
-| **DCASE 2014**                                                          | [DCASE 2014](http://dcase.community/challenge2014/)                                                | Benchmark dataset for audio classification challenges organized in 2014.                                                                        |    True    |
-| **VGGSound-Sparse**                                                     | [VGGSound-Sparse](https://github.com/karoldvl/VGGSound-Sparse)                                     | Subset of VGG-Sound containing temporally sparse audio-visual clips for classification.                                                         |    True    |
-| **SINGA:PURA**                                                          | [SINGA:PURA](https://github.com/singaporepolytechnic/singa-pura)                                   | Strongly-labelled polyphonic urban sound dataset collected across Singapore for noise monitoring and classification.                            |    True    |
+| Dataset                                  | Download                                                                                           | Description                                                                                                                 | OpenSource |
+|------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|:----------:|
+| **AudioSet**                             | [AudioSet](https://research.google.com/audioset/)                                                  | Audio event dataset of 10-second clips from YouTube, annotated with a hierarchical ontology of 632 classes.                 |    True    |
+| **Speech Commands**                      | [Speech Commands Dataset](http://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) | Spoken words dataset designed for keyword spotting.                                                                         |    True    |
+| **ESC-50**                               | [ESC-50](https://github.com/karoldvl/ESC-50)                                                       | Labeled collection of 2,000 5-second environmental audio recordings across 50 classes.                                      |    True    |
+| **VGG-Sound**                            | [VGG-Sound](https://www.robots.ox.ac.uk/~vgg/data/vggsound/)                                       | Over 210k videos covering 310 audio classes, collected from YouTube.                                                        |    True    |
+| **EPIC-KITCHENS-100**                    | [EPIC-KITCHENS-100](https://epic-kitchens.github.io/EPIC-Kitchens-100/)                            | 100-hour, 20M-frame, 90K-action egocentric video dataset capturing long-term unscripted activities in 45 environments.      |    True    |
+| **FSD50K**                               | [FSD50K](https://zenodo.org/record/4060432)                                                        | Open dataset of 51,197 Freesound clips labeled with 200 classes (AudioSet ontology).                                        |    True    |
+| **UrbanSound8K**                         | [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html)                             | 8,732 labeled urban sound excerpts (≤4s) from 10 classes.                                                                   |    True    |
+| **DiCOVA**                               | [DiCOVA Challenge](https://dcase.community/challenge/2020/task-diCOVA/)                            | Dataset derived from Coswara for detecting COVID-19 from respiratory sounds.                                                |    True    |
+| **FSDnoisy18k**                          | [FSDnoisy18k](https://zenodo.org/record/4060432) *(placeholder)*                                   | Open dataset with 42.5 hours of noisy audio clips across 20 sound event classes.                                            |    True    |
+| **SHD (Spiking Heidelberg Digits)**      | [SHD](https://github.com/Neuromorphic-Computing-Group/SHD-dataset)                                 | Spiking version of the Heidelberg Digits dataset, with audio converted into spike trains.                                   |    True    |
+| **ICBHI Respiratory Sound Database**     | [ICBHI](https://www.icbhi.org/respiratory-sound-database/)                                         | Respiratory sound dataset originally compiled for the ICBHI 2017 Challenge.                                                 |    True    |
+| **EPIC-SOUNDS**                          | [EPIC-SOUNDS](https://epic-kitchens.github.io/EPIC-SOUNDS/)                                        | Large-scale dataset of audio annotations capturing temporal extents and class labels within egocentric video streams.       |    True    |
+| **YouTube-8M**                           | [YouTube-100M](https://research.google.com/youtube-100m/)                                          | 100 million YouTube videos with topic labels; extensive audio content; note: labels are machine-generated and may be noisy. |    True    |
+| **SSC (Spiking Speech Commands v0.2)**   | [SSC](https://github.com/neuromorphic-computing-group/SSC)                                         | Spiking version of the Speech Commands dataset generated using an artificial cochlea model.                                 |    True    |
+| **SONYC-UST-V2**                         | [SONYC-UST-V2](https://zenodo.org/record/3960431)                                                  | Urban sound tagging dataset from the SONYC acoustic sensor network with spatiotemporal metadata.                            |    True    |
+| **TAU-NIGENS Spatial Sound Events 2021** | [TAU-NIGENS](https://zenodo.org/record/4643708)                                                    | Spatial sound-scene recordings with annotated sound events in both microphone array and Ambisonics formats.                 |    True    |
+| **DCASE 2014**                           | [DCASE 2014](http://dcase.community/challenge2014/)                                                | Benchmark dataset for audio classification challenges organized in 2014.                                                    |    True    |
+| **VGGSound-Sparse**                      | [VGGSound-Sparse](https://github.com/karoldvl/VGGSound-Sparse)                                     | Subset of VGG-Sound containing temporally sparse audio-visual clips for classification.                                     |    True    |
+| **SINGA:PURA**                           | [SINGA:PURA](https://github.com/singaporepolytechnic/singa-pura)                                   | Strongly-labelled polyphonic urban sound dataset collected across Singapore for noise monitoring and classification.        |    True    |
 
 ### Unlisted
 
@@ -262,6 +262,10 @@ _Reasons: Insufficient information, extracted/derived from another dataset, not 
 - PCVC (Persian Consonant Vowel Combination)
 
 ---
+
+### Unreviewed
+
+-
 
 ## Hub
 
