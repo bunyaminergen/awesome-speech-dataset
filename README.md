@@ -54,7 +54,6 @@ HowTo100M ?
 
 | Dataset                                            | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
 |:---------------------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-| Spoken Commands dataset                            | True |                     |                     |                   |            |                        |
 | Spoken Wikipedia Corpora                           | True |                     |                     |                   |            |                        |
 | Tatoeba                                            | True |                     |                     |                   |            |                        |
 | Zero Resource Speech Challenge                     | True |                     |                     |                   |            |                        |
