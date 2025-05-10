@@ -61,6 +61,7 @@ other speech processing applications.*
 * WHAMR!
 * VoxPopuli
 * Million Song Dataset
+* YouTube-8M
 
 * Coswara
 * CREMA-D
@@ -128,7 +129,6 @@ other speech processing applications.*
 * VGGSound-Sparse
 * Voice Gender Detection
 * Zero Resource Speech Challenge
-* YouTube-8M
 
 ### Unlisted
 
