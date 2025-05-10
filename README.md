@@ -21,12 +21,8 @@ other speech processing applications.*
     - [Unlisted](#unlisted)
 - [Hub](#hub)
     - [Open Source](#open-source)
-        - [OpenSLR](#openslr)
-    - [Closed Source](#openslr)
-        - [Linguistic Data Consortium](#linguistic-data-consortium)
-    - [Both](#openslr)
-        - [TalkBank](#talkbank)
-        - [Zenodo](#zenodo)
+    - [Closed Source](#closed-source)
+    - [Both](#both)
 
 ---
 
