@@ -199,6 +199,6 @@ _Reasons: Insufficient information, extracted/derived from another dataset, not 
 
 - [OpenSLR.org](http://www.openslr.org)
 
-## Linguistic Data Consortium
+### Linguistic Data Consortium
 
 - [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
