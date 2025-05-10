@@ -63,8 +63,8 @@ other speech processing applications.*
 * Million Song Dataset
 * YouTube-8M
 
-* Coswara
-* CREMA-D
+*
+*
 * DAPS Dataset
 * DCASE 2014
 * Deep Clustering Dataset
@@ -132,7 +132,8 @@ other speech processing applications.*
 
 ### Unlisted
 
-_Reasons: Insufficient information, extracted/derived from another dataset, not open source, specific tasks, etc._
+_Reasons: Insufficient information, extracted/derived from another dataset, not open source, specific tasks, out of
+date, etc._
 
 - Speech Wikimedia
 - AudioMNIST
@@ -181,6 +182,7 @@ _Reasons: Insufficient information, extracted/derived from another dataset, not 
 - Arabic Speech Corpus
 - BAVED
 - Café
+- Coswara
 
 ### Unreviewed
 
