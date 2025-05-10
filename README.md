@@ -47,172 +47,92 @@ other speech processing applications.*
 | 14 | Speech Commands Dataset                           |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          | True             | [torchaudio.datasets.SPEECHCOMMANDS](https://docs.pytorch.org/audio/stable/datasets.html)              |              | Google                                                                                     | 2       | [Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition](https://arxiv.org/abs/1804.03209)                                                                                                                                                          |             | The Speech Commands dataset is a publicly available collection of one-second English audio clips of 35 distinct spoken words, designed to train and benchmark small-footprint, on-device keyword-spotting models.                                                                                                                  |
 | 15 | Spoken Wikipedia Corpora                          | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               | True                 |            |                   |                          |                  | [The Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/)                                            | True         | Hamburg University                                                                         | 2       | [Mining the Spoken Wikipedia for Speech Data and Beyond](https://aclanthology.org/L16-1735/)                                                                                                                                                                      |             | The Spoken Wikipedia Corpus is a freely licensed, multilingual dataset of time-aligned audio recordings and text transcripts of Wikipedia articles, produced via an automated scraping and alignment pipeline.                                                                                                                     |
 
-LibriSpeech
-LibriVox
-HowTo100M ?
-
 ### Unverified
 
-| Dataset                                | ASR  | Speaker Recognition | Emotion Recognition | SLU (Intent/Slot) | Spoken NER | Speaker Identification |
-|:---------------------------------------|:-----|:--------------------|:--------------------|:------------------|:-----------|:-----------------------|
-| Spoken Wikipedia Corpora               | True |                     |                     |                   |            |                        |
-| Tatoeba                                | True |                     |                     |                   |            |                        |
-| Zero Resource Speech Challenge         | True |                     |                     |                   |            |                        |
-| Voice Gender Detection                 |      | True                |                     |                   |            |                        |
-| RAVDESS                                |      |                     | True                |                   |            |                        |
-| CREMA-D                                |      |                     | True                |                   |            |                        |
-| AESDD                                  |      |                     | True                |                   |            |                        |
-| ANAD                                   |      |                     | True                |                   |            |                        |
-| BAVED                                  |      |                     | True                |                   |            |                        |
-| CaFE                                   |      |                     | True                |                   |            |                        |
-| CMU-MOSEI                              |      |                     | True                |                   |            |                        |
-| CMU-MOSI                               |      |                     | True                |                   |            |                        |
-| DEMoS                                  |      |                     | True                |                   |            |                        |
-| DES                                    |      |                     | True                |                   |            |                        |
-| EEKK                                   |      |                     | True                |                   |            |                        |
-| Emo-DB                                 |      |                     | True                |                   |            |                        |
-| EmoFilm                                |      |                     | True                |                   |            |                        |
-| EmoSynth                               |      |                     | True                |                   |            |                        |
-| Emotional Voices Database              |      |                     | True                |                   |            |                        |
-| Emotional Voice dataset - Nature       |      |                     | True                |                   |            |                        |
-| EmotionTTS                             |      |                     | True                |                   |            |                        |
-| Emov-DB                                |      |                     | True                |                   |            |                        |
-| EMOVO                                  |      |                     | True                |                   |            |                        |
-| eNTERFACE05                            |      |                     | True                |                   |            |                        |
-| GEMEP corpus                           |      |                     | True                |                   |            |                        |
-| JL corpus                              |      |                     | True                |                   |            |                        |
-| Keio-ESD                               |      |                     | True                |                   |            |                        |
-| LEGO Corpus                            |      |                     | True                |                   |            |                        |
-| MSP-IMPROV                             |      |                     | True                |                   |            |                        |
-| Multimodal EmotionLines Dataset (MELD) |      |                     | True                |                   |            |                        |
-| MuSe-CAR                               |      |                     | True                |                   |            |                        |
-| OGVC                                   |      |                     | True                |                   |            |                        |
-| RECOLA                                 |      |                     | True                |                   |            |                        |
-| SAVEE Dataset                          |      |                     | True                |                   |            |                        |
-| SEMAINE                                |      |                     | True                |                   |            |                        |
-| SER Datasets                           |      |                     | True                |                   |            |                        |
-| SEWA                                   |      |                     | True                |                   |            |                        |
-| ShEMO                                  |      |                     | True                |                   |            |                        |
-| TESS                                   |      |                     | True                |                   |            |                        |
-| URDU-Dataset                           |      |                     | True                |                   |            |                        |
-| VIVAE                                  |      |                     | True                |                   |            |                        |
-| VoxPopuli                              | True |                     |                     |                   |            | True                   |
-
-| Dataset                                                | Download                                                                                           | Description                                                                                                             | Source |
-|--------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|:------:|
-| **CMU Wilderness**                                     | [CMU Wilderness](http://festvox.org/cmu_wilderness/)                                               | Speech dataset with multiple accents reciting passages from the Bible.                                                  |  True  |
-| **DAPS Dataset**                                       | [DAPS Dataset](https://archive.org/details/daps_dataset)                                           | 20 speakers reading 5 excerpts each from public domain books (~14 minutes per speaker).                                 |  True  |
-| **Microsoft Scalable Noisy Speech Dataset**            | [MS-SNSD](https://github.com/microsoft/MS-SNSD)                                                    | Noisy speech dataset scalable to arbitrary sizes with varying speakers, noise types, and SNR levels.                    |  True  |
-| **MSP Podcast Corpus**                                 | [MSP Podcast Corpus](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)      | 100 hours of podcast speech from 100+ speakers, annotated with emotional labels and attribute-based descriptors.        |  True  |
-| **Persian Consonant Vowel Combination (PCVC) Dataset** | [PCVC](https://github.com/S-Malek/PCVC)                                                            | Modern Persian speech corpus of consonant-vowel combinations (138 samples per speaker) for ASR and speaker recognition. |  True  |
-| **Speech Commands Dataset**                            | [Speech Commands Dataset](http://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) | 65,000 one-second utterances of 30 short words for keyword spotting.                                                    |  True  |
-| **Spoken Commands dataset**                            | [Spoken Commands dataset](https://github.com/JohannesBuchner/spoken-command-recognition)           | Large database of free audio samples for voice activity detection and syllable recognition.                             |  True  |
-| **Spoken Wikipedia Corpora**                           | [Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/)                                            | 38 GB dataset available in audio and non-audio formats based on Wikipedia articles.                                     |  True  |
-| **Tatoeba**                                            | [Tatoeba](https://tatoeba.org/eng/downloads)                                                       | Large database of sentences, translations, and spoken audio for language learning.                                      |  True  |
-| **Zero Resource Speech Challenge**                     | [Zero Resource Speech Challenge](https://github.com/bootphon/zerospeech2017)                       | Challenge to build an end-to-end spoken dialogue system from scratch with zero linguistic expertise.                    |  True  |
-
-| Dataset                                    | Download                                                                                                              | Description                                                                                                                 | OpenSource |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **RAVDESS**                                | [Zenodo RAVDESS](https://zenodo.org/record/1188976)                                                                   | 7,356 clips of emotional speech and song by 24 professional actors covering 8 emotions.                                     |    True    |
-| **CREMA-D**                                | [CREMA-D GitHub](https://github.com/CheyneyComputerScience/CREMA-D)                                                   | 7,442 audio-visual clips from 91 actors performing 12 sentences in 6 emotions with crowd-sourced ratings.                   |    True    |
-| **AESDD**                                  | [AESDD](http://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/)                                            | ~500 utterances by diverse actors simulating various emotions.                                                              |    True    |
-| **ANAD**                                   | [ANAD](https://www.kaggle.com/suso172/arabic-natural-audio-dataset)                                                   | 1,384 recordings by multiple speakers with 3 emotions (angry, happy, surprised).                                            |    True    |
-| **BAVED**                                  | [BAVED](https://www.kaggle.com/a13x10/basic-arabic-vocal-emotions-dataset)                                            | 1,935 recordings by 61 speakers (45 male, 16 female) focusing on vocal emotion.                                             |    True    |
-| **CaFE**                                   | [CaFE](https://www.gel.usherbrooke.ca/audio/cafe.htm)                                                                 | 6 different sentences by 12 speakers (6 females, 6 males) for emotion recognition tasks.                                    |    True    |
-| **CMU-MOSEI**                              | [CMU-MOSEI](https://www.amir-zadeh.com/datasets)                                                                      | 65 hours of annotated video and audio data from 1000+ speakers covering 6 emotions plus Likert scale ratings.               |    True    |
-| **CMU-MOSI**                               | [CMU-MOSI](https://www.amir-zadeh.com/datasets)                                                                       | 2,199 opinion utterances annotated with sentiment on a seven-point scale.                                                   |    True    |
-| **DEMoS**                                  | [DEMoS](https://zenodo.org/record/2544829)                                                                            | 9,365 emotional and 332 neutral samples produced by 68 native speakers.                                                     |    True    |
-| **DES**                                    | [DES](http://kom.aau.dk/~tb/speech/Emotions/)                                                                         | Recordings from 4 speakers expressing 5 emotions: neutral, surprise, happiness, sadness, and anger.                         |    True    |
-| **EEKK**                                   | [EEKK](https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/) | 26 passages read by 10 speakers in 4 emotions (joy, sadness, anger, neutral).                                               |    True    |
-| **Emo-DB**                                 | [Emo-DB](http://emodb.bilderbar.info/index-1280.html)                                                                 | 800 recordings from 10 actors (balanced gender) covering 7 emotions.                                                        |    True    |
-| **EmoFilm**                                | [EmoFilm](https://zenodo.org/record/1326428)                                                                          | 1,115 audio instances (sentences extracted from films) with emotional content.                                              |    True    |
-| **EmoSynth**                               | [EmoSynth](https://zenodo.org/record/3727593)                                                                         | 144 audio files labeled by 40 listeners in terms of valence and arousal.                                                    |    True    |
-| **Emotional Voices Database**              | [Emotional Voices Database](https://github.com/numediart/EmoV-DB)                                                     | Various emotions recorded by 5 voice actors (amused, angry, disgusted, neutral, sleepy).                                    |    True    |
-| **Emotional Voice dataset - Nature**       | [Emotional Voice dataset - Nature](https://www.nature.com/articles/s41562-019-0533-6)                                 | 2,519 speech samples from 100 actors across 5 cultures, demonstrating at least 12 distinct emotions.                        |    True    |
-| **EmotionTTS**                             | [EmotionTTS](https://github.com/emotiontts/emotiontts_open_db)                                                        | Recordings with transcripts by diverse speakers in 4 emotions (general, joy, anger, sadness) for TTS with emotional nuance. |    True    |
-| **Emov-DB**                                | [Emov-DB](https://mega.nz/#F!KBp32apT!gLIgyWf9iQ-yqnWFUFuUHg!mYwUnI4K)                                                | 4-speaker recordings with emotions: neutral, sleepiness, anger, disgust, and amused.                                        |    True    |
-| **EMOVO**                                  | [EMOVO](http://voice.fub.it/activities/corpora/emovo/index.html)                                                      | 6 actors reading 14 sentences in 6 emotions: disgust, fear, anger, joy, surprise, and sadness.                              |    True    |
-| **eNTERFACE05**                            | [eNTERFACE05](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip)                      | Videos by 42 subjects from 14 nationalities in 6 emotions.                                                                  |    True    |
-| **GEMEP corpus**                           | [GEMEP corpus](https://www.unige.ch/cisa/gemep)                                                                       | 10 actors portraying 10 states covering 12 primary and 5 additional emotions.                                               |    True    |
-| **JL corpus**                              | [JL corpus](https://www.kaggle.com/tli725/jl-corpus)                                                                  | 2,400 recordings of 240 sentences by 4 actors; includes 5 primary and 5 secondary emotions.                                 |    True    |
-| **Keio-ESD**                               | [Keio-ESD](http://research.nii.ac.jp/src/en/Keio-ESD.html)                                                            | Japanese male speaker dataset covering 47 different emotions.                                                               |    True    |
-| **LEGO Corpus**                            | [LEGO Corpus](https://www.ultes.eu/ressources/lego-spoken-dialogue-corpus/)                                           | 347 dialogs (9,083 exchanges) with emotions classified into garbage, non-angry, slightly angry, and very angry.             |    True    |
-| **MSP-IMPROV**                             | [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)                                  | 20 sentences by 12 actors covering 4 emotions plus an “other” category.                                                     |    True    |
-| **Multimodal EmotionLines Dataset (MELD)** | [MELD](https://github.com/SenticNet/MELD)                                                                             | Over 1,400 dialogues and 13,000 utterances from the TV series *Friends* labeled with 7 emotions.                            |    True    |
-| **MuSe-CAR**                               | [MuSe-CAR](https://zenodo.org/record/4134758)                                                                         | 40 hours and 25,000+ sentences from 70+ speakers for emotion recognition research.                                          |    True    |
-| **OGVC**                                   | [OGVC](https://sites.google.com/site/ogcorpus/home/en)                                                                | 9,114 spontaneous and 2,656 acted utterances by 4 professional actors covering 9 emotional states.                          |    True    |
-| **RECOLA**                                 | [RECOLA](https://diuf.unifr.ch/main/diva/recola/download.html)                                                        | 3.8 hours of recordings from 46 participants with continuous valence and arousal annotations.                               |    True    |
-| **SAVEE Dataset**                          | [SAVEE Dataset](http://kahlan.eps.surrey.ac.uk/savee/)                                                                | 480 British English utterances from 4 male actors covering 7 different emotions.                                            |    True    |
-| **SEMAINE**                                | [SEMAINE](https://semaine-db.eu/)                                                                                     | 95 dyadic conversations from 21 subjects with 5 FeelTrace annotations.                                                      |    True    |
-| **SER Datasets**                           | [SER Datasets](https://github.com/SuperKogito/SER-datasets)                                                           | A collection of datasets aimed at emotion recognition in speech.                                                            |    True    |
-| **SEWA**                                   | [SEWA](https://db.sewaproject.eu/)                                                                                    | Over 2,000 minutes of audiovisual data from 398 people with continuous valence and arousal annotations.                     |    True    |
-| **ShEMO**                                  | [ShEMO](https://github.com/mansourehk/ShEMO)                                                                          | 3,000 semi-natural utterances (~3h25m) from 87 native-Persian speakers in 6 emotion categories.                             |    True    |
-| **TESS**                                   | [TESS](https://tspace.library.utoronto.ca/handle/1807/24487)                                                          | 2,800 recordings by 2 actresses covering 7 emotions.                                                                        |    True    |
-| **URDU-Dataset**                           | [URDU-Dataset](https://github.com/siddiquelatif/urdu-dataset)                                                         | 400 utterances by 38 speakers in 4 emotions (angry, happy, neutral, sad).                                                   |    True    |
-| **VIVAE**                                  | [VIVAE](https://zenodo.org/record/4066235)                                                                            | 1,085 non-speech audio files from ~12 speakers covering 6 emotions.                                                         |    True    |
-
-| Dataset       | Download                                                          | Description                                                                                                                   | OpenSource |
-|---------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **VoxPopuli** | [VoxPopuli GitHub](https://github.com/facebookresearch/voxpopuli) | European Parliament recordings (2009–2020) in 23 languages; 400,000 hours of unlabeled and 1,800 hours of transcribed speech. |    True    |
-
-| Dataset                     | Download                                                                         | Description                                                                                                          | OpenSource |
-|-----------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|:----------:|
-| **VCTK (CSTR VCTK Corpus)** | [VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443)                      | Multi-speaker English speech corpus with 109 speakers (≈44h total); used for accent-robust TTS and voice conversion. |    True    |
-| **Arabic Speech Corpus**    | [Arabic Speech Corpus](http://en.arabicspeechcorpus.com/)                        | Modern Standard Arabic (MSA) TTS corpus (1.5GB) with phonetic and orthographic transcriptions.                       |    True    |
-| **EmotionTTS**              | [EmotionTTS](https://github.com/emotiontts/emotiontts_open_db)                   | TTS dataset with recordings in 4 emotions (general, joy, anger, sadness) for emotionally expressive synthesis.       |    True    |
-| **Thorsten dataset**        | [Thorsten dataset](https://github.com/thorstenMueller/deep-learning-german-tts/) | German TTS dataset with 22,668 recorded phrases (~23h); ideal for deep-learning based TTS.                           |    True    |
-
-| Dataset                          | Download                                                                  | Description                                                                              | OpenSource |
-|----------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------|:----------:|
-| **DIHARD Challenge datasets**    | [DIHARD Challenges](https://dihardchallenge.github.io/data.html)          | Diverse, challenging audio datasets from various domains for diarization benchmarking.   |    True    |
-| **DIHARD Challenges**            | [DIHARD](https://dihardchallenge.github.io/)                              | Regularly updated challenges and datasets for evaluating diarization systems.            |    True    |
-| **VoxSRC Challenges (VoxCeleb)** | [VoxSRC](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition.html) | Diarization challenge dataset based on VoxCeleb recordings with celebrity conversations. |    True    |
-
-| Dataset                     | Download                                                              | Description                                                                                   | OpenSource |
-|-----------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|:----------:|
-| **Deep Clustering Dataset** | [Deep Clustering Dataset](https://www.merl.com/demos/deep-clustering) | For training deep discriminative embeddings to solve the cocktail party problem.              |    True    |
-| **VCTK-2Mix**               | [VCTK-2Mix](https://github.com/JorisCos/VCTK-2Mix)                    | Derived from VCTK and WHAM noise; designed as a test set for source separation experiments.   |    True    |
-| **WHAM! and WHAMR!**        | [WHAM! and WHAMR!](http://wham.whisper.ai/)                           | Pairs two-speaker mixtures with real noise backgrounds; WHAMR! adds artificial reverberation. |    True    |
-
-| Dataset                        | Download                                                               | Description                                                                                            | OpenSource |
-|--------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|:----------:|
-| **Coswara**                    | [Coswara](https://github.com/iiscleap/Coswara-Data)                    | Database of respiratory sounds (cough, breath, speech) from healthy and COVID-19 positive individuals. |    True    |
-| **Parkinson's Speech Dataset** | [Parkinson's Speech Dataset](https://archive.org/details/daps_dataset) | Recordings from 20 Parkinson’s patients and 20 healthy subjects across 26 sound types (~20 MB).        |    True    |
-
-| Dataset                         | Download                                                                        | Description                                                                                            | OpenSource |
-|---------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|:----------:|
-| **AudioSet**                    | [AudioSet](https://research.google.com/audioset/)                               | Over 2M human-annotated 10-second video clips with a hierarchical ontology of 632 audio event classes. |    True    |
-| **Environmental Audio Dataset** | [Environmental Audio Dataset](http://www.cs.tut.fi/~heittolt/datasets)          | Manually annotated environmental audio recordings for sound research.                                  |    True    |
-| **Free Music Archive**          | [Free Music Archive](https://github.com/mdeff/fma)                              | Approximately 1000 GB dataset for music analysis.                                                      |    True    |
-| **Freesound Dataset**           | [Freesound Dataset](https://www.kaggle.com/c/freesound-audio-tagging-2019/data) | 678,511 candidate annotations for sound sources in audio clips from Freesound.                         |    True    |
-| **Karoldvl-ESC**                | [ESC-50](https://github.com/karoldvl/ESC-50)                                    | 2,000 5-second environmental audio clips across 50 classes.                                            |    True    |
-| **Million Song Dataset**        | [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/)            | Audio features and metadata for one million popular music tracks (~280 GB).                            |    True    |
-| **MUSDB18**                     | [MUSDB18](https://sigsep.github.io/datasets/musdb.html)                         | Multi-track music dataset for source separation (150 tracks, ~22 GB).                                  |    True    |
-| **Public Domain Sounds**        | [Public Domain Sounds](http://pdsounds.tuxfamily.org/)                          | 524 MB collection of public domain sounds (635 sounds) for tasks like wake word detection.             |    True    |
-| **RSC Sounds**                  | [RSC Sounds](https://github.com/2003scape/rsc-sounds)                           | 8-bit, u-law encoded, 8000 Hz PCM samples from RuneScape Classic.                                      |    True    |
-| **Urban Sound Dataset**         | [Urban Sound Dataset](https://urbansounddataset.weebly.com/)                    | 8,732 labeled urban sound excerpts (≤4s) from 10 classes.                                              |    True    |
-
-| Dataset                                  | Download                                                                                           | Description                                                                                                                 | OpenSource |
-|------------------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|:----------:|
-| **AudioSet**                             | [AudioSet](https://research.google.com/audioset/)                                                  | Audio event dataset of 10-second clips from YouTube, annotated with a hierarchical ontology of 632 classes.                 |    True    |
-| **Speech Commands**                      | [Speech Commands Dataset](http://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) | Spoken words dataset designed for keyword spotting.                                                                         |    True    |
-| **ESC-50**                               | [ESC-50](https://github.com/karoldvl/ESC-50)                                                       | Labeled collection of 2,000 5-second environmental audio recordings across 50 classes.                                      |    True    |
-| **VGG-Sound**                            | [VGG-Sound](https://www.robots.ox.ac.uk/~vgg/data/vggsound/)                                       | Over 210k videos covering 310 audio classes, collected from YouTube.                                                        |    True    |
-| **EPIC-KITCHENS-100**                    | [EPIC-KITCHENS-100](https://epic-kitchens.github.io/EPIC-Kitchens-100/)                            | 100-hour, 20M-frame, 90K-action egocentric video dataset capturing long-term unscripted activities in 45 environments.      |    True    |
-| **FSD50K**                               | [FSD50K](https://zenodo.org/record/4060432)                                                        | Open dataset of 51,197 Freesound clips labeled with 200 classes (AudioSet ontology).                                        |    True    |
-| **UrbanSound8K**                         | [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html)                             | 8,732 labeled urban sound excerpts (≤4s) from 10 classes.                                                                   |    True    |
-| **DiCOVA**                               | [DiCOVA Challenge](https://dcase.community/challenge/2020/task-diCOVA/)                            | Dataset derived from Coswara for detecting COVID-19 from respiratory sounds.                                                |    True    |
-| **FSDnoisy18k**                          | [FSDnoisy18k](https://zenodo.org/record/4060432) *(placeholder)*                                   | Open dataset with 42.5 hours of noisy audio clips across 20 sound event classes.                                            |    True    |
-| **SHD (Spiking Heidelberg Digits)**      | [SHD](https://github.com/Neuromorphic-Computing-Group/SHD-dataset)                                 | Spiking version of the Heidelberg Digits dataset, with audio converted into spike trains.                                   |    True    |
-| **ICBHI Respiratory Sound Database**     | [ICBHI](https://www.icbhi.org/respiratory-sound-database/)                                         | Respiratory sound dataset originally compiled for the ICBHI 2017 Challenge.                                                 |    True    |
-| **EPIC-SOUNDS**                          | [EPIC-SOUNDS](https://epic-kitchens.github.io/EPIC-SOUNDS/)                                        | Large-scale dataset of audio annotations capturing temporal extents and class labels within egocentric video streams.       |    True    |
-| **YouTube-8M**                           | [YouTube-100M](https://research.google.com/youtube-100m/)                                          | 100 million YouTube videos with topic labels; extensive audio content; note: labels are machine-generated and may be noisy. |    True    |
-| **SSC (Spiking Speech Commands v0.2)**   | [SSC](https://github.com/neuromorphic-computing-group/SSC)                                         | Spiking version of the Speech Commands dataset generated using an artificial cochlea model.                                 |    True    |
-| **SONYC-UST-V2**                         | [SONYC-UST-V2](https://zenodo.org/record/3960431)                                                  | Urban sound tagging dataset from the SONYC acoustic sensor network with spatiotemporal metadata.                            |    True    |
-| **TAU-NIGENS Spatial Sound Events 2021** | [TAU-NIGENS](https://zenodo.org/record/4643708)                                                    | Spatial sound-scene recordings with annotated sound events in both microphone array and Ambisonics formats.                 |    True    |
-| **DCASE 2014**                           | [DCASE 2014](http://dcase.community/challenge2014/)                                                | Benchmark dataset for audio classification challenges organized in 2014.                                                    |    True    |
-| **VGGSound-Sparse**                      | [VGGSound-Sparse](https://github.com/karoldvl/VGGSound-Sparse)                                     | Subset of VGG-Sound containing temporally sparse audio-visual clips for classification.                                     |    True    |
-| **SINGA:PURA**                           | [SINGA:PURA](https://github.com/singaporepolytechnic/singa-pura)                                   | Strongly-labelled polyphonic urban sound dataset collected across Singapore for noise monitoring and classification.        |    True    |
+* LibriSpeech
+* LibriVox
+* HowTo100M
+* AESDD
+* ANAD
+* Arabic Speech Corpus
+* AudioSet
+* BAVED
+* CaFE
+* CMU Wilderness
+* CMU-MOSEI
+* CMU-MOSI
+* Coswara
+* CREMA-D
+* DAPS Dataset
+* DCASE 2014
+* Deep Clustering Dataset
+* DEMoS
+* DES
+* DIHARD Challenge datasets
+* DIHARD Challenges
+* EMOVO
+* Emo-DB
+* EmoFilm
+* EmoSynth
+* Emotional Voice dataset - Nature
+* Emotional Voices Database
+* EmotionTTS
+* Emov-DB
+* eNTERFACE05
+* EPIC-KITCHENS-100
+* EPIC-SOUNDS
+* Environmental Audio Dataset
+* ESC-50
+* EPIC-SOUNDS
+* EPIC-SOUNDS
+* FSD50K
+* FSDnoisy18k
+* Free Music Archive
+* Freesound Dataset
+* GEMEP corpus
+* ICBHI Respiratory Sound Database
+* JL corpus
+* Karoldvl-ESC
+* Keio-ESD
+* LEGO Corpus
+* Million Song Dataset
+* Microsoft Scalable Noisy Speech Dataset
+* MIS
+* MSP Podcast Corpus
+* MSP-IMPROV
+* MuSe-CAR
+* Multimodal EmotionLines Dataset (MELD)
+* OGVC
+* Parkinson's Speech Dataset
+* Persian Consonant Vowel Combination (PCVC) Dataset
+* Public Domain Sounds
+* RAVDESS
+* RSC Sounds
+* RECOLA
+* SAVEE Dataset
+* SEWA
+* SER Datasets
+* SEMAINE
+* ShEMO
+* SHD (Spiking Heidelberg Digits)
+* SINGA\:PURA
+* SSC (Spiking Speech Commands v0.2)
+* Tatoeba
+* TAU-NIGENS Spatial Sound Events 2021
+* Thorsten dataset
+* TESS
+* URDU-Dataset
+* VCTK (CSTR VCTK Corpus)
+* VCTK-2Mix
+* VIVAE
+* VGG-Sound
+* VGGSound-Sparse
+* Voice Gender Detection
+* VoxPopuli
+* VoxSRC Challenges (VoxCeleb)
+* WHAM! and WHAMR!
+* Zero Resource Speech Challenge
+* YouTube-8M
 
 ### Unlisted
 
