@@ -145,15 +145,17 @@ tasks, etc._
 * EPIC-KITCHENS-100
 * EPIC-SOUNDS
 * ESC-50
+* TESS
+* VGG-Sound
+* VGGSound-Sparse
+* VIVAE
+* FSD50K
 
 ### Unverified
 
-* FSD50K
-* FSDnoisy18k
 * Free Music Archive
 * Freesound Dataset
 * GEMEP corpus
-* ICBHI Respiratory Sound Database
 * JL corpus
 * Karoldvl-ESC
 * Keio-ESD
@@ -164,7 +166,6 @@ tasks, etc._
 * MuSe-CAR
 * Multimodal EmotionLines Dataset (MELD)
 * OGVC
-* Parkinson's Speech Dataset
 * Persian Consonant Vowel Combination (PCVC) Dataset
 * Public Domain Sounds
 * RAVDESS
@@ -181,14 +182,8 @@ tasks, etc._
 * Tatoeba
 * TAU-NIGENS Spatial Sound Events 2021
 * Thorsten dataset
-* TESS
-* URDU-Dataset
 * VCTK (CSTR VCTK Corpus)
 * VCTK-2Mix
-* VIVAE
-* VGG-Sound
-* VGGSound-Sparse
-* Voice Gender Detection
 * Zero Resource Speech Challenge
 
 ---
