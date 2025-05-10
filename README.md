@@ -64,12 +64,6 @@ other speech processing applications.*
 * YouTube-8M
 * EmoFilm
 
-* EmoSynth
-* Emotional Voice dataset - Nature
-* Emotional Voices Database
-* EmotionTTS
-* Emov-DB
-* eNTERFACE05
 * EPIC-KITCHENS-100
 * EPIC-SOUNDS
 * Environmental Audio Dataset
@@ -193,6 +187,9 @@ tasks, etc._
 * DIHARD Datasets
 * EMOVO
 * Emo-DB
+* EmoSynth
+* EmoV-DB
+* eNTERFACE05
 
 ### Unreviewed
 
