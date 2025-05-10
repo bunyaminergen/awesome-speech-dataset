@@ -63,8 +63,6 @@ other speech processing applications.*
 * Million Song Dataset
 * YouTube-8M
 
-* EMOVO
-* Emo-DB
 * EmoFilm
 * EmoSynth
 * Emotional Voice dataset - Nature
@@ -139,60 +137,62 @@ tasks, etc._
 * **Specific tasks:** Dataset is tailored for highly specialized subtasks or very specific applications.
 
 
-- Speech Wikimedia
-- AudioMNIST
-- Free Spoken Digit Dataset
-- MSR-86K
-- MSNER
-- IEMOCAP
-- Spotify Podcast Datase
-- Flickr Audio Caption Corpus
-- ISOLET
-- Libri-Adapt
-- LibriCSS
-- LibriMix
-- SparseLibriMix
-- Mini LibriSpeech
-- LibriTTS
-- Russian LibriSpeech
-- Libri-Mixed-Speakers
-- LibriTTS-R
-- LJSpeech-1.1
-- IBM Voicemail Corpus
-- Infobip AMD
-- Wavix Voicemail
-- TIMIT
-- NTIMIT
-- CALLHOME American English Speech
-- Fisher English Training Speech
-- ICSI Corpus
-- DEEP-VOICE
-- Hume-VB
-- aGender
-- VocalSound
-- InfantMarmosetsVox
-- MeerKAT: Meerkat Kalahari Audio Transcripts
-- Multimodal PISA (Multimodal Piano Skills Assessment)
-- PC-GITA
-- Respiratory and Drug Actuation Dataset
-- ReefSet
-- HumBug Zooniverse
-- Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
-- Speech Accent Archive
-- MSP Podcast Corpus
-- PCVC (Persian Consonant Vowel Combination)
-- AESDD
-- ANAD
-- Arabic Speech Corpus
-- BAVED
-- Café
-- Coswara
-- CREMA-D
-- Wikimedia Commons
-- DAPS
-- DCASE 2014
-- DEMoS
-- DIHARD Datasets
+* Speech Wikimedia
+* AudioMNIST
+* Free Spoken Digit Dataset
+* MSR-86K
+* MSNER
+* IEMOCAP
+* Spotify Podcast Datase
+* Flickr Audio Caption Corpus
+* ISOLET
+* Libri-Adapt
+* LibriCSS
+* LibriMix
+* SparseLibriMix
+* Mini LibriSpeech
+* LibriTTS
+* Russian LibriSpeech
+* Libri-Mixed-Speakers
+* LibriTTS-R
+* LJSpeech-1.1
+* IBM Voicemail Corpus
+* Infobip AMD
+* Wavix Voicemail
+* TIMIT
+* NTIMIT
+* CALLHOME American English Speech
+* Fisher English Training Speech
+* ICSI Corpus
+* DEEP-VOICE
+* Hume-VB
+* aGender
+* VocalSound
+* InfantMarmosetsVox
+* MeerKAT: Meerkat Kalahari Audio Transcripts
+* Multimodal PISA (Multimodal Piano Skills Assessment)
+* PC-GITA
+* Respiratory and Drug Actuation Dataset
+* ReefSet
+* HumBug Zooniverse
+* Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
+* Speech Accent Archive
+* MSP Podcast Corpus
+* PCVC (Persian Consonant Vowel Combination)
+* AESDD
+* ANAD
+* Arabic Speech Corpus
+* BAVED
+* Café
+* Coswara
+* CREMA-D
+* Wikimedia Commons
+* DAPS
+* DCASE 2014
+* DEMoS
+* DIHARD Datasets
+* EMOVO
+* Emo-DB
 
 ### Unreviewed
 
