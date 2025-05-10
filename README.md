@@ -53,15 +53,15 @@ other speech processing applications.*
 * LibriSpeech
 * LibriVox
 * HowTo100M
-* AESDD
-* ANAD
-* Arabic Speech Corpus
 * AudioSet
-* BAVED
-* CaFE
-* CMU Wilderness
+* CMU Wilderness Multilingual Speech Dataset
 * CMU-MOSEI
 * CMU-MOSI
+* WHAM!
+* WHAMR!
+* VoxPopuli
+* Million Song Dataset
+
 * Coswara
 * CREMA-D
 * DAPS Dataset
@@ -96,8 +96,6 @@ other speech processing applications.*
 * Karoldvl-ESC
 * Keio-ESD
 * LEGO Corpus
-* Million Song Dataset
-* Microsoft Scalable Noisy Speech Dataset
 * MIS
 * MSP Podcast Corpus
 * MSP-IMPROV
@@ -129,9 +127,6 @@ other speech processing applications.*
 * VGG-Sound
 * VGGSound-Sparse
 * Voice Gender Detection
-* VoxPopuli
-* VoxSRC Challenges (VoxCeleb)
-* WHAM! and WHAMR!
 * Zero Resource Speech Challenge
 * YouTube-8M
 
@@ -181,6 +176,11 @@ _Reasons: Insufficient information, extracted/derived from another dataset, not 
 - Speech Accent Archive
 - MSP Podcast Corpus
 - PCVC (Persian Consonant Vowel Combination)
+- AESDD
+- ANAD
+- Arabic Speech Corpus
+- BAVED
+- Café
 
 ### Unreviewed
 
