@@ -151,6 +151,7 @@ tasks, etc._
 * VIVAE
 * FSD50K
 * GEMEP corpus
+* RAVDESS
 
 ### Unverified
 
@@ -164,9 +165,6 @@ tasks, etc._
 * MuSe-CAR
 * Multimodal EmotionLines Dataset (MELD)
 * OGVC
-* Persian Consonant Vowel Combination (PCVC) Dataset
-* Public Domain Sounds
-* RAVDESS
 * RSC Sounds
 * RECOLA
 * SAVEE Dataset
