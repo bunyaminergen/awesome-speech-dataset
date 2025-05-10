@@ -135,8 +135,8 @@ other speech processing applications.*
 _Reasons: Insufficient information, extracted/derived from another dataset, not open source, specific tasks, out of
 date, etc._
 
-* **Insufficient information:** Lack of accompanying research paper, missing uploading steps, absence of metadata or
-  data dictionary, and unclear or unspecified annotation, dataset sources, or registration details.
+* **Insufficient information:** Lack of accompanying research paper, missing downloading steps, absence of metadata or
+  data dictionary, and unclear or unspecified annotation, dataset sources, or recording/collecting details.
 
 * **Extracted/Derived from another dataset:** Dataset has been derived or extracted from another pre-existing dataset.
 
