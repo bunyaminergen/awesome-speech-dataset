@@ -132,8 +132,8 @@ other speech processing applications.*
 
 ### Unlisted
 
-_Reasons: Insufficient information, extracted/derived from another dataset, not open source, specific tasks, out of
-date, etc._
+_Reasons: Insufficient information, extracted/derived from another dataset, not open source, out of date, specific
+tasks, etc._
 
 * **Insufficient information:** Lack of accompanying research paper, missing downloading steps, absence of metadata or
   data dictionary, and unclear or unspecified annotation, dataset sources, or recording/collecting details.
@@ -143,9 +143,9 @@ date, etc._
 * **Not open source:** Limited access due to insufficient publicly available information, many aspects being
   confidential, or availability restricted only to paid access.
 
-* **Specific tasks:** Dataset is tailored for highly specialized subtasks or very specific applications.
-
 * **Out of date:** Dataset is older than five years, indicating potential obsolescence.
+
+* **Specific tasks:** Dataset is tailored for highly specialized subtasks or very specific applications.
 
 
 - Speech Wikimedia
