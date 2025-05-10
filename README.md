@@ -183,6 +183,7 @@ date, etc._
 - BAVED
 - Café
 - Coswara
+- CREMA-D
 
 ### Unreviewed
 
