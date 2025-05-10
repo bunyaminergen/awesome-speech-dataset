@@ -20,9 +20,13 @@ other speech processing applications.*
     - [Unverified](#unverified)
     - [Unlisted](#unlisted)
 - [Hub](#hub)
-    - [TalkBank](#talkbank)
-    - [OpenSLR](#openslr)
-    - [Linguistic Data Consortium](#linguistic-data-consortium)
+    - [Open Source](#open-source)
+        - [OpenSLR](#openslr)
+    - [Closed Source](#openslr)
+        - [Linguistic Data Consortium](#linguistic-data-consortium)
+    - [Both](#openslr)
+        - [TalkBank](#talkbank)
+        - [Zenodo](#zenodo)
 
 ---
 
@@ -207,16 +211,17 @@ tasks, etc._
 
 ## Hub
 
-### TalkBank
-
-- [TalkBank](https://ca.talkbank.org/)
-
-### OpenSLR
+### Open Source
 
 - [OpenSLR.org](http://www.openslr.org)
 
-### Linguistic Data Consortium
+### Closed Source
 
 - [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
+
+### Both
+
+- [TalkBank](https://ca.talkbank.org/)
+- [Zenodo](https://zenodo.org/)
 
 ---
