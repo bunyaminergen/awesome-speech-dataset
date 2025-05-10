@@ -17,7 +17,6 @@ other speech processing applications.*
 
 - [Overview Table of Datasets](#overview-table-of-datasets)
     - [Verified](#verified)
-    - [Unverified](#unverified)
     - [Unlisted](#unlisted)
 - [Hub](#hub)
     - [Open Source](#open-source)
@@ -47,71 +46,6 @@ other speech processing applications.*
 | 13 | MS-SNSD (Microsoft Scalable Noisy Speech Dataset) |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     | True               |                                   |                                     |                         |                               |                      |            |                   |                          |                  | [microsoft/MS-SNSD](https://github.com/microsoft/MS-SNSD)                                              |              | Microsoft                                                                                  |         | [A Scalable Noisy Speech Dataset and Online Subjective Test Framework](https://arxiv.org/abs/1909.08050)                                                                                                                                                          | True        | The Microsoft Scalable Noisy Speech Dataset (MS-SNSD) is an open-source collection of paired clean and noisy English speech clips—augmented with diverse noise types and configurable SNR levels—to facilitate scalable training and evaluation of deep learning–based speech enhancement models.                                  |
 | 14 | Speech Commands Dataset                           |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          | True             | [torchaudio.datasets.SPEECHCOMMANDS](https://docs.pytorch.org/audio/stable/datasets.html)              |              | Google                                                                                     | 2       | [Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition](https://arxiv.org/abs/1804.03209)                                                                                                                                                          |             | The Speech Commands dataset is a publicly available collection of one-second English audio clips of 35 distinct spoken words, designed to train and benchmark small-footprint, on-device keyword-spotting models.                                                                                                                  |
 | 15 | Spoken Wikipedia Corpora                          | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               | True                 |            |                   |                          |                  | [The Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/)                                            | True         | Hamburg University                                                                         | 2       | [Mining the Spoken Wikipedia for Speech Data and Beyond](https://aclanthology.org/L16-1735/)                                                                                                                                                                      |             | The Spoken Wikipedia Corpus is a freely licensed, multilingual dataset of time-aligned audio recordings and text transcripts of Wikipedia articles, produced via an automated scraping and alignment pipeline.                                                                                                                     |
-
-### Unverified
-
-* LibriSpeech
-* LibriVox
-* HowTo100M
-* AudioSet
-* CMU Wilderness Multilingual Speech Dataset
-* CMU-MOSEI
-* CMU-MOSI
-* WHAM!
-* WHAMR!
-* VoxPopuli
-* Million Song Dataset
-* YouTube-8M
-* EmoFilm
-
-* EPIC-KITCHENS-100
-* EPIC-SOUNDS
-* Environmental Audio Dataset
-* ESC-50
-* EPIC-SOUNDS
-* EPIC-SOUNDS
-* FSD50K
-* FSDnoisy18k
-* Free Music Archive
-* Freesound Dataset
-* GEMEP corpus
-* ICBHI Respiratory Sound Database
-* JL corpus
-* Karoldvl-ESC
-* Keio-ESD
-* LEGO Corpus
-* MIS
-* MSP Podcast Corpus
-* MSP-IMPROV
-* MuSe-CAR
-* Multimodal EmotionLines Dataset (MELD)
-* OGVC
-* Parkinson's Speech Dataset
-* Persian Consonant Vowel Combination (PCVC) Dataset
-* Public Domain Sounds
-* RAVDESS
-* RSC Sounds
-* RECOLA
-* SAVEE Dataset
-* SEWA
-* SER Datasets
-* SEMAINE
-* ShEMO
-* SHD (Spiking Heidelberg Digits)
-* SINGA\:PURA
-* SSC (Spiking Speech Commands v0.2)
-* Tatoeba
-* TAU-NIGENS Spatial Sound Events 2021
-* Thorsten dataset
-* TESS
-* URDU-Dataset
-* VCTK (CSTR VCTK Corpus)
-* VCTK-2Mix
-* VIVAE
-* VGG-Sound
-* VGGSound-Sparse
-* Voice Gender Detection
-* Zero Resource Speech Challenge
 
 ### Unlisted
 
@@ -191,9 +125,70 @@ tasks, etc._
 * EmoV-DB
 * eNTERFACE05
 
-### Unreviewed
+### Unverified
 
--
+* LibriSpeech
+* LibriVox
+* HowTo100M
+* AudioSet
+* CMU Wilderness Multilingual Speech Dataset
+* CMU-MOSEI
+* CMU-MOSI
+* WHAM!
+* WHAMR!
+* VoxPopuli
+* Million Song Dataset
+* YouTube-8M
+* EmoFilm
+
+* EPIC-KITCHENS-100
+* EPIC-SOUNDS
+* Environmental Audio Dataset
+* ESC-50
+* EPIC-SOUNDS
+* EPIC-SOUNDS
+* FSD50K
+* FSDnoisy18k
+* Free Music Archive
+* Freesound Dataset
+* GEMEP corpus
+* ICBHI Respiratory Sound Database
+* JL corpus
+* Karoldvl-ESC
+* Keio-ESD
+* LEGO Corpus
+* MIS
+* MSP Podcast Corpus
+* MSP-IMPROV
+* MuSe-CAR
+* Multimodal EmotionLines Dataset (MELD)
+* OGVC
+* Parkinson's Speech Dataset
+* Persian Consonant Vowel Combination (PCVC) Dataset
+* Public Domain Sounds
+* RAVDESS
+* RSC Sounds
+* RECOLA
+* SAVEE Dataset
+* SEWA
+* SER Datasets
+* SEMAINE
+* ShEMO
+* SHD (Spiking Heidelberg Digits)
+* SINGA\:PURA
+* SSC (Spiking Speech Commands v0.2)
+* Tatoeba
+* TAU-NIGENS Spatial Sound Events 2021
+* Thorsten dataset
+* TESS
+* URDU-Dataset
+* VCTK (CSTR VCTK Corpus)
+* VCTK-2Mix
+* VIVAE
+* VGG-Sound
+* VGGSound-Sparse
+* Voice Gender Detection
+* Zero Resource Speech Challenge
 
 ---
 
