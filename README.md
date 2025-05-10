@@ -63,15 +63,6 @@ other speech processing applications.*
 * Million Song Dataset
 * YouTube-8M
 
-*
-*
-* DAPS Dataset
-* DCASE 2014
-* Deep Clustering Dataset
-* DEMoS
-* DES
-* DIHARD Challenge datasets
-* DIHARD Challenges
 * EMOVO
 * Emo-DB
 * EmoFilm
@@ -198,6 +189,10 @@ tasks, etc._
 - Coswara
 - CREMA-D
 - Wikimedia Commons
+- DAPS
+- DCASE 2014
+- DEMoS
+- DIHARD Datasets
 
 ### Unreviewed
 
