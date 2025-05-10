@@ -135,6 +135,19 @@ other speech processing applications.*
 _Reasons: Insufficient information, extracted/derived from another dataset, not open source, specific tasks, out of
 date, etc._
 
+* **Insufficient information:** Lack of accompanying research paper, missing uploading steps, absence of metadata or
+  data dictionary, and unclear or unspecified annotation, dataset sources, or registration details.
+
+* **Extracted/Derived from another dataset:** Dataset has been derived or extracted from another pre-existing dataset.
+
+* **Not open source:** Limited access due to insufficient publicly available information, many aspects being
+  confidential, or availability restricted only to paid access.
+
+* **Specific tasks:** Dataset is tailored for highly specialized subtasks or very specific applications.
+
+* **Out of date:** Dataset is older than five years, indicating potential obsolescence.
+
+
 - Speech Wikimedia
 - AudioMNIST
 - Free Spoken Digit Dataset
@@ -184,6 +197,7 @@ date, etc._
 - Café
 - Coswara
 - CREMA-D
+- Wikimedia Commons
 
 ### Unreviewed
 
