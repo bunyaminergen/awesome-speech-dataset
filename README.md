@@ -124,6 +124,9 @@ tasks, etc._
 * EmoSynth
 * EmoV-DB
 * eNTERFACE05
+* EPIC-KITCHENS-100
+* EPIC-SOUNDS
+* ESC-50
 
 ### Unverified
 
@@ -141,12 +144,6 @@ tasks, etc._
 * YouTube-8M
 * EmoFilm
 
-* EPIC-KITCHENS-100
-* EPIC-SOUNDS
-* Environmental Audio Dataset
-* ESC-50
-* EPIC-SOUNDS
-* EPIC-SOUNDS
 * FSD50K
 * FSDnoisy18k
 * Free Music Archive
