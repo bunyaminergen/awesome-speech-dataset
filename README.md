@@ -22,6 +22,7 @@ other speech processing applications.*
 - [Hub](#hub)
     - [TalkBank](#talkbank)
     - [OpenSLR](#openslr)
+    - [Linguistic Data Consortium](#linguistic-data-consortium)
 
 ---
 
@@ -181,8 +182,6 @@ _Reasons: Insufficient information, extracted/derived from another dataset, not 
 - MSP Podcast Corpus
 - PCVC (Persian Consonant Vowel Combination)
 
----
-
 ### Unreviewed
 
 -
@@ -202,3 +201,5 @@ _Reasons: Insufficient information, extracted/derived from another dataset, not 
 ### Linguistic Data Consortium
 
 - [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
+
+---
