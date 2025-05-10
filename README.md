@@ -150,12 +150,10 @@ tasks, etc._
 * VGGSound-Sparse
 * VIVAE
 * FSD50K
+* GEMEP corpus
 
 ### Unverified
 
-* Free Music Archive
-* Freesound Dataset
-* GEMEP corpus
 * JL corpus
 * Karoldvl-ESC
 * Keio-ESD
