@@ -172,12 +172,12 @@ tasks, etc._
 * ShEMO
 * Spiking Heidelberg Digits (SHD)
 * Spiking Speech Commands (SSC)
+* Tatoeba
+* TAU-NIGENS Spatial Sound
+* Thorsten-Voice
 
 ### Unverified
 
-* Tatoeba
-* TAU-NIGENS Spatial Sound Events 2021
-* Thorsten dataset
 * VCTK (CSTR VCTK Corpus)
 * VCTK-2Mix
 * Zero Resource Speech Challenge
