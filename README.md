@@ -23,7 +23,7 @@ other speech processing applications.*
 - [Hub / Database / Library](#hub--database--library)
     - [Open Source](#open-source)
     - [Closed Source](#closed-source)
-    - [Both](#both)
+    - [Contain Both Open and Closed Sources](#contain-both-open-and-closed-sources)
 
 ---
 
@@ -191,7 +191,7 @@ tasks, etc._
 
 - [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
 
-### Both
+### Contain Both Open and Closed Sources
 
 - [TalkBank](https://ca.talkbank.org/)
 - [Zenodo](https://zenodo.org/)
