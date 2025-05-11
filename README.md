@@ -165,12 +165,12 @@ tasks, etc._
 * OGVC
 * RECOLA
 * SAVEE
-
-### Unverified
-
 * SEWA
 * SEMAINE
 * ShEMO
+
+### Unverified
+
 * SHD (Spiking Heidelberg Digits)
 * SINGA\:PURA
 * SSC (Spiking Speech Commands v0.2)
