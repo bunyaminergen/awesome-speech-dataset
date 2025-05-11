@@ -175,12 +175,8 @@ tasks, etc._
 * Tatoeba
 * TAU-NIGENS Spatial Sound
 * Thorsten-Voice
-
-### Unverified
-
 * VCTK (CSTR VCTK Corpus)
 * VCTK-2Mix
-* Zero Resource Speech Challenge
 
 ---
 
