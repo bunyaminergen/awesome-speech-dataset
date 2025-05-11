@@ -166,7 +166,6 @@ tasks, etc._
 
 ### Unverified
 
-* RSC Sounds
 * RECOLA
 * SAVEE Dataset
 * SEWA
