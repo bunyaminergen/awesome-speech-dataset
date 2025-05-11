@@ -171,10 +171,10 @@ tasks, etc._
 * SEMAINE
 * ShEMO
 * Spiking Heidelberg Digits (SHD)
+* Spiking Speech Commands (SSC)
 
 ### Unverified
 
-* SSC (Spiking Speech Commands v0.2)
 * Tatoeba
 * TAU-NIGENS Spatial Sound Events 2021
 * Thorsten dataset
