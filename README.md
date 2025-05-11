@@ -163,13 +163,12 @@ tasks, etc._
 * MSP-IMPROV
 * MELD (Multimodal EmotionLines Dataset)
 * OGVC
+* RECOLA
+* SAVEE
 
 ### Unverified
 
-* RECOLA
-* SAVEE Dataset
 * SEWA
-* SER Datasets
 * SEMAINE
 * ShEMO
 * SHD (Spiking Heidelberg Digits)
