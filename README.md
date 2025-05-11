@@ -68,6 +68,7 @@ other speech processing applications.*
 * YouTube-8M
 * EmoFilm
 * MuSe-CAR
+* SINGA:PURA
 
 ### Unlisted
 
@@ -168,11 +169,10 @@ tasks, etc._
 * SEWA
 * SEMAINE
 * ShEMO
+* Spiking Heidelberg Digits (SHD)
 
 ### Unverified
 
-* SHD (Spiking Heidelberg Digits)
-* SINGA\:PURA
 * SSC (Spiking Speech Commands v0.2)
 * Tatoeba
 * TAU-NIGENS Spatial Sound Events 2021
