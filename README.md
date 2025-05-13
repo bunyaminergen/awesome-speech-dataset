@@ -56,7 +56,6 @@ other speech processing applications.*
 
 ### Queue
 
-* MASSIVE
 * Million Song Dataset
 * MuSe-CAR
 * SINGA:PURA
