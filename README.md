@@ -53,7 +53,6 @@ other speech processing applications.*
 
 ### Queue
 
-* AudioSet
 * AVSpeech
 * CMU-MOSEI
 * CMU-MOSI
@@ -93,6 +92,7 @@ tasks, etc._
 | 1     | AESDD   |             |
 
 * AESDD
+* AudioSet
 * aGender
 * ANAD
 * Arabic Speech Corpus
