@@ -74,6 +74,7 @@ other speech processing applications.*
 * MuSe-CAR
 * SINGA:PURA
 * AVSpeech
+* MASSIVE
 
 ### Unlisted
 
@@ -255,6 +256,7 @@ tasks, etc._
 * SparseLibriMix
 * Speech Accent Archive
 * Speech Wikimedia
+* Speech-MASSIVE
 * Spotify Podcast Datase
 * Spiking Heidelberg Digits (SHD)
 * Spiking Speech Commands (SSC)
