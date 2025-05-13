@@ -53,9 +53,6 @@ other speech processing applications.*
 
 ### Queue
 
-* CMU-MOSEI
-* CMU-MOSI
-* CMU Wilderness Multilingual Speech Dataset
 * EmoFilm
 * HowTo100M
 * LibriSpeech
@@ -100,6 +97,7 @@ tasks, etc._
 * BAVED
 * CALLHOME American English Speech
 * Café
+* CMU-MOSEI
 * Coswara
 * CREMA-D
 * DAPS
