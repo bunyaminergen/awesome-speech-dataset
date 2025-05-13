@@ -53,7 +53,6 @@ other speech processing applications.*
 
 ### Queue
 
-* EmoFilm
 * HowTo100M
 * LibriSpeech
 * LibriVox
@@ -111,6 +110,7 @@ tasks, etc._
 * EmoV-DB
 * EPIC-KITCHENS-100
 * EPIC-SOUNDS
+* EmoFilm
 * eNTERFACE05
 * ESC-50
 * Fisher English Training Speech
