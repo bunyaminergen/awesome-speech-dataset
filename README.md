@@ -54,7 +54,6 @@ other speech processing applications.*
 
 ### Queue
 
-*
 * LibriVox
 * MASSIVE
 * Million Song Dataset
