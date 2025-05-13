@@ -53,7 +53,6 @@ other speech processing applications.*
 
 ### Queue
 
-* AVSpeech
 * CMU-MOSEI
 * CMU-MOSI
 * CMU Wilderness Multilingual Speech Dataset
@@ -97,6 +96,7 @@ tasks, etc._
 * ANAD
 * Arabic Speech Corpus
 * AudioMNIST
+* AVSpeech
 * BAVED
 * CALLHOME American English Speech
 * Café
