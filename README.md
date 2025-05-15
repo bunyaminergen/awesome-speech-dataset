@@ -55,7 +55,6 @@ other speech processing applications.*
 
 ### Queue
 
-* SINGA:PURA
 * VoxPopuli
 * WHAM!
 * WHAMR!
@@ -157,6 +156,7 @@ tasks, etc._
 * SEWA
 * SEMAINE
 * ShEMO
+* SINGA:PURA (SINGApore: Polyphonic URban Audio)
 * SparseLibriMix
 * Speech Accent Archive
 * Speech Wikimedia
