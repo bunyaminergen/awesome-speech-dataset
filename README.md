@@ -56,7 +56,6 @@ other speech processing applications.*
 
 ### Queue
 
-* MuSe-CAR
 * SINGA:PURA
 * VoxPopuli
 * WHAM!
