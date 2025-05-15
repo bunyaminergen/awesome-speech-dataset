@@ -56,7 +56,6 @@ other speech processing applications.*
 
 ### Queue
 
-*
 * WHAM!
 * WHAMR!
 * YouTube-8M
