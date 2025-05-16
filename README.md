@@ -59,6 +59,8 @@ other speech processing applications.*
 
 * MUSAN
 * WSJ0-2mix
+* TED-LIUM
+* VoxForge
 
 ### Unlisted
 
