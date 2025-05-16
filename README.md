@@ -218,6 +218,7 @@ tasks, etc._
 * TESS
 * THCHS-30
 * Thorsten-Voice
+* The MC Speech Dataset
 * TIMIT
 * TUDA
 * UGIF
