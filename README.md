@@ -104,6 +104,7 @@ tasks, etc._
 * Coswara
 * CoVoST2
 * CREMA-D
+* CVSS
 * DAPS
 * DCASE 2014
 * DEEP-VOICE
@@ -169,14 +170,16 @@ tasks, etc._
 * SEMAINE
 * ShEMO
 * SINGA:PURA (SINGApore: Polyphonic URban Audio)
+* SLUE
 * SparseLibriMix
 * Speech Accent Archive
 * Speech Wikimedia
 * Speech-MASSIVE
-* SPGISpeechs
-* Spotify Podcast Datase
 * Spiking Heidelberg Digits (SHD)
 * Spiking Speech Commands (SSC)
+* SPGISpeechs
+* Spotify Podcast Datase
+* Spoken-SQuAD
 * TAU-NIGENS Spatial Sound
 * Tatoeba
 * TESS
