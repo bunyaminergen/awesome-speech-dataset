@@ -193,6 +193,7 @@ tasks, etc._
 - [OpenSLR.org](http://www.openslr.org)
 - [Sounddata](https://github.com/soundata/)
 - [TorchAudio](https://github.com/pytorch/audio)
+- [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
 
 ### Closed Source
 
