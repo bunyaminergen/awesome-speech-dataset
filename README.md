@@ -169,6 +169,7 @@ tasks, etc._
 * PartialSpoof
 * PC-GITA
 * PCVC (Persian Consonant Vowel Combination)
+* PromptTTS
 * RAVDESS
 * RECOLA
 * ReefSet
