@@ -38,6 +38,8 @@ other speech processing applications.*
 
 * Sagalee
 * SMIIP-TV dataset
+* Pragmatic Similarity Judgments
+* Kallaama
 
 ### Datasets between 2020-23
 
@@ -119,6 +121,7 @@ tasks, etc._
 * BAVED
 * CALLHOME American English Speech
 * Café
+* CML-TTS
 * CMU-MOSEI
 * CN-CELEB
 * Coswara
