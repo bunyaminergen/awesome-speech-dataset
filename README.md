@@ -40,6 +40,8 @@ other speech processing applications.*
 * SMIIP-TV dataset
 * Pragmatic Similarity Judgments
 * Kallaama
+* SlideSpeech
+* Nepali Text-to-Speech Data (Male and Female)
 
 ### Datasets between 2020-23
 
