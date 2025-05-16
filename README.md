@@ -194,6 +194,7 @@ tasks, etc._
 * THCHS-30
 * Thorsten-Voice
 * TIMIT
+* TUDA
 * VCTK (CSTR VCTK Corpus)
 * VCTK-2Mix
 * VGG-Sound
