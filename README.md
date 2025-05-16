@@ -49,6 +49,7 @@ other speech processing applications.*
 * SEP-28k (Stuttering Events in Podcasts)
 * GUM
 * speechocean762
+* BSTC (Baidu Speech Translation Corpus)
 
 ### Timeless
 
