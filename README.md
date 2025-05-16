@@ -113,6 +113,7 @@ tasks, etc._
 * DEEP-VOICE
 * DEMoS
 * DIHARD Datasets
+* Earnings-21
 * EasyCom
 * Europarl-ST
 * EMOVO
