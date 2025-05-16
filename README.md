@@ -63,6 +63,7 @@ other speech processing applications.*
 * WSJ0-2mix
 * TED-LIUM
 * VoxForge
+* VOCASET
 
 ### Unlisted
 
@@ -158,6 +159,7 @@ tasks, etc._
 * RECOLA
 * ReefSet
 * Respiratory and Drug Actuation Dataset
+* ReVerb
 * Russian LibriSpeech
 * SAVEE
 * SEWA
