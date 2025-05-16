@@ -186,6 +186,7 @@ tasks, etc._
 * SparseLibriMix
 * Speech Accent Archive
 * Speech Wikimedia
+* SPEECH-COCO
 * Speech-MASSIVE
 * Spiking Heidelberg Digits (SHD)
 * Spiking Speech Commands (SSC)
