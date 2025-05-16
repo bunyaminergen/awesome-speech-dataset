@@ -146,6 +146,7 @@ tasks, etc._
 * LibriTTS
 * LibriTTS-R
 * LJSpeech-1.1
+* MaSS
 * MELD (Multimodal EmotionLines Dataset)
 * MeerKAT: Meerkat Kalahari Audio Transcripts
 * Mini LibriSpeech
@@ -159,6 +160,7 @@ tasks, etc._
 * MuSe-CAR
 * NTIMIT
 * OGVC
+* PartialSpoof
 * PC-GITA
 * PCVC (Persian Consonant Vowel Combination)
 * RAVDESS
@@ -179,7 +181,7 @@ tasks, etc._
 * Speech-MASSIVE
 * Spiking Heidelberg Digits (SHD)
 * Spiking Speech Commands (SSC)
-* SPGISpeechs
+* SPGISpeech
 * Spotify Podcast Datase
 * Spoken-SQuAD
 * TAU-NIGENS Spatial Sound
