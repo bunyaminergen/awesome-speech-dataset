@@ -50,6 +50,7 @@ other speech processing applications.*
 * GUM
 * speechocean762
 * BSTC (Baidu Speech Translation Corpus)
+* MagicData-RAMC
 
 ### Timeless
 
@@ -71,6 +72,7 @@ other speech processing applications.*
 * TED-LIUM
 * VoxForge
 * VOCASET
+* JVS corpus
 
 ### Unlisted
 
@@ -218,6 +220,7 @@ tasks, etc._
 - [Sounddata](https://github.com/soundata/)
 - [TorchAudio](https://github.com/pytorch/audio)
 - [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
+- [Magic Data](https://www.magicdatatech.com/)
 
 ### Closed Source
 
