@@ -46,6 +46,7 @@ other speech processing applications.*
 * WenetSpeech
 * BEAT (Body-Expression-Audio-Text)
 * Samanantar
+* SEP-28k (Stuttering Events in Podcasts)
 
 ### Timeless
 
@@ -110,6 +111,7 @@ tasks, etc._
 * DEEP-VOICE
 * DEMoS
 * DIHARD Datasets
+* EasyCom
 * Europarl-ST
 * EMOVO
 * Emo-DB
