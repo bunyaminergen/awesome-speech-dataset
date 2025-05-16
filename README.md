@@ -48,6 +48,7 @@ other speech processing applications.*
 * Samanantar
 * SEP-28k (Stuttering Events in Podcasts)
 * GUM
+* speechocean762
 
 ### Timeless
 
