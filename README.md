@@ -43,6 +43,8 @@ other speech processing applications.*
 * Multilingual LibriSpeech (MLS)
 * AISHELL (4)
 * ESD (Emotional Speech Database)
+* WenetSpeech
+* BEAT (Body-Expression-Audio-Text)
 
 ### Timeless
 
