@@ -54,6 +54,8 @@ other speech processing applications.*
 * SOMOS
 * EARS
 * SwissDial
+* Europarl-ASR
+* ADIMA
 
 ### Timeless
 
