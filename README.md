@@ -51,6 +51,7 @@ other speech processing applications.*
 * speechocean762
 * BSTC (Baidu Speech Translation Corpus)
 * MagicData-RAMC
+* SOMOS
 
 ### Timeless
 
