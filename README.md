@@ -95,7 +95,9 @@ tasks, etc._
 * CALLHOME American English Speech
 * Café
 * CMU-MOSEI
+* CN-CELEB
 * Coswara
+* CoVoST2
 * CREMA-D
 * DAPS
 * DCASE 2014
@@ -138,6 +140,7 @@ tasks, etc._
 * MELD (Multimodal EmotionLines Dataset)
 * MeerKAT: Meerkat Kalahari Audio Transcripts
 * Mini LibriSpeech
+* MOSI
 * MSP Podcast Corpus
 * MSP-IMPROV
 * MSNER
