@@ -45,6 +45,7 @@ other speech processing applications.*
 * ESD (Emotional Speech Database)
 * WenetSpeech
 * BEAT (Body-Expression-Audio-Text)
+* Samanantar
 
 ### Timeless
 
@@ -179,6 +180,7 @@ tasks, etc._
 * TAU-NIGENS Spatial Sound
 * Tatoeba
 * TESS
+* THCHS-30
 * Thorsten-Voice
 * TIMIT
 * VCTK (CSTR VCTK Corpus)
@@ -187,6 +189,7 @@ tasks, etc._
 * VGGSound-Sparse
 * VIVAE
 * VocalSound
+* VOICES
 * VoxBlink
 * YouTube-8M
 * Wavix Voicemail
