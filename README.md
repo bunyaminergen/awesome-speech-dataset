@@ -200,6 +200,7 @@ tasks, etc._
 * Thorsten-Voice
 * TIMIT
 * TUDA
+* UGIF
 * VCTK (CSTR VCTK Corpus)
 * VCTK-2Mix
 * VGG-Sound
