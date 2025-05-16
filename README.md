@@ -53,6 +53,7 @@ other speech processing applications.*
 * MagicData-RAMC
 * SOMOS
 * EARS
+* SwissDial
 
 ### Timeless
 
@@ -160,6 +161,7 @@ tasks, etc._
 * MeerKAT: Meerkat Kalahari Audio Transcripts
 * Mini LibriSpeech
 * MOSI
+* MRDA
 * MSP Podcast Corpus
 * MSP-IMPROV
 * MSNER
@@ -222,19 +224,20 @@ tasks, etc._
 
 ### Open Source
 
-- [OpenSLR.org](http://www.openslr.org)
-- [Sounddata](https://github.com/soundata/)
-- [TorchAudio](https://github.com/pytorch/audio)
-- [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
-- [Magic Data](https://www.magicdatatech.com/)
+* [OpenSLR.org](http://www.openslr.org)
+* [Sounddata](https://github.com/soundata/)
+* [TorchAudio](https://github.com/pytorch/audio)
+* [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
+* [Magic Data](https://www.magicdatatech.com/)
+* [European Language Grid](https://live.european-language-grid.eu/)
 
 ### Closed Source
 
-- [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
+* [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
 
 ### Contain Both Open and Closed Sources
 
-- [TalkBank](https://ca.talkbank.org/)
-- [Zenodo](https://zenodo.org/)
+* [TalkBank](https://ca.talkbank.org/)
+* [Zenodo](https://zenodo.org/)
 
 ---
