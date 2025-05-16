@@ -135,6 +135,7 @@ tasks, etc._
 * Free Spoken Digit Dataset
 * FSD50K
 * GEMEP corpus
+* GigaST
 * HowTo100M
 * Hume-VB
 * HumBug Zooniverse
