@@ -47,6 +47,7 @@ other speech processing applications.*
 * BEAT (Body-Expression-Audio-Text)
 * Samanantar
 * SEP-28k (Stuttering Events in Podcasts)
+* SONAR
 
 ### Timeless
 
