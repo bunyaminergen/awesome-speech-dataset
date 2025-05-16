@@ -42,6 +42,7 @@ other speech processing applications.*
 * GigaSpeech
 * Multilingual LibriSpeech (MLS)
 * AISHELL (4)
+* ESD (Emotional Speech Database)
 
 ### Timeless
 
@@ -104,6 +105,7 @@ tasks, etc._
 * DEEP-VOICE
 * DEMoS
 * DIHARD Datasets
+* Europarl-ST
 * EMOVO
 * Emo-DB
 * EmoSynth
