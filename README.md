@@ -132,6 +132,7 @@ tasks, etc._
 * BibleTTS
 * CALLHOME American English Speech
 * Café
+* ClovaCall
 * CML-TTS
 * CMU-MOSEI
 * CN-CELEB
@@ -233,6 +234,7 @@ tasks, etc._
 * SingFake
 * SLUE
 * SparseLibriMix
+* SpeechMatrix
 * Speech Accent Archive
 * Speech Wikimedia
 * SPEECH-COCO
