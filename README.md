@@ -71,6 +71,7 @@ other speech processing applications.*
 * ADIMA
 * Samrómur L2 22.09
 * MediaSpeech
+* Totonac Resources
 
 ### Timeless
 
@@ -173,7 +174,7 @@ tasks, etc._
 * Infobip AMD
 * ISOLET
 * JL corpus
-* KSD (Kazakh Speech Dataset)
+* KSC (Kazakh Speech Corpus)
 * Keio-ESD
 * LEGO Spoken Dialogue Corpus
 * Libri-Adapt
