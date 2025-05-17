@@ -72,6 +72,7 @@ other speech processing applications.*
 * Samrómur L2 22.09
 * MediaSpeech
 * Totonac Resources
+* Multilingual TEDx
 
 ### Timeless
 
