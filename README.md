@@ -45,12 +45,12 @@ other speech processing applications.*
 
 ### Datasets between 2020-23
 
-| Index | Dataset                     | Automatic Speech Recognition (ASR) | Speaker Recognition | Emotion Recognition | Speaker Identification | Speaker Verification | Speech Separation | Speaker Diarisation (Diarization) | Voice Activity Detection (VAD) / Speech Activity Detection (SAD) / Speech Detection | Speech Enhancement | Answering Machine Detection (AMD) | Spoken Language Understanding (SLU) | Speech Translation (ST) | Language Identification (LID) | Text to Speech (TTS) | Spoken NER | Source separation | Dialogue Act Recognition | Keyword Spotting | Audio-Visual(AV) | Download                                                                             | Multilingual | Source                     | Version | Paper                                                                                                                                                                      | Interspeech | Description                                                                                                                                                                                                                                                                                                                               |
-|-------|-----------------------------|------------------------------------|---------------------|---------------------|------------------------|----------------------|-------------------|-----------------------------------|-------------------------------------------------------------------------------------|--------------------|-----------------------------------|-------------------------------------|-------------------------|-------------------------------|----------------------|------------|-------------------|--------------------------|------------------|------------------|--------------------------------------------------------------------------------------|--------------|----------------------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1     | DipCo (Dinner Party Corpus) | True                               |                     |                     | True                   |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            | True              |                          |                  |                  | [DiPCo -- Dinner Party Corpus](https://zenodo.org/records/8122551)                   |              | Amazon                     |         | [DiPCo -- Dinner Party Corpus](https://arxiv.org/abs/1909.13447)                                                                                                           | True        | The Dinner Party Corpus (DiPCo) is a multi-microphone dataset of natural English dinner-table conversations designed for benchmarking noise-robust and distant speech processing tasks.                                                                                                                                                   |
-| 4     | People's Speech             | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [MLCommons/peoples_speech](https://huggingface.co/datasets/MLCommons/peoples_speech) |              | MLCommons                  | 1       | [The People's Speech: A Large-Scale Diverse English Speech Recognition Dataset for Commercial Usage](https://arxiv.org/abs/2111.09344)                                     |             | The People's Speech dataset is a free-to-download, 30,000-hour (and growing) supervised conversational English speech recognition corpus licensed for academic and commercial use under CC-BY-SA.                                                                                                                                         |
-| 5     | VoxConverse                 |                                    | True                |                     | True                   | True                 |                   | True                              |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  | True             | [VoxConverse](https://mm.kaist.ac.kr/datasets/voxconverse/)                          |              | University of Oxford       | 0.3     | [Spot the conversation: speaker diarisation in the wild](https://arxiv.org/abs/2007.01216)                                                                                 | True        | VoxConverse is an audio-visual speaker diarization dataset comprising over 50 hours of multispeaker clips of human speech, automatically extracted and time-aligned from “in the wild” YouTube videos                                                                                                                                     |
-| 6     | VoxPopuli                   | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [facebook/voxpopuli](https://huggingface.co/datasets/facebook/voxpopuli)             | True         | Facebook / Meta            |         | [VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation](https://aclanthology.org/2021.acl-long.80/) |             | VoxPopuli is a large-scale multilingual speech corpus comprising 400 000 hours of unlabeled audio in 23 European languages, 1 800 hours of transcribed speech in 15 languages, and 17 300 hours of aligned oral interpretations, designed for unsupervised representation learning, semi-supervised ASR, and speech translation research. |
+| Index | Dataset                     | Automatic Speech Recognition (ASR) | Speaker Recognition | Emotion Recognition | Speaker Identification | Speaker Verification | Speech Separation | Speaker Diarisation (Diarization) | Voice Activity Detection (VAD) / Speech Activity Detection (SAD) / Speech Detection | Speech Enhancement | Answering Machine Detection (AMD) | Spoken Language Understanding (SLU) | Speech Translation (ST) | Language Identification (LID) | Text to Speech (TTS) | Spoken NER | Source separation | Dialogue Act Recognition | Keyword Spotting | Audio-Visual(AV) | Download                                                                             | Multilingual | Source               | Version | Paper                                                                                                                                                                      | Interspeech | Description                                                                                                                                                                                                                                                                                                                               |
+|-------|-----------------------------|------------------------------------|---------------------|---------------------|------------------------|----------------------|-------------------|-----------------------------------|-------------------------------------------------------------------------------------|--------------------|-----------------------------------|-------------------------------------|-------------------------|-------------------------------|----------------------|------------|-------------------|--------------------------|------------------|------------------|--------------------------------------------------------------------------------------|--------------|----------------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | DipCo (Dinner Party Corpus) | True                               |                     |                     | True                   |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            | True              |                          |                  |                  | [DiPCo -- Dinner Party Corpus](https://zenodo.org/records/8122551)                   |              | Amazon               |         | [DiPCo -- Dinner Party Corpus](https://arxiv.org/abs/1909.13447)                                                                                                           | True        | The Dinner Party Corpus (DiPCo) is a multi-microphone dataset of natural English dinner-table conversations designed for benchmarking noise-robust and distant speech processing tasks.                                                                                                                                                   |
+| 4     | People's Speech             | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [MLCommons/peoples_speech](https://huggingface.co/datasets/MLCommons/peoples_speech) |              | MLCommons            | 1       | [The People's Speech: A Large-Scale Diverse English Speech Recognition Dataset for Commercial Usage](https://arxiv.org/abs/2111.09344)                                     |             | The People's Speech dataset is a free-to-download, 30,000-hour (and growing) supervised conversational English speech recognition corpus licensed for academic and commercial use under CC-BY-SA.                                                                                                                                         |
+| 5     | VoxConverse                 |                                    | True                |                     | True                   | True                 |                   | True                              |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  | True             | [VoxConverse](https://mm.kaist.ac.kr/datasets/voxconverse/)                          |              | University of Oxford | 0.3     | [Spot the conversation: speaker diarisation in the wild](https://arxiv.org/abs/2007.01216)                                                                                 | True        | VoxConverse is an audio-visual speaker diarization dataset comprising over 50 hours of multispeaker clips of human speech, automatically extracted and time-aligned from “in the wild” YouTube videos                                                                                                                                     |
+| 6     | VoxPopuli                   | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [facebook/voxpopuli](https://huggingface.co/datasets/facebook/voxpopuli)             | True         | Facebook / Meta      |         | [VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation](https://aclanthology.org/2021.acl-long.80/) |             | VoxPopuli is a large-scale multilingual speech corpus comprising 400 000 hours of unlabeled audio in 23 European languages, 1 800 hours of transcribed speech in 15 languages, and 17 300 hours of aligned oral interpretations, designed for unsupervised representation learning, semi-supervised ASR, and speech translation research. |
 
 * GigaSpeech
 * Multilingual LibriSpeech (MLS)
@@ -69,6 +69,7 @@ other speech processing applications.*
 * SwissDial
 * Europarl-ASR
 * ADIMA
+* Samrómur L2 22.09
 
 ### Timeless
 
@@ -117,11 +118,13 @@ tasks, etc._
 * Audiocite
 * AudioSet
 * aGender
+* AliMeeting
 * ANAD
 * Arabic Speech Corpus
 * AudioMNIST
 * AVSpeech
 * BAVED
+* BibleTTS
 * CALLHOME American English Speech
 * Café
 * CML-TTS
@@ -145,6 +148,7 @@ tasks, etc._
 * EmoV-DB
 * EPIC-KITCHENS-100
 * EPIC-SOUNDS
+* EMNS
 * EmoFilm
 * eNTERFACE05
 * ESC-50
@@ -154,12 +158,16 @@ tasks, etc._
 * FSD50K
 * GEMEP corpus
 * GigaST
+* Golos
+* Hi-Fi TTS (Hi-Fi Multi-Speaker English TTS Dataset)
 * HowTo100M
 * Hume-VB
 * HumBug Zooniverse
 * IBM Voicemail Corpus
 * ICSI Corpus
 * IEMOCAP
+* IISc-MILE Kannada ASR Corpus
+* IISc-MILE Tamil ASR Corpus
 * InfantMarmosetsVox
 * Infobip AMD
 * ISOLET
@@ -178,6 +186,7 @@ tasks, etc._
 * MELD (Multimodal EmotionLines Dataset)
 * MeerKAT: Meerkat Kalahari Audio Transcripts
 * Mini LibriSpeech
+* Mohammed
 * MOSI
 * MRDA
 * MSP Podcast Corpus
@@ -199,10 +208,15 @@ tasks, etc._
 * Respiratory and Drug Actuation Dataset
 * ReVerb
 * Russian LibriSpeech
+* Samrómur Mimic 22.09
+* SASPEECH
 * SAVEE
 * SEWA
 * SEMAINE
+* SEOUL CORPUS
+* SHALCAS22A
 * ShEMO
+* Silbo Gomero Speech Corpus
 * SINGA:PURA (SINGApore: Polyphonic URban Audio)
 * SLUE
 * SparseLibriMix
@@ -236,6 +250,7 @@ tasks, etc._
 * Wavix Voicemail
 * WHAMR!
 * Wikimedia Commons
+* XBMU-AMDO31
 
 ---
 
