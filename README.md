@@ -41,7 +41,7 @@ other speech processing applications.*
 * Pragmatic Similarity Judgments
 * Kallaama
 * SlideSpeech
-* Nepali Text-to-Speech Data (Male and Female)
+* Emilia
 
 ### Datasets between 2020-23
 
@@ -73,6 +73,7 @@ other speech processing applications.*
 * MediaSpeech
 * Totonac Resources
 * Multilingual TEDx
+* ASCEND
 
 ### Timeless
 
@@ -134,6 +135,7 @@ tasks, etc._
 * CML-TTS
 * CMU-MOSEI
 * CN-CELEB
+* Common Phone
 * Coswara
 * CoVoST2
 * CREMA-D
@@ -201,6 +203,7 @@ tasks, etc._
 * Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
 * Multimodal PISA (Multimodal Piano Skills Assessment)
 * MuSe-CAR
+* Nepali Text-to-Speech Data (Male and Female)
 * NTIMIT
 * OGVC
 * ParlamentParla
