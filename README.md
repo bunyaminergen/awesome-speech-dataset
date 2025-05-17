@@ -114,6 +114,7 @@ tasks, etc._
 | 1     | AESDD   |             |
 
 * AESDD
+* Audiocite
 * AudioSet
 * aGender
 * ANAD
