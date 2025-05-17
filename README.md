@@ -163,6 +163,7 @@ tasks, etc._
 * Infobip AMD
 * ISOLET
 * JL corpus
+* KSD (Kazakh Speech Dataset)
 * Keio-ESD
 * LEGO Spoken Dialogue Corpus
 * Libri-Adapt
