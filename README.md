@@ -124,6 +124,7 @@ tasks, etc._
 * AliMeeting
 * ANAD
 * Arabic Speech Corpus
+* Att-HACK
 * AudioMNIST
 * AVSpeech
 * BAVED
@@ -189,6 +190,7 @@ tasks, etc._
 * MELD (Multimodal EmotionLines Dataset)
 * MeerKAT: Meerkat Kalahari Audio Transcripts
 * Mini LibriSpeech
+* MobvoiHotwords
 * Mohammed
 * MOSI
 * MRDA
@@ -201,6 +203,7 @@ tasks, etc._
 * MuSe-CAR
 * NTIMIT
 * OGVC
+* ParlamentParla
 * PartialSpoof
 * PC-GITA
 * PCVC (Persian Consonant Vowel Combination)
@@ -256,6 +259,7 @@ tasks, etc._
 * WHAMR!
 * Wikimedia Commons
 * XBMU-AMDO31
+* Zeroth-Korean
 
 ---
 
