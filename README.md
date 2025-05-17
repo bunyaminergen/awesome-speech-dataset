@@ -70,6 +70,7 @@ other speech processing applications.*
 * Europarl-ASR
 * ADIMA
 * Samrómur L2 22.09
+* MediaSpeech
 
 ### Timeless
 
