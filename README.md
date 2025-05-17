@@ -205,6 +205,7 @@ tasks, etc._
 * PC-GITA
 * PCVC (Persian Consonant Vowel Combination)
 * PromptTTS
+* Puebla-Nahuatl
 * RAVDESS
 * RECOLA
 * ReefSet
@@ -249,6 +250,7 @@ tasks, etc._
 * VocalSound
 * VOICES
 * VoxBlink
+* Yoloxóchitl-Mixtec
 * YouTube-8M
 * Wavix Voicemail
 * WHAMR!
