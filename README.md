@@ -317,6 +317,8 @@ tasks, etc._
 * EmoSpeech
 * FT Speech
 * Greek Parliament Proceedings
+* JSS Dataset (Jejueo Single Speaker Speech)
+
 
 ---
 
