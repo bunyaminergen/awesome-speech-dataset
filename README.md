@@ -53,6 +53,11 @@ other speech processing applications.*
 * DreamVoice
 * LongVALE
 * MSNER
+* SpeechBrown
+* United-MedSyn
+* Vibravox
+* Watch Your Mouth: Point Clouds based Speech Recognition Dataset
+* inaGVAD
 
 ### Datasets between 2020-23
 
@@ -87,6 +92,9 @@ other speech processing applications.*
 * ASCEND
 * NISP
 * NISQA Speech Quality Corpus
+* Silent Speech EMG
+* VESUS
+* Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
 
 ### Timeless
 
@@ -110,6 +118,7 @@ other speech processing applications.*
 * VOCASET
 * JVS corpus
 * GRID
+* CMU Wilderness Multilingual Speech Dataset
 
 ### Unlisted
 
@@ -329,6 +338,8 @@ tasks, etc._
 * Persian Preschool Cognition Speech
 * Quechua-SER
 * RUSLAN
+* VedantaNY-10M
+* MCCSD (Mandarin Chinese Cued Speech Dataset)
 
 ---
 
