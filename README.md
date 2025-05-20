@@ -340,6 +340,7 @@ tasks, etc._
 * RUSLAN
 * VedantaNY-10M
 * MCCSD (Mandarin Chinese Cued Speech Dataset)
+* TurkicASR
 
 ---
 
