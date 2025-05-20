@@ -50,6 +50,7 @@ other speech processing applications.*
 * Jam-ALT
 * CAS-VSR-S101
 * CUCO Database
+* DreamVoice
 
 ### Datasets between 2020-23
 
@@ -312,6 +313,10 @@ tasks, etc._
 * AVASpeech-SMAD
 * Arabic Speech Commands Dataset.
 * DR-VCTK
+* EVI
+* EmoSpeech
+* FT Speech
+* Greek Parliament Proceedings
 
 ---
 
@@ -325,6 +330,7 @@ tasks, etc._
 * [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
 * [Magic Data](https://www.magicdatatech.com/)
 * [European Language Grid](https://live.european-language-grid.eu/)
+* [Freesound](https://freesound.org/)
 
 ### Closed Source
 
