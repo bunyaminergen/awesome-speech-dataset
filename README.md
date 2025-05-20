@@ -45,6 +45,11 @@ other speech processing applications.*
 * SpeechInstruct
 * VietMed
 * GTSinger
+* EdAcc (Edinburgh International Accents of English Corpus)
+* Neural Audio Fingerprint Dataset
+* Jam-ALT
+* CAS-VSR-S101
+* CUCO Database
 
 ### Datasets between 2020-23
 
@@ -286,6 +291,27 @@ tasks, etc._
 * Timers and Such
 * ASR-GLUE
 * EMOVIE
+* LibriVoxDeEn
+* NusaCrowd
+* RESD
+* SpokenSTS
+* TaL Corpus (The Tongue and Lips Corpus)
+* AV Digits Database
+* BD-4SK-ASR
+* CI-AVSR
+* JVS-MuSiC
+* LaboroTVSpeech
+* MASRI-HEADSET
+* MAVS
+* NPSC
+* MultiSV
+* NeuroVoz
+* RyanSpeech
+* SDN (Situated Dialogue Navigation)
+* AVA-Speech
+* AVASpeech-SMAD
+* Arabic Speech Commands Dataset.
+* DR-VCTK
 
 ---
 
