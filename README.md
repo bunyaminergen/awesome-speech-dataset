@@ -42,6 +42,9 @@ other speech processing applications.*
 * Kallaama
 * SlideSpeech
 * Emilia
+* SpeechInstruct
+* VietMed
+* GTSinger
 
 ### Datasets between 2020-23
 
@@ -182,8 +185,10 @@ tasks, etc._
 * Interview
 * ISOLET
 * JL corpus
+* KazakhTTS
 * KSC (Kazakh Speech Corpus)
 * Keio-ESD
+* Kosp2e
 * LEGO Spoken Dialogue Corpus
 * Libri-Adapt
 * Libri-Mixed-Speakers
@@ -214,6 +219,7 @@ tasks, etc._
 * PartialSpoof
 * PC-GITA
 * PCVC (Persian Consonant Vowel Combination)
+* PodcastFillers
 * PromptTTS
 * Puebla-Nahuatl
 * RAVDESS
@@ -273,7 +279,13 @@ tasks, etc._
 
 * DeToxy
 * EasyCall
-*
+* REAL-M
+* RTASC
+* ReMASC
+* Talking With Hands 16.2M
+* Timers and Such
+* ASR-GLUE
+* EMOVIE
 
 ---
 
