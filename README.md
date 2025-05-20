@@ -86,6 +86,7 @@ other speech processing applications.*
 * Multilingual TEDx
 * ASCEND
 * NISP
+* NISQA Speech Quality Corpus
 
 ### Timeless
 
@@ -325,6 +326,9 @@ tasks, etc._
 * Kinect-WSJ
 * LibriS2S
 * MediBeng
+* Persian Preschool Cognition Speech
+* Quechua-SER
+* RUSLAN
 
 ---
 
