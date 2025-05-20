@@ -51,6 +51,8 @@ other speech processing applications.*
 * CAS-VSR-S101
 * CUCO Database
 * DreamVoice
+* LongVALE
+* MSNER
 
 ### Datasets between 2020-23
 
@@ -106,6 +108,7 @@ other speech processing applications.*
 * VoxForge
 * VOCASET
 * JVS corpus
+* GRID
 
 ### Unlisted
 
@@ -318,6 +321,10 @@ tasks, etc._
 * FT Speech
 * Greek Parliament Proceedings
 * JSS Dataset (Jejueo Single Speaker Speech)
+* THVD (Talking Head Video Dataset)
+* Kinect-WSJ
+* LibriS2S
+* MediBeng
 
 ---
 
