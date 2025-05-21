@@ -345,6 +345,8 @@ tasks, etc._
 * QUESST 2014
 * SNIPS
 * YESNO
+* AccentDB
+* Free Spoken Digit Dataset (FSDD)
 
 ---
 
