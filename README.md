@@ -181,7 +181,6 @@ tasks, etc._
 * EMNS
 * EmoFilm
 * eNTERFACE05
-* ESC-50
 * Fisher English Training Speech
 * Flickr Audio Caption Corpus
 * FMFCC-A
@@ -339,6 +338,13 @@ tasks, etc._
 * VedantaNY-10M
 * MCCSD (Mandarin Chinese Cued Speech Dataset)
 * TurkicASR
+* UrbanSound8K
+* CMUARCTIC
+* CMUDict
+* Fluent Speech Commands
+* QUESST 2014
+* SNIPS
+* YESNO
 
 ---
 
@@ -347,7 +353,6 @@ tasks, etc._
 ### Open Source
 
 * [OpenSLR.org](http://www.openslr.org)
-* [Sounddata](https://github.com/soundata/)
 * [TorchAudio](https://github.com/pytorch/audio)
 * [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
 * [Magic Data](https://www.magicdatatech.com/)
