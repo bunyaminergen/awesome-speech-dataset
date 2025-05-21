@@ -119,6 +119,9 @@ other speech processing applications.*
 * JVS corpus
 * GRID
 * CMU Wilderness Multilingual Speech Dataset
+* MuST-C
+* Europarl (European Parliament Proceedings Parallel Corpus)
+* LRS2 (Lip Reading Sentences 2)
 
 ### Unlisted
 
@@ -347,6 +350,8 @@ tasks, etc._
 * YESNO
 * AccentDB
 * Free Spoken Digit Dataset (FSDD)
+* Libri-Light
+* LRS3-TED
 
 ---
 
