@@ -58,6 +58,8 @@ other speech processing applications.*
 * Vibravox
 * Watch Your Mouth: Point Clouds based Speech Recognition Dataset
 * inaGVAD
+* SONICS
+* FakeMusicCaps
 
 ### Datasets between 2020-23
 
@@ -127,6 +129,7 @@ other speech processing applications.*
 * MSP-IMPROV
 * CREMA-D
 * RAVDESS
+* AVA (Atomic Visual Actions)
 
 ### Unlisted
 
@@ -221,6 +224,7 @@ tasks, etc._
 * LibriMix
 * LibriTTS
 * LibriTTS-R
+* LJSpeech
 * LJSpeech-1.1
 * MaSS
 * MeerKAT: Meerkat Kalahari Audio Transcripts
@@ -363,6 +367,9 @@ tasks, etc._
 * LSSED
 * Doc2Dial
 * Switchboard-1 Corpus
+* CPED
+* LRW (Lip Reading in the Wild)
+* CSS10
 
 ---
 
