@@ -122,6 +122,11 @@ other speech processing applications.*
 * MuST-C
 * Europarl (European Parliament Proceedings Parallel Corpus)
 * LRS2 (Lip Reading Sentences 2)
+* IEMOCAP
+* MELD (Multimodal EmotionLines Dataset)
+* MSP-IMPROV
+* CREMA-D
+* RAVDESS
 
 ### Unlisted
 
@@ -164,8 +169,8 @@ tasks, etc._
 * CN-CELEB
 * Common Phone
 * Coswara
+* CoVoST
 * CoVoST2
-* CREMA-D
 * CVSS
 * DAPS
 * DCASE 2014
@@ -198,7 +203,6 @@ tasks, etc._
 * HumBug Zooniverse
 * IBM Voicemail Corpus
 * ICSI Corpus
-* IEMOCAP
 * IISc-MILE Kannada ASR Corpus
 * IISc-MILE Tamil ASR Corpus
 * InfantMarmosetsVox
@@ -219,7 +223,6 @@ tasks, etc._
 * LibriTTS-R
 * LJSpeech-1.1
 * MaSS
-* MELD (Multimodal EmotionLines Dataset)
 * MeerKAT: Meerkat Kalahari Audio Transcripts
 * Mini LibriSpeech
 * MobvoiHotwords
@@ -227,7 +230,6 @@ tasks, etc._
 * MOSI
 * MRDA
 * MSP Podcast Corpus
-* MSP-IMPROV
 * MSNER
 * MSR-86K
 * Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
@@ -243,7 +245,6 @@ tasks, etc._
 * PodcastFillers
 * PromptTTS
 * Puebla-Nahuatl
-* RAVDESS
 * RECOLA
 * ReefSet
 * Respiratory and Drug Actuation Dataset
@@ -352,6 +353,16 @@ tasks, etc._
 * Free Spoken Digit Dataset (FSDD)
 * Libri-Light
 * LRS3-TED
+* CAS-VSR-W1k (LRW-1000)
+* GLips
+* DIRHA
+* BERSt
+* CANDOR
+* MSP-Podcast
+* EmoDB
+* LSSED
+* Doc2Dial
+* Switchboard-1 Corpus
 
 ---
 
