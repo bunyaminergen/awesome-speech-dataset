@@ -130,6 +130,8 @@ other speech processing applications.*
 * CREMA-D
 * RAVDESS
 * AVA (Atomic Visual Actions)
+* Fluent Speech Commands
+* MIR Corpora
 
 ### Unlisted
 
@@ -277,6 +279,7 @@ tasks, etc._
 * SPGISpeech
 * Spotify Podcast Datase
 * Spoken-SQuAD
+* TAU Urban Acoustic Scenes 2019
 * TAU-NIGENS Spatial Sound
 * Tatoeba
 * TESS
@@ -349,7 +352,6 @@ tasks, etc._
 * UrbanSound8K
 * CMUARCTIC
 * CMUDict
-* Fluent Speech Commands
 * QUESST 2014
 * SNIPS
 * YESNO
@@ -370,6 +372,8 @@ tasks, etc._
 * CPED
 * LRW (Lip Reading in the Wild)
 * CSS10
+* iKala
+* FKD (Football Keywords Dataset)
 
 ---
 
