@@ -60,6 +60,9 @@ other speech processing applications.*
 * inaGVAD
 * SONICS
 * FakeMusicCaps
+* Granary
+* OpenLID
+* GlotLID
 
 ### Datasets between 2020-23
 
@@ -97,6 +100,8 @@ other speech processing applications.*
 * Silent Speech EMG
 * VESUS
 * Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
+* DDS (Device-Degraded Speech)
+* ATIS (Air Travel Information System)
 
 ### Timeless
 
@@ -135,6 +140,10 @@ other speech processing applications.*
 * NIST SRE (SRE Data)
 * SITW
 * DIHARD
+* Voicebank DEMAND
+* SLURP
+* Tatoeba
+* CMUDict
 
 ### Unlisted
 
@@ -251,6 +260,7 @@ tasks, etc._
 * PC-GITA
 * PCVC (Persian Consonant Vowel Combination)
 * PodcastFillers
+* PromptSpeech
 * PromptTTS
 * Puebla-Nahuatl
 * RECOLA
@@ -353,7 +363,6 @@ tasks, etc._
 * TurkicASR
 * UrbanSound8K
 * CMUARCTIC
-* CMUDict
 * QUESST 2014
 * SNIPS
 * YESNO
@@ -377,6 +386,10 @@ tasks, etc._
 * iKala
 * FKD (Football Keywords Dataset)
 * mDRT
+* BABEL Speech Corpus
+* WiLI-2018
+* Common Language
+* NLI-PT
 
 ---
 
