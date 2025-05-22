@@ -415,6 +415,7 @@ tasks, etc._
 ### Closed Source
 
 * [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
+* [ELRA Catalogue of Language Resources](https://catalogue.elra.info/)
 
 ### Contain Both Open and Closed Sources
 
