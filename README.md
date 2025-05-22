@@ -132,6 +132,7 @@ other speech processing applications.*
 * AVA (Atomic Visual Actions)
 * Fluent Speech Commands
 * MIR Corpora
+* NIST SRE (SRE Data)
 
 ### Unlisted
 
@@ -382,6 +383,7 @@ tasks, etc._
 
 ### Open Source
 
+* [ISCA Archive](https://www.isca-archive.org/)
 * [OpenSLR.org](http://www.openslr.org)
 * [TorchAudio](https://github.com/pytorch/audio)
 * [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
