@@ -74,6 +74,17 @@ other speech processing applications.*
 36. Divide and Remaster v3 (DnR v3)
 37. ITALIC
 38. FalAI
+39. TextrolSpeech
+40. Audiobox
+41. Lombard-GRID-2mix
+42. wTIMIT2mix
+43. SonicSet (SonicSim)
+44. TextrolMix
+45. MultiCAT (Multimodal Communication Annotations for Teams)
+46. KAN-AV
+47. Facestar
+48. RVTALL
+49. AVE-Speech
 
 ### Datasets between 2020-23
 
@@ -418,6 +429,21 @@ tasks, etc._
 235. LibriheavyMix
 236. Echo2Mix
 237. RATS Low Speech Density
+238. BhasaAnuvaad
+239. AVMuST-TED
+240. RoDia
+241. NLSpeech
+242. Balinese TTS
+243. Rasa
+244. IndicVoices-R
+245. RASwDA (Re-Aligned Switchboard Dialog Act Corpus)
+246. MOCKS
+247. WenetPhrase
+248. MDSC
+249. LIP-RTVE
+250. SlideAVSR
+251. OLKAVS
+252. AVA Datasets
 
 ---
 
