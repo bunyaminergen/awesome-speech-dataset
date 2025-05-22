@@ -63,6 +63,8 @@ other speech processing applications.*
 25. Granary
 26. OpenLID
 27. GlotLID
+28. VoxBlink
+29. VoxTube
 
 ### Datasets between 2020-23
 
@@ -311,91 +313,92 @@ tasks, etc._
 139. VIVAE
 140. VocalSound
 141. VOICES
-142. VoxBlink
-143. Yoloxóchitl-Mixtec
-144. YouTube-8M
-145. Wavix Voicemail
-146. WHAMR!
-147. Wikimedia Commons
-148. XBMU-AMDO31
-149. Zeroth-Korean
-150. DeToxy
-151. EasyCall
-152. REAL-M
-153. RTASC
-154. ReMASC
-155. Talking With Hands 16.2M
-156. Timers and Such
-157. ASR-GLUE
-158. EMOVIE
-159. LibriVoxDeEn
-160. NusaCrowd
-161. RESD
-162. SpokenSTS
-163. TaL Corpus (The Tongue and Lips Corpus)
-164. AV Digits Database
-165. BD-4SK-ASR
-166. CI-AVSR
-167. JVS-MuSiC
-168. LaboroTVSpeech
-169. MASRI-HEADSET
-170. MAVS
-171. NPSC
-172. MultiSV
-173. NeuroVoz
-174. RyanSpeech
-175. SDN (Situated Dialogue Navigation)
-176. AVA-Speech
-177. AVASpeech-SMAD
-178. Arabic Speech Commands Dataset.
-179. DR-VCTK
-180. EVI
-181. EmoSpeech
-182. FT Speech
-183. Greek Parliament Proceedings
-184. JSS Dataset (Jejueo Single Speaker Speech)
-185. THVD (Talking Head Video Dataset)
-186. Kinect-WSJ
-187. LibriS2S
-188. MediBeng
-189. Persian Preschool Cognition Speech
-190. Quechua-SER
-191. RUSLAN
-192. VedantaNY-10M
-193. MCCSD (Mandarin Chinese Cued Speech Dataset)
-194. TurkicASR
-195. UrbanSound8K
-196. CMUARCTIC
-197. QUESST 2014
-198. SNIPS
-199. YESNO
-200. AccentDB
-201. Free Spoken Digit Dataset (FSDD)
-202. Libri-Light
-203. LRS3-TED
-204. CAS-VSR-W1k (LRW-1000)
-205. GLips
-206. DIRHA
-207. BERSt
-208. CANDOR
-209. MSP-Podcast
-210. EmoDB
-211. LSSED
-212. Doc2Dial
-213. Switchboard-1 Corpus
-214. CPED (Chinese Personalized and Emotional Dialogue)
-215. LRW (Lip Reading in the Wild)
-216. CSS10
-217. iKala
-218. FKD (Football Keywords Dataset)
-219. mDRT
-220. BABEL Speech Corpus
-221. WiLI-2018
-222. Common Language
-223. NLI-PT
-224. FUSS (Free Universal Sound Separation)
-225. Auto-KWS
-226. AVMIT (Audiovisual Moments in Time)
+142. Yoloxóchitl-Mixtec
+143. YouTube-8M
+144. Wavix Voicemail
+145. WHAMR!
+146. Wikimedia Commons
+147. XBMU-AMDO31
+148. Zeroth-Korean
+149. DeToxy
+150. EasyCall
+151. REAL-M
+152. RTASC
+153. ReMASC
+154. Talking With Hands 16.2M
+155. Timers and Such
+156. ASR-GLUE
+157. EMOVIE
+158. LibriVoxDeEn
+159. NusaCrowd
+160. RESD
+161. SpokenSTS
+162. TaL Corpus (The Tongue and Lips Corpus)
+163. AV Digits Database
+164. BD-4SK-ASR
+165. CI-AVSR
+166. JVS-MuSiC
+167. LaboroTVSpeech
+168. MASRI-HEADSET
+169. MAVS
+170. NPSC
+171. MultiSV
+172. NeuroVoz
+173. RyanSpeech
+174. SDN (Situated Dialogue Navigation)
+175. AVA-Speech
+176. AVASpeech-SMAD
+177. Arabic Speech Commands Dataset.
+178. DR-VCTK
+179. EVI
+180. EmoSpeech
+181. FT Speech
+182. Greek Parliament Proceedings
+183. JSS Dataset (Jejueo Single Speaker Speech)
+184. THVD (Talking Head Video Dataset)
+185. Kinect-WSJ
+186. LibriS2S
+187. MediBeng
+188. Persian Preschool Cognition Speech
+189. Quechua-SER
+190. RUSLAN
+191. VedantaNY-10M
+192. MCCSD (Mandarin Chinese Cued Speech Dataset)
+193. TurkicASR
+194. UrbanSound8K
+195. CMUARCTIC
+196. QUESST 2014
+197. SNIPS
+198. YESNO
+199. AccentDB
+200. Free Spoken Digit Dataset (FSDD)
+201. Libri-Light
+202. LRS3-TED
+203. CAS-VSR-W1k (LRW-1000)
+204. GLips
+205. DIRHA
+206. BERSt
+207. CANDOR
+208. MSP-Podcast
+209. EmoDB
+210. LSSED
+211. Doc2Dial
+212. Switchboard-1 Corpus
+213. CPED (Chinese Personalized and Emotional Dialogue)
+214. LRW (Lip Reading in the Wild)
+215. CSS10
+216. iKala
+217. FKD (Football Keywords Dataset)
+218. mDRT
+219. BABEL Speech Corpus
+220. WiLI-2018
+221. Common Language
+222. NLI-PT
+223. FUSS (Free Universal Sound Separation)
+224. Auto-KWS
+225. AVMIT (Audiovisual Moments in Time)
+226. Lingala Read Speech Corpus
+227. Congolese Speech Radio Corpus
 
 ---
 
