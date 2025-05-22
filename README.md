@@ -71,6 +71,9 @@ other speech processing applications.*
 33. KBES
 34. Dusha
 35. M5SER
+36. Divide and Remaster v3 (DnR v3)
+37. ITALIC
+38. FalAI
 
 ### Datasets between 2020-23
 
@@ -412,6 +415,9 @@ tasks, etc._
 232. MDER
 233. EMOVOME
 234. Spanish MEACorpus 2023
+235. LibriheavyMix
+236. Echo2Mix
+237. RATS Low Speech Density
 
 ---
 
