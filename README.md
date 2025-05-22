@@ -68,6 +68,9 @@ other speech processing applications.*
 30. MSR-86K
 31. 3D-Speaker
 32. EmoSet
+33. KBES
+34. Dusha
+35. M5SER
 
 ### Datasets between 2020-23
 
@@ -405,6 +408,10 @@ tasks, etc._
 228. Friends-MMC
 229. Laboro-ASV (LaboroTVSpeech-ASV)
 230. CAVES (Cantonese Audio-Visual Emotional Speech)
+231. BANSpEmo
+232. MDER
+233. EMOVOME
+234. Spanish MEACorpus 2023
 
 ---
 
