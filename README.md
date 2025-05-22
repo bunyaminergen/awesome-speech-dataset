@@ -36,33 +36,33 @@ other speech processing applications.*
 | 1     | Common Voice | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [Common Voice](https://commonvoice.mozilla.org/en/datasets)  | True         | Mozilla Foundation         | 21      |                                                                                 |             | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed).                                                                                                                                                                                                                    |
 | 2     | nEMO         | True                               |                     | True                |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               | True                 |            |                   |                          |                  |                  | [amu-cai/nEMO](https://huggingface.co/datasets/amu-cai/nEMO) |              | Adam Mickiewicz University |         | [nEMO: Dataset of Emotional Speech in Polish](https://arxiv.org/abs/2404.06292) |             | nEMO is a Creative Commons-licensed corpus of 4,481 Polish speech recordings by nine actors portraying six emotions (anger, fear, happiness, sadness, surprise, neutral), each with audio, orthographic and normalized transcriptions, and speaker metadata, designed for speech emotion recognition, ASR, and TTS research. |
 
-* Sagalee
-* SMIIP-TV dataset
-* Pragmatic Similarity Judgments
-* Kallaama
-* SlideSpeech
-* Emilia
-* SpeechInstruct
-* VietMed
-* GTSinger
-* EdAcc (Edinburgh International Accents of English Corpus)
-* Neural Audio Fingerprint Dataset
-* Jam-ALT
-* CAS-VSR-S101
-* CUCO Database
-* DreamVoice
-* LongVALE
-* MSNER
-* SpeechBrown
-* United-MedSyn
-* Vibravox
-* Watch Your Mouth: Point Clouds based Speech Recognition Dataset
-* inaGVAD
-* SONICS
-* FakeMusicCaps
-* Granary
-* OpenLID
-* GlotLID
+1. Sagalee
+2. SMIIP-TV dataset
+3. Pragmatic Similarity Judgments
+4. Kallaama
+5. SlideSpeech
+6. Emilia
+7. SpeechInstruct
+8. VietMed
+9. GTSinger
+10. EdAcc (Edinburgh International Accents of English Corpus)
+11. Neural Audio Fingerprint Dataset
+12. Jam-ALT
+13. CAS-VSR-S101
+14. CUCO Database
+15. DreamVoice
+16. LongVALE
+17. MSNER
+18. SpeechBrown
+19. United-MedSyn
+20. Vibravox
+21. Watch Your Mouth: Point Clouds based Speech Recognition Dataset
+22. inaGVAD
+23. SONICS
+24. FakeMusicCaps
+25. Granary
+26. OpenLID
+27. GlotLID
 
 ### Datasets between 2020-23
 
@@ -145,6 +145,8 @@ other speech processing applications.*
 25. Tatoeba
 26. CMUDict
 27. Switchboard Dialog Act Corpus (SwDA)
+28. SGD (Schema-Guided Dialogue)
+29. AVSpeech
 
 ### Unlisted
 
@@ -176,221 +178,223 @@ tasks, etc._
 7. Arabic Speech Corpus
 8. Att-HACK
 9. AudioMNIST
-10. AVSpeech
-11. BAVED
-12. BibleTTS
-13. CALLHOME American English Speech
-14. Café
-15. ClovaCall
-16. CML-TTS
-17. CMU-MOSEI
-18. CN-CELEB
-19. Common Phone
-20. Coswara
-21. CoVoST
-22. CoVoST2
-23. CVSS
-24. DAPS
-25. DCASE 2014
-26. DEEP-VOICE
-27. DEMoS
-28. Earnings-21
-29. EasyCom
-30. Europarl-ST
-31. EMOVO
-32. Emo-DB
-33. EmoSynth
-34. EmoV-DB
-35. EPIC-KITCHENS-100
-36. EPIC-SOUNDS
-37. EMNS
-38. EmoFilm
-39. eNTERFACE05
-40. Fisher English Training Speech
-41. Flickr Audio Caption Corpus
-42. FMFCC-A
-43. Free Spoken Digit Dataset
-44. FSD50K
-45. GEMEP corpus
-46. GigaST
-47. Golos
-48. Hi-Fi TTS (Hi-Fi Multi-Speaker English TTS Dataset)
-49. HowTo100M
-50. Hume-VB
-51. HumBug Zooniverse
-52. IBM Voicemail Corpus
-53. ICSI Corpus
-54. IISc-MILE Kannada ASR Corpus
-55. IISc-MILE Tamil ASR Corpus
-56. InfantMarmosetsVox
-57. Infobip AMD
-58. Interview
-59. ISOLET
-60. JL corpus
-61. KazakhTTS
-62. KSC (Kazakh Speech Corpus)
-63. Keio-ESD
-64. Kosp2e
-65. LEGO Spoken Dialogue Corpus
-66. Libri-Adapt
-67. Libri-Mixed-Speakers
-68. LibriCSS
-69. LibriMix
-70. LibriTTS
-71. LibriTTS-R
-72. LJSpeech
-73. LJSpeech-1.1
-74. MaSS
-75. MeerKAT: Meerkat Kalahari Audio Transcripts
-76. Mini LibriSpeech
-77. MobvoiHotwords
-78. Mohammed
-79. MOSI
-80. MRDA (ICSI Meeting Recorder Dialog Act Corpus)
-81. MSP Podcast Corpus
-82. MSNER
-83. MSR-86K
-84. Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
-85. Multimodal PISA (Multimodal Piano Skills Assessment)
-86. MuSe-CAR
-87. Nepali Text-to-Speech Data (Male and Female)
-88. NTIMIT
-89. OGVC
-90. ParlamentParla
-91. PartialSpoof
-92. PC-GITA
-93. PCVC (Persian Consonant Vowel Combination)
-94. PodcastFillers
-95. PromptSpeech
-96. PromptTTS
-97. Puebla-Nahuatl
-98. RECOLA
-99. ReefSet
-100. Respiratory and Drug Actuation Dataset
-101. ReVerb
-102. Russian LibriSpeech
-103. Samrómur Mimic 22.09
-104. SASPEECH
-105. SAVEE
-106. SEWA
-107. SEMAINE
-108. SEOUL CORPUS
-109. SHALCAS22A
-110. ShEMO
-111. Silbo Gomero Speech Corpus
-112. SINGA:PURA (SINGApore: Polyphonic URban Audio)
-113. SingFake
-114. SLUE
-115. SparseLibriMix
-116. SpeechMatrix
-117. Speech Accent Archive
-118. Speech Wikimedia
-119. SPEECH-COCO
-120. Speech-MASSIVE
-121. Spiking Heidelberg Digits (SHD)
-122. Spiking Speech Commands (SSC)
-123. SPGISpeech
-124. Spotify Podcast Datase
-125. Spoken-SQuAD
-126. TAU Urban Acoustic Scenes 2019
-127. TAU-NIGENS Spatial Sound
-128. Tatoeba
-129. TESS
-130. THCHS-30
-131. Thorsten-Voice
-132. The MC Speech Dataset
-133. TIMIT
-134. TUDA
-135. UGIF
-136. VCTK (CSTR VCTK Corpus)
-137. VCTK-2Mix
-138. VGG-Sound
-139. VGGSound-Sparse
-140. VIVAE
-141. VocalSound
-142. VOICES
-143. VoxBlink
-144. Yoloxóchitl-Mixtec
-145. YouTube-8M
-146. Wavix Voicemail
-147. WHAMR!
-148. Wikimedia Commons
-149. XBMU-AMDO31
-150. Zeroth-Korean
-151. DeToxy
-152. EasyCall
-153. REAL-M
-154. RTASC
-155. ReMASC
-156. Talking With Hands 16.2M
-157. Timers and Such
-158. ASR-GLUE
-159. EMOVIE
-160. LibriVoxDeEn
-161. NusaCrowd
-162. RESD
-163. SpokenSTS
-164. TaL Corpus (The Tongue and Lips Corpus)
-165. AV Digits Database
-166. BD-4SK-ASR
-167. CI-AVSR
-168. JVS-MuSiC
-169. LaboroTVSpeech
-170. MASRI-HEADSET
-171. MAVS
-172. NPSC
-173. MultiSV
-174. NeuroVoz
-175. RyanSpeech
-176. SDN (Situated Dialogue Navigation)
-177. AVA-Speech
-178. AVASpeech-SMAD
-179. Arabic Speech Commands Dataset.
-180. DR-VCTK
-181. EVI
-182. EmoSpeech
-183. FT Speech
-184. Greek Parliament Proceedings
-185. JSS Dataset (Jejueo Single Speaker Speech)
-186. THVD (Talking Head Video Dataset)
-187. Kinect-WSJ
-188. LibriS2S
-189. MediBeng
-190. Persian Preschool Cognition Speech
-191. Quechua-SER
-192. RUSLAN
-193. VedantaNY-10M
-194. MCCSD (Mandarin Chinese Cued Speech Dataset)
-195. TurkicASR
-196. UrbanSound8K
-197. CMUARCTIC
-198. QUESST 2014
-199. SNIPS
-200. YESNO
-201. AccentDB
-202. Free Spoken Digit Dataset (FSDD)
-203. Libri-Light
-204. LRS3-TED
-205. CAS-VSR-W1k (LRW-1000)
-206. GLips
-207. DIRHA
-208. BERSt
-209. CANDOR
-210. MSP-Podcast
-211. EmoDB
-212. LSSED
-213. Doc2Dial
-214. Switchboard-1 Corpus
-215. CPED
-216. LRW (Lip Reading in the Wild)
-217. CSS10
-218. iKala
-219. FKD (Football Keywords Dataset)
-220. mDRT
-221. BABEL Speech Corpus
-222. WiLI-2018
-223. Common Language
-224. NLI-PT
+10. BAVED
+11. BibleTTS
+12. CALLHOME American English Speech
+13. Café
+14. ClovaCall
+15. CML-TTS
+16. CMU-MOSEI
+17. CN-CELEB
+18. Common Phone
+19. Coswara
+20. CoVoST
+21. CoVoST2
+22. CVSS
+23. DAPS
+24. DCASE 2014
+25. DEEP-VOICE
+26. DEMoS
+27. Earnings-21
+28. EasyCom
+29. Europarl-ST
+30. EMOVO
+31. Emo-DB
+32. EmoSynth
+33. EmoV-DB
+34. EPIC-KITCHENS-100
+35. EPIC-SOUNDS
+36. EMNS
+37. EmoFilm
+38. eNTERFACE05
+39. Fisher English Training Speech
+40. Flickr Audio Caption Corpus
+41. FMFCC-A
+42. Free Spoken Digit Dataset
+43. FSD50K
+44. GEMEP corpus
+45. GigaST
+46. Golos
+47. Hi-Fi TTS (Hi-Fi Multi-Speaker English TTS Dataset)
+48. HowTo100M
+49. Hume-VB
+50. HumBug Zooniverse
+51. IBM Voicemail Corpus
+52. ICSI Corpus
+53. IISc-MILE Kannada ASR Corpus
+54. IISc-MILE Tamil ASR Corpus
+55. InfantMarmosetsVox
+56. Infobip AMD
+57. Interview
+58. ISOLET
+59. JL corpus
+60. KazakhTTS
+61. KSC (Kazakh Speech Corpus)
+62. Keio-ESD
+63. Kosp2e
+64. LEGO Spoken Dialogue Corpus
+65. Libri-Adapt
+66. Libri-Mixed-Speakers
+67. LibriCSS
+68. LibriMix
+69. LibriTTS
+70. LibriTTS-R
+71. LJSpeech
+72. LJSpeech-1.1
+73. MaSS
+74. MeerKAT: Meerkat Kalahari Audio Transcripts
+75. Mini LibriSpeech
+76. MobvoiHotwords
+77. Mohammed
+78. MOSI
+79. MRDA (ICSI Meeting Recorder Dialog Act Corpus)
+80. MSP Podcast Corpus
+81. MSNER
+82. MSR-86K
+83. Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
+84. Multimodal PISA (Multimodal Piano Skills Assessment)
+85. MuSe-CAR
+86. Nepali Text-to-Speech Data (Male and Female)
+87. NTIMIT
+88. OGVC
+89. ParlamentParla
+90. PartialSpoof
+91. PC-GITA
+92. PCVC (Persian Consonant Vowel Combination)
+93. PodcastFillers
+94. PromptSpeech
+95. PromptTTS
+96. Puebla-Nahuatl
+97. RECOLA
+98. ReefSet
+99. Respiratory and Drug Actuation Dataset
+100. ReVerb
+101. Russian LibriSpeech
+102. Samrómur Mimic 22.09
+103. SASPEECH
+104. SAVEE
+105. SEWA
+106. SEMAINE
+107. SEOUL CORPUS
+108. SHALCAS22A
+109. ShEMO
+110. Silbo Gomero Speech Corpus
+111. SINGA:PURA (SINGApore: Polyphonic URban Audio)
+112. SingFake
+113. SLUE
+114. SparseLibriMix
+115. SpeechMatrix
+116. Speech Accent Archive
+117. Speech Wikimedia
+118. SPEECH-COCO
+119. Speech-MASSIVE
+120. Spiking Heidelberg Digits (SHD)
+121. Spiking Speech Commands (SSC)
+122. SPGISpeech
+123. Spotify Podcast Datase
+124. Spoken-SQuAD
+125. TAU Urban Acoustic Scenes 2019
+126. TAU-NIGENS Spatial Sound
+127. Tatoeba
+128. TESS
+129. THCHS-30
+130. Thorsten-Voice
+131. The MC Speech Dataset
+132. TIMIT
+133. TUDA
+134. UGIF
+135. VCTK (CSTR VCTK Corpus)
+136. VCTK-2Mix
+137. VGG-Sound
+138. VGGSound-Sparse
+139. VIVAE
+140. VocalSound
+141. VOICES
+142. VoxBlink
+143. Yoloxóchitl-Mixtec
+144. YouTube-8M
+145. Wavix Voicemail
+146. WHAMR!
+147. Wikimedia Commons
+148. XBMU-AMDO31
+149. Zeroth-Korean
+150. DeToxy
+151. EasyCall
+152. REAL-M
+153. RTASC
+154. ReMASC
+155. Talking With Hands 16.2M
+156. Timers and Such
+157. ASR-GLUE
+158. EMOVIE
+159. LibriVoxDeEn
+160. NusaCrowd
+161. RESD
+162. SpokenSTS
+163. TaL Corpus (The Tongue and Lips Corpus)
+164. AV Digits Database
+165. BD-4SK-ASR
+166. CI-AVSR
+167. JVS-MuSiC
+168. LaboroTVSpeech
+169. MASRI-HEADSET
+170. MAVS
+171. NPSC
+172. MultiSV
+173. NeuroVoz
+174. RyanSpeech
+175. SDN (Situated Dialogue Navigation)
+176. AVA-Speech
+177. AVASpeech-SMAD
+178. Arabic Speech Commands Dataset.
+179. DR-VCTK
+180. EVI
+181. EmoSpeech
+182. FT Speech
+183. Greek Parliament Proceedings
+184. JSS Dataset (Jejueo Single Speaker Speech)
+185. THVD (Talking Head Video Dataset)
+186. Kinect-WSJ
+187. LibriS2S
+188. MediBeng
+189. Persian Preschool Cognition Speech
+190. Quechua-SER
+191. RUSLAN
+192. VedantaNY-10M
+193. MCCSD (Mandarin Chinese Cued Speech Dataset)
+194. TurkicASR
+195. UrbanSound8K
+196. CMUARCTIC
+197. QUESST 2014
+198. SNIPS
+199. YESNO
+200. AccentDB
+201. Free Spoken Digit Dataset (FSDD)
+202. Libri-Light
+203. LRS3-TED
+204. CAS-VSR-W1k (LRW-1000)
+205. GLips
+206. DIRHA
+207. BERSt
+208. CANDOR
+209. MSP-Podcast
+210. EmoDB
+211. LSSED
+212. Doc2Dial
+213. Switchboard-1 Corpus
+214. CPED (Chinese Personalized and Emotional Dialogue)
+215. LRW (Lip Reading in the Wild)
+216. CSS10
+217. iKala
+218. FKD (Football Keywords Dataset)
+219. mDRT
+220. BABEL Speech Corpus
+221. WiLI-2018
+222. Common Language
+223. NLI-PT
+224. FUSS (Free Universal Sound Separation)
+225. Auto-KWS
+226. AVMIT (Audiovisual Moments in Time)
 
 ---
 
