@@ -144,6 +144,7 @@ other speech processing applications.*
 24. SLURP
 25. Tatoeba
 26. CMUDict
+27. Switchboard Dialog Act Corpus (SwDA)
 
 ### Unlisted
 
@@ -245,7 +246,7 @@ tasks, etc._
 77. MobvoiHotwords
 78. Mohammed
 79. MOSI
-80. MRDA
+80. MRDA (ICSI Meeting Recorder Dialog Act Corpus)
 81. MSP Podcast Corpus
 82. MSNER
 83. MSR-86K
