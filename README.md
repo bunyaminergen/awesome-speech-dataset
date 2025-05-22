@@ -73,35 +73,35 @@ other speech processing applications.*
 | 3     | VoxConverse                 |                                    | True                |                     | True                   | True                 |                   | True                              |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  | True             | [VoxConverse](https://mm.kaist.ac.kr/datasets/voxconverse/)                          |              | University of Oxford | 0.3     | [Spot the conversation: speaker diarisation in the wild](https://arxiv.org/abs/2007.01216)                                                                                 | True        | VoxConverse is an audio-visual speaker diarization dataset comprising over 50 hours of multispeaker clips of human speech, automatically extracted and time-aligned from “in the wild” YouTube videos                                                                                                                                     |
 | 4     | VoxPopuli                   | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [facebook/voxpopuli](https://huggingface.co/datasets/facebook/voxpopuli)             | True         | Facebook / Meta      |         | [VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation](https://aclanthology.org/2021.acl-long.80/) |             | VoxPopuli is a large-scale multilingual speech corpus comprising 400 000 hours of unlabeled audio in 23 European languages, 1 800 hours of transcribed speech in 15 languages, and 17 300 hours of aligned oral interpretations, designed for unsupervised representation learning, semi-supervised ASR, and speech translation research. |
 
-* GigaSpeech
-* Multilingual LibriSpeech (MLS)
-* AISHELL (4)
-* ESD (Emotional Speech Database)
-* WenetSpeech
-* BEAT (Body-Expression-Audio-Text)
-* Samanantar
-* SEP-28k (Stuttering Events in Podcasts)
-* GUM
-* speechocean762
-* BSTC (Baidu Speech Translation Corpus)
-* MagicData-RAMC
-* SOMOS
-* EARS
-* SwissDial
-* Europarl-ASR
-* ADIMA
-* Samrómur L2 22.09
-* MediaSpeech
-* Totonac Resources
-* Multilingual TEDx
-* ASCEND
-* NISP
-* NISQA Speech Quality Corpus
-* Silent Speech EMG
-* VESUS
-* Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
-* DDS (Device-Degraded Speech)
-* ATIS (Air Travel Information System)
+1. GigaSpeech
+2. Multilingual LibriSpeech (MLS)
+3. AISHELL (4)
+4. ESD (Emotional Speech Database)
+5. WenetSpeech
+6. BEAT (Body-Expression-Audio-Text)
+7. Samanantar
+8. SEP-28k (Stuttering Events in Podcasts)
+9. GUM
+10. speechocean762
+11. BSTC (Baidu Speech Translation Corpus)
+12. MagicData-RAMC
+13. SOMOS
+14. EARS
+15. SwissDial
+16. Europarl-ASR
+17. ADIMA
+18. Samrómur L2 22.09
+19. MediaSpeech
+20. Totonac Resources
+21. Multilingual TEDx
+22. ASCEND
+23. NISP
+24. NISQA Speech Quality Corpus
+25. Silent Speech EMG
+26. VESUS
+27. Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
+28. DDS (Device-Degraded Speech)
+29. ATIS (Air Travel Information System)
 
 ### Timeless
 
@@ -118,32 +118,32 @@ other speech processing applications.*
 | 9     | VoxCeleb                                          | True                               | True                | True                | True                   | True                 | True              |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  | True             | [VoxCeleb](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html)                      | True         | University of Oxford                                                                       | 2       | [VoxCeleb2: Deep Speaker Recognition](https://www.robots.ox.ac.uk/~vgg/publications/2018/Chung18a/chung18a.pdf)                                                                                                                                                   | True        | Over 1 million utterances from 6,112 speakers (~2,442 hours) for state-of-the-art speaker recognition research.                                                                                                                                                                                                                    |
 | 10    | WHAM!                                             |                                    |                     |                     |                        |                      | True              |                                   |                                                                                     | True               |                                   |                                     |                         |                               |                      |            | True              |                          |                  |                  | [WHAM!](http://wham.whisper.ai/)                                                          |              | Mitsubishi Electric Research Laboratories (MERL) /  Whisper.ai                             |         | [WHAM!: Extending Speech Separation to Noisy Environments](https://arxiv.org/abs/1907.01160)                                                                                                                                                                      | True        | The WHAM! dataset pairs two-speaker WSJ0 mixtures with real ambient noise recorded in San Francisco Bay Area venues to benchmark speech separation and enhancement models under realistic noisy conditions.                                                                                                                        |
 
-* MUSAN
-* WSJ0-2mix
-* TED-LIUM
-* VoxForge
-* VOCASET
-* JVS corpus
-* GRID
-* CMU Wilderness Multilingual Speech Dataset
-* MuST-C
-* Europarl (European Parliament Proceedings Parallel Corpus)
-* LRS2 (Lip Reading Sentences 2)
-* IEMOCAP
-* MELD (Multimodal EmotionLines Dataset)
-* MSP-IMPROV
-* CREMA-D
-* RAVDESS
-* AVA (Atomic Visual Actions)
-* Fluent Speech Commands
-* MIR Corpora
-* NIST SRE (SRE Data)
-* SITW
-* DIHARD
-* Voicebank DEMAND
-* SLURP
-* Tatoeba
-* CMUDict
+1. MUSAN
+2. WSJ0-2mix
+3. TED-LIUM
+4. VoxForge
+5. VOCASET
+6. JVS corpus
+7. GRID
+8. CMU Wilderness Multilingual Speech Dataset
+9. MuST-C
+10. Europarl (European Parliament Proceedings Parallel Corpus)
+11. LRS2 (Lip Reading Sentences 2)
+12. IEMOCAP
+13. MELD (Multimodal EmotionLines Dataset)
+14. MSP-IMPROV
+15. CREMA-D
+16. RAVDESS
+17. AVA (Atomic Visual Actions)
+18. Fluent Speech Commands
+19. MIR Corpora
+20. NIST SRE (SRE Data)
+21. SITW
+22. DIHARD
+23. Voicebank DEMAND
+24. SLURP
+25. Tatoeba
+26. CMUDict
 
 ### Unlisted
 
