@@ -403,6 +403,8 @@ tasks, etc._
 226. Congolese Speech Radio Corpus
 227. Zambezi Voice
 228. Friends-MMC
+229. Laboro-ASV (LaboroTVSpeech-ASV)
+230. CAVES (Cantonese Audio-Visual Emotional Speech)
 
 ---
 
