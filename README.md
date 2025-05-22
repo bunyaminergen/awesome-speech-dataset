@@ -134,6 +134,7 @@ other speech processing applications.*
 * MIR Corpora
 * NIST SRE (SRE Data)
 * SITW
+* DIHARD
 
 ### Unlisted
 
@@ -183,7 +184,6 @@ tasks, etc._
 * DCASE 2014
 * DEEP-VOICE
 * DEMoS
-* DIHARD Datasets
 * Earnings-21
 * EasyCom
 * Europarl-ST
@@ -386,6 +386,7 @@ tasks, etc._
 
 * [ISCA Archive](https://www.isca-archive.org/)
 * [OpenSLR.org](http://www.openslr.org)
+* [Voicebank](https://www.voicebank.ie/)
 * [TorchAudio](https://github.com/pytorch/audio)
 * [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
 * [Magic Data](https://www.magicdatatech.com/)
