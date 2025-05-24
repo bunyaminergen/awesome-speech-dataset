@@ -84,38 +84,23 @@ other speech processing applications.*
 47. Facestar
 48. RVTALL
 49. AVE-Speech
+50. EARS
 
 ### Datasets between 2020-23
 
-1. GigaSpeech
-2. Multilingual LibriSpeech (MLS)
-3. AISHELL (4)
-4. ESD (Emotional Speech Database)
-5. WenetSpeech
-6. BEAT (Body-Expression-Audio-Text)
-7. Samanantar
-8. SEP-28k (Stuttering Events in Podcasts)
-9. GUM
-10. speechocean762
-11. BSTC (Baidu Speech Translation Corpus)
-12. MagicData-RAMC
-13. SOMOS
-14. EARS
-15. SwissDial
-16. Europarl-ASR
-17. ADIMA
-18. Samrómur L2 22.09
-19. MediaSpeech
-20. Totonac Resources
-21. Multilingual TEDx
-22. ASCEND
-23. NISP
-24. NISQA Speech Quality Corpus
-25. Silent Speech EMG
-26. VESUS
-27. Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
-28. DDS (Device-Degraded Speech)
-29. ATIS (Air Travel Information System)
+* ADIMA
+* Samrómur L2 22.09
+* MediaSpeech
+* Totonac Resources
+* Multilingual TEDx
+* ASCEND
+* NISP
+* NISQA Speech Quality Corpus
+* Silent Speech EMG
+* VESUS
+* Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
+* DDS (Device-Degraded Speech)
+* ATIS (Air Travel Information System)
 
 ### Timeless
 
@@ -165,6 +150,14 @@ other speech processing applications.*
 28. SGD (Schema-Guided Dialogue)
 29. AVSpeech
 30. MIT (Moments in Time Dataset)
+31. GigaSpeech
+32. Multilingual LibriSpeech (MLS)
+33. AISHELL (4)
+34. ESD (Emotional Speech Database)
+35. WenetSpeech
+36. BEAT (Body-Expression-Audio-Text)
+37. BSTC (Baidu Speech Translation Corpus)
+38. SOMOS
 
 ### Unlisted
 
@@ -440,6 +433,13 @@ tasks, etc._
 251. OLKAVS
 252. AVA Datasets
 253. DipCo (Dinner Party Corpus)
+254. Samanantar
+255. SEP-28k (Stuttering Events in Podcasts)
+256. GUM
+257. speechocean762
+258. MagicData-RAMC
+259. SwissDials
+260. Europarl-ASR
 
 ---
 
