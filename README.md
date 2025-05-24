@@ -88,17 +88,8 @@ other speech processing applications.*
 
 ### Datasets between 2020-23
 
-* ADIMA
-* Samrómur L2 22.09
-* MediaSpeech
-* Totonac Resources
-* Multilingual TEDx
-* ASCEND
-* NISP
-* NISQA Speech Quality Corpus
 * Silent Speech EMG
 * VESUS
-* Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
 * DDS (Device-Degraded Speech)
 * ATIS (Air Travel Information System)
 
@@ -158,6 +149,7 @@ other speech processing applications.*
 36. BEAT (Body-Expression-Audio-Text)
 37. BSTC (Baidu Speech Translation Corpus)
 38. SOMOS
+39. Multilingual TEDx
 
 ### Unlisted
 
@@ -440,6 +432,14 @@ tasks, etc._
 258. MagicData-RAMC
 259. SwissDials
 260. Europarl-ASR
+261. Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
+262. ADIMA
+263. Samrómur L2 22.09
+264. MediaSpeech
+265. Totonac Resources
+266. ASCEND
+267. NISP
+268. NISQA Speech Quality Corpus
 
 ---
 
