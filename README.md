@@ -444,19 +444,19 @@ tasks, etc._
 
 ### Open Source
 
-* [ISCA Archive](https://www.isca-archive.org/)
-* [OpenSLR.org](http://www.openslr.org)
-* [Voicebank](https://www.voicebank.ie/)
-* [TorchAudio](https://github.com/pytorch/audio)
-* [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
-* [Magic Data](https://www.magicdatatech.com/)
 * [European Language Grid](https://live.european-language-grid.eu/)
 * [Freesound](https://freesound.org/)
+* [ISCA Archive](https://www.isca-archive.org/)
+* [Magic Data](https://www.magicdatatech.com/)
+* [OpenSLR.org](http://www.openslr.org)
+* [TorchAudio](https://github.com/pytorch/audio)
+* [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/overview)
+* [Voicebank](https://www.voicebank.ie/)
 
 ### Closed Source
 
-* [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
 * [ELRA Catalogue of Language Resources](https://catalogue.elra.info/)
+* [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
 
 ### Contain Both Open and Closed Sources
 
