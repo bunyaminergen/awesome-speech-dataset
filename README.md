@@ -104,46 +104,12 @@ other speech processing applications.*
 | 12    | VoxConverse                                       |                                    | True                |                     | True                   | True                 |                   | True                              |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  | True             | [VoxConverse](https://mm.kaist.ac.kr/datasets/voxconverse/)                               |              | University of Oxford                                                                       | 0.3     | [Spot the conversation: speaker diarisation in the wild](https://arxiv.org/abs/2007.01216)                                                                                                                                                                        | True        | VoxConverse is an audio-visual speaker diarization dataset comprising over 50 hours of multispeaker clips of human speech, automatically extracted and time-aligned from “in the wild” YouTube videos                                                                                                                                     |
 | 13    | VoxPopuli                                         | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [facebook/voxpopuli](https://huggingface.co/datasets/facebook/voxpopuli)                  | True         | Facebook / Meta                                                                            |         | [VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation](https://aclanthology.org/2021.acl-long.80/)                                                                                        |             | VoxPopuli is a large-scale multilingual speech corpus comprising 400 000 hours of unlabeled audio in 23 European languages, 1 800 hours of transcribed speech in 15 languages, and 17 300 hours of aligned oral interpretations, designed for unsupervised representation learning, semi-supervised ASR, and speech translation research. |
 
-1. MUSAN
-2. WSJ0-2mix
-3. TED-LIUM
-4. VoxForge
-5. VOCASET
-6. JVS corpus
-7. GRID
-8. CMU Wilderness Multilingual Speech Dataset
-9. MuST-C
-10. Europarl (European Parliament Proceedings Parallel Corpus)
-11. LRS2 (Lip Reading Sentences 2)
-12. IEMOCAP
-13. MELD (Multimodal EmotionLines Dataset)
-14. MSP-IMPROV
-15. CREMA-D
-16. RAVDESS
-17. AVA (Atomic Visual Actions)
-18. Fluent Speech Commands
-19. MIR Corpora
-20. NIST SRE (SRE Data)
-21. SITW
-22. DIHARD
-23. Voicebank DEMAND
-24. SLURP
-25. Tatoeba
-26. CMUDict
-27. Switchboard Dialog Act Corpus (SwDA)
-28. SGD (Schema-Guided Dialogue)
-29. AVSpeech
-30. MIT (Moments in Time Dataset)
-31. GigaSpeech
-32. Multilingual LibriSpeech (MLS)
-33. AISHELL (4)
-34. ESD (Emotional Speech Database)
-35. WenetSpeech
-36. BEAT (Body-Expression-Audio-Text)
-37. BSTC (Baidu Speech Translation Corpus)
-38. SOMOS
-39. Multilingual TEDx
-40. ATIS (Air Travel Information System)
+* TED-LIUM
+* Europarl (European Parliament Proceedings Parallel Corpus)
+* IEMOCAP
+* GigaSpeech
+* Multilingual TEDx
+* ATIS (Air Travel Information System)
 
 ### Unlisted
 
@@ -437,6 +403,41 @@ tasks, etc._
 269. Silent Speech EMG
 270. VESUS
 271. DDS (Device-Degraded Speech)
+272. MUSAN
+273. WSJ0-2mix
+274. VoxForge
+275. VOCASET
+276. JVS corpus
+277. GRID
+278. CMU Wilderness Multilingual Speech Dataset
+279. MuST-C
+280. LRS2 (Lip Reading Sentences 2)
+281. MELD (Multimodal EmotionLines Dataset)
+282. MSP-IMPROV
+283. CREMA-D
+284. RAVDESS
+285. AVA (Atomic Visual Actions)
+286. Fluent Speech Commands
+287. MIR Corpora
+288. NIST SRE (SRE Data)
+289. SITW
+290. DIHARD
+291. DIHARD
+292. Voicebank DEMAND
+293. SLURP
+294. Tatoeba
+295. CMUDict
+296. Switchboard Dialog Act Corpus (SwDA)
+297. SGD (Schema-Guided Dialogue)
+298. AVSpeech
+299. MIT (Moments in Time Dataset)
+300. Multilingual LibriSpeech (MLS)
+301. AISHELL (4)
+302. ESD (Emotional Speech Database)
+303. WenetSpeech
+304. BEAT (Body-Expression-Audio-Text)
+305. BSTC (Baidu Speech Translation Corpus)
+306. SOMOS
 
 ---
 
