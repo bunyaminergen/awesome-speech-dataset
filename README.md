@@ -129,10 +129,6 @@ tasks, etc._
 
 * **Specific tasks:** Dataset is tailored for highly specialized subtasks or very specific applications.
 
-| Index | Dataset | Description |
-|-------|---------|-------------|
-| 1     | AESDD   |             |
-
 1. AESDD
 2. Audiocite
 3. AudioSet
