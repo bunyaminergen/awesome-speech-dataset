@@ -109,6 +109,8 @@ other speech processing applications.*
 | 17    | VoxConverse                                                |                                    | True                |                     | True                   | True                 |                   | True                              |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  | True             | [VoxConverse](https://mm.kaist.ac.kr/datasets/voxconverse/)                               |              | University of Oxford                                                                       | 0.3     | [Spot the conversation: speaker diarisation in the wild](https://arxiv.org/abs/2007.01216)                                                                                                                                                                        | True        | VoxConverse is an audio-visual speaker diarization dataset comprising over 50 hours of multispeaker clips of human speech, automatically extracted and time-aligned from “in the wild” YouTube videos                                                                                                                                     |
 | 18    | VoxPopuli                                                  | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [facebook/voxpopuli](https://huggingface.co/datasets/facebook/voxpopuli)                  | True         | Facebook / Meta                                                                            |         | [VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation](https://aclanthology.org/2021.acl-long.80/)                                                                                        |             | VoxPopuli is a large-scale multilingual speech corpus comprising 400 000 hours of unlabeled audio in 23 European languages, 1 800 hours of transcribed speech in 15 languages, and 17 300 hours of aligned oral interpretations, designed for unsupervised representation learning, semi-supervised ASR, and speech translation research. |
 | 19    | WHAM!                                                      |                                    |                     |                     |                        |                      | True              |                                   |                                                                                     | True               |                                   |                                     |                         |                               |                      |            | True              |                          |                  |                  | [WHAM!](http://wham.whisper.ai/)                                                          |              | Mitsubishi Electric Research Laboratories (MERL) /  Whisper.ai                             |         | [WHAM!: Extending Speech Separation to Noisy Environments](https://arxiv.org/abs/1907.01160)                                                                                                                                                                      | True        | The WHAM! dataset pairs two-speaker WSJ0 mixtures with real ambient noise recorded in San Francisco Bay Area venues to benchmark speech separation and enhancement models under realistic noisy conditions.                                                                                                                               |
+| 20    | MUSAN                                                      |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                                                           |              |                                                                                            |         |                                                                                                                                                                                                                                                                   |             |                                                                                                                                                                                                                                                                                                                                           |
+| 21    | VCTK (CSTR VCTK Corpus)                                    |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                                                           |              |                                                                                            |         |                                                                                                                                                                                                                                                                   |             |                                                                                                                                                                                                                                                                                                                                           |
 
 ### Unlisted
 
@@ -264,179 +266,177 @@ tasks, etc._
 131. TIMIT
 132. TUDA
 133. UGIF
-134. VCTK (CSTR VCTK Corpus)
-135. VCTK-2Mix
-136. VGG-Sound
-137. VGGSound-Sparse
-138. VIVAE
-139. VocalSound
-140. VOICES
-141. Yoloxóchitl-Mixtec
-142. YouTube-8M
-143. Wavix Voicemail
-144. WHAMR!
-145. Wikimedia Commons
-146. XBMU-AMDO31
-147. Zeroth-Korean
-148. DeToxy
-149. EasyCall
-150. REAL-M
-151. RTASC
-152. ReMASC
-153. Talking With Hands 16.2M
-154. Timers and Such
-155. ASR-GLUE
-156. EMOVIE
-157. LibriVoxDeEn
-158. NusaCrowd
-159. RESD
-160. SpokenSTS
-161. TaL Corpus (The Tongue and Lips Corpus)
-162. AV Digits Database
-163. BD-4SK-ASR
-164. CI-AVSR
-165. JVS-MuSiC
-166. LaboroTVSpeech
-167. MASRI-HEADSET
-168. MAVS
-169. NPSC
-170. MultiSV
-171. NeuroVoz
-172. RyanSpeech
-173. SDN (Situated Dialogue Navigation)
-174. AVA-Speech
-175. AVASpeech-SMAD
-176. Arabic Speech Commands Dataset.
-177. DR-VCTK
-178. EVI
-179. EmoSpeech
-180. FT Speech
-181. Greek Parliament Proceedings
-182. JSS Dataset (Jejueo Single Speaker Speech)
-183. THVD (Talking Head Video Dataset)
-184. Kinect-WSJ
-185. LibriS2S
-186. MediBeng
-187. Persian Preschool Cognition Speech
-188. Quechua-SER
-189. RUSLAN
-190. VedantaNY-10M
-191. MCCSD (Mandarin Chinese Cued Speech Dataset)
-192. TurkicASR
-193. UrbanSound8K
-194. CMUARCTIC
-195. QUESST 2014
-196. SNIPS
-197. YESNO
-198. AccentDB
-199. Free Spoken Digit Dataset (FSDD)
-200. Libri-Light
-201. LRS3-TED
-202. CAS-VSR-W1k (LRW-1000)
-203. GLips
-204. DIRHA
-205. BERSt
-206. CANDOR
-207. MSP-Podcast
-208. EmoDB
-209. LSSED
-210. Doc2Dial
-211. Switchboard-1 Corpus
-212. CPED (Chinese Personalized and Emotional Dialogue)
-213. LRW (Lip Reading in the Wild)
-214. CSS10
-215. iKala
-216. FKD (Football Keywords Dataset)
-217. mDRT
-218. BABEL Speech Corpus
-219. WiLI-2018
-220. Common Language
-221. NLI-PT
-222. FUSS (Free Universal Sound Separation)
-223. Auto-KWS
-224. AVMIT (Audiovisual Moments in Time)
-225. Lingala Read Speech Corpus
-226. Congolese Speech Radio Corpus
-227. Zambezi Voice
-228. Friends-MMC
-229. Laboro-ASV (LaboroTVSpeech-ASV)
-230. CAVES (Cantonese Audio-Visual Emotional Speech)
-231. BANSpEmo
-232. MDER
-233. EMOVOME
-234. Spanish MEACorpus 2023
-235. LibriheavyMix
-236. Echo2Mix
-237. RATS Low Speech Density
-238. BhasaAnuvaad
-239. AVMuST-TED
-240. RoDia
-241. NLSpeech
-242. Balinese TTS
-243. Rasa
-244. IndicVoices-R
-245. RASwDA (Re-Aligned Switchboard Dialog Act Corpus)
-246. MOCKS
-247. WenetPhrase
-248. MDSC
-249. LIP-RTVE
-250. SlideAVSR
-251. OLKAVS
-252. AVA Datasets
-253. DipCo (Dinner Party Corpus)
-254. Samanantar
-255. SEP-28k (Stuttering Events in Podcasts)
-256. GUM
-257. speechocean762
-258. MagicData-RAMC
-259. SwissDials
-260. Europarl-ASR
-261. Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
-262. ADIMA
-263. Samrómur L2 22.09
-264. MediaSpeech
-265. Totonac Resources
-266. ASCEND
-267. NISP
-268. NISQA Speech Quality Corpus
-269. Silent Speech EMG
-270. VESUS
-271. DDS (Device-Degraded Speech)
-272. MUSAN
-273. WSJ0-2mix
-274. VoxForge
-275. VOCASET
-276. JVS corpus
-277. GRID
-278. CMU Wilderness Multilingual Speech Dataset
-279. MuST-C
-280. LRS2 (Lip Reading Sentences 2)
-281. MELD (Multimodal EmotionLines Dataset)
-282. MSP-IMPROV
-283. CREMA-D
-284. RAVDESS
-285. AVA (Atomic Visual Actions)
-286. Fluent Speech Commands
-287. MIR Corpora
-288. NIST SRE (SRE Data)
-289. SITW
-290. DIHARD
-291. DIHARD
-292. Voicebank DEMAND
-293. SLURP
-294. Tatoeba
-295. CMUDict
-296. Switchboard Dialog Act Corpus (SwDA)
-297. SGD (Schema-Guided Dialogue)
-298. AVSpeech
-299. MIT (Moments in Time Dataset)
-300. Multilingual LibriSpeech (MLS)
-301. AISHELL (4)
-302. ESD (Emotional Speech Database)
-303. WenetSpeech
-304. BEAT (Body-Expression-Audio-Text)
-305. BSTC (Baidu Speech Translation Corpus)
-306. SOMOS
+134. VCTK-2Mix
+135. VGG-Sound
+136. VGGSound-Sparse
+137. VIVAE
+138. VocalSound
+139. VOICES
+140. Yoloxóchitl-Mixtec
+141. YouTube-8M
+142. Wavix Voicemail
+143. WHAMR!
+144. Wikimedia Commons
+145. XBMU-AMDO31
+146. Zeroth-Korean
+147. DeToxy
+148. EasyCall
+149. REAL-M
+150. RTASC
+151. ReMASC
+152. Talking With Hands 16.2M
+153. Timers and Such
+154. ASR-GLUE
+155. EMOVIE
+156. LibriVoxDeEn
+157. NusaCrowd
+158. RESD
+159. SpokenSTS
+160. TaL Corpus (The Tongue and Lips Corpus)
+161. AV Digits Database
+162. BD-4SK-ASR
+163. CI-AVSR
+164. JVS-MuSiC
+165. LaboroTVSpeech
+166. MASRI-HEADSET
+167. MAVS
+168. NPSC
+169. MultiSV
+170. NeuroVoz
+171. RyanSpeech
+172. SDN (Situated Dialogue Navigation)
+173. AVA-Speech
+174. AVASpeech-SMAD
+175. Arabic Speech Commands Dataset.
+176. DR-VCTK
+177. EVI
+178. EmoSpeech
+179. FT Speech
+180. Greek Parliament Proceedings
+181. JSS Dataset (Jejueo Single Speaker Speech)
+182. THVD (Talking Head Video Dataset)
+183. Kinect-WSJ
+184. LibriS2S
+185. MediBeng
+186. Persian Preschool Cognition Speech
+187. Quechua-SER
+188. RUSLAN
+189. VedantaNY-10M
+190. MCCSD (Mandarin Chinese Cued Speech Dataset)
+191. TurkicASR
+192. UrbanSound8K
+193. CMUARCTIC
+194. QUESST 2014
+195. SNIPS
+196. YESNO
+197. AccentDB
+198. Free Spoken Digit Dataset (FSDD)
+199. Libri-Light
+200. LRS3-TED
+201. CAS-VSR-W1k (LRW-1000)
+202. GLips
+203. DIRHA
+204. BERSt
+205. CANDOR
+206. MSP-Podcast
+207. EmoDB
+208. LSSED
+209. Doc2Dial
+210. Switchboard-1
+211. CPED (Chinese Personalized and Emotional Dialogue)
+212. LRW (Lip Reading in the Wild)
+213. CSS10
+214. iKala
+215. FKD (Football Keywords Dataset)
+216. mDRT
+217. BABEL Speech Corpus
+218. WiLI-2018
+219. Common Language
+220. NLI-PT
+221. FUSS (Free Universal Sound Separation)
+222. Auto-KWS
+223. AVMIT (Audiovisual Moments in Time)
+224. Lingala Read Speech Corpus
+225. Congolese Speech Radio Corpus
+226. Zambezi Voice
+227. Friends-MMC
+228. Laboro-ASV (LaboroTVSpeech-ASV)
+229. CAVES (Cantonese Audio-Visual Emotional Speech)
+230. BANSpEmo
+231. MDER
+232. EMOVOME
+233. Spanish MEACorpus 2023
+234. LibriheavyMix
+235. Echo2Mix
+236. RATS Low Speech Density
+237. BhasaAnuvaad
+238. AVMuST-TED
+239. RoDia
+240. NLSpeech
+241. Balinese TTS
+242. Rasa
+243. IndicVoices-R
+244. RASwDA (Re-Aligned Switchboard Dialog Act Corpus)
+245. MOCKS
+246. WenetPhrase
+247. MDSC
+248. LIP-RTVE
+249. SlideAVSR
+250. OLKAVS
+251. AVA Datasets
+252. DipCo (Dinner Party Corpus)
+253. Samanantar
+254. SEP-28k (Stuttering Events in Podcasts)
+255. GUM
+256. speechocean762
+257. MagicData-RAMC
+258. SwissDials
+259. Europarl-ASR
+260. Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
+261. ADIMA
+262. Samrómur L2 22.09
+263. MediaSpeech
+264. Totonac Resources
+265. ASCEND
+266. NISP
+267. NISQA Speech Quality Corpus
+268. Silent Speech EMG
+269. VESUS
+270. DDS (Device-Degraded Speech)
+271. WSJ0-2mix
+272. VoxForge
+273. VOCASET
+274. JVS corpus
+275. GRID
+276. CMU Wilderness Multilingual Speech Dataset
+277. MuST-C
+278. LRS2 (Lip Reading Sentences 2)
+279. MELD (Multimodal EmotionLines Dataset)
+280. MSP-IMPROV
+281. CREMA-D
+282. RAVDESS
+283. AVA (Atomic Visual Actions)
+284. Fluent Speech Commands
+285. MIR Corpora
+286. NIST SRE (SRE Data)
+287. SITW
+288. DIHARD
+289. DIHARD
+290. Voicebank DEMAND
+291. SLURP
+292. Tatoeba
+293. CMUDict
+294. Switchboard Dialog Act Corpus (SwDA)
+295. SGD (Schema-Guided Dialogue)
+296. AVSpeech
+297. MIT (Moments in Time Dataset)
+298. Multilingual LibriSpeech (MLS)
+299. AISHELL (4)
+300. ESD (Emotional Speech Database)
+301. WenetSpeech
+302. BEAT (Body-Expression-Audio-Text)
+303. BSTC (Baidu Speech Translation Corpus)
+304. SOMOS
 
 ---
 
