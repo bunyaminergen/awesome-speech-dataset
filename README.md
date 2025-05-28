@@ -107,6 +107,9 @@ other speech processing applications.*
 64. SIFT-50M
 65. EmoHopeSpeech
 66. CHSER
+67. DiffSSD
+68. OOD-Speech
+69. AS-70
 
 ### Timeless
 
