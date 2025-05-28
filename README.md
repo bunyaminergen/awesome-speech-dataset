@@ -134,7 +134,7 @@ Reasons for inclusion in the list:
    clips are peak‐normalized to –3 dB and meticulously annotated for emotion. AESDD is conceived as an ever‐growing,
    project‐dependent resource, allowing collaborators to augment the database with new samples over time to support more
    robust, generalized emotion recognition models in theatrical and interactive applications, and it is freely
-   accessible online for research purposes ([academia.edu][1], [m3c.web.auth.gr][2]).
+   accessible online for research purposes. [academia.edu][1], [m3c.web.auth.gr][2]
 
 2. Audiocite
 
@@ -143,18 +143,18 @@ Reasons for inclusion in the list:
    the paper details the corpus construction—from data acquisition and cleaning to metadata annotation—providing
    extensive statistics on speaker distribution, recording quality, and text coverage, and demonstrates how pre‐training
    on this dataset measurably boosts the performance of LeBenchmark’s 14k speech models across multiple downstream
-   tasks ([aclanthology.org][3], [openslr.org][4]).
+   tasks. [aclanthology.org][3], [openslr.org][4]
 
 3. AudioSet
 
    AudioSet, introduced by Gemmeke et al. in their ICASSP 2017 paper, presents a hierarchical ontology of 635 audio
-   classes designed to comprehensively cover real-world sound events ([Google Research][5]). The corresponding dataset
-   comprises 2,084,320 human-labeled 10-second clips from YouTube (totaling approximately 5.8 thousand hours) annotated
-   across 527 of those classes, offering one of the largest multi-label corpora for audio event
-   research ([Google Research][6]). Segments for annotation were nominated through metadata, contextual cues (e.g.,
-   links), and content-based searches, then verified by human annotators to confirm the presence of target
-   sounds ([Google Research][5]). By providing this large-scale, realistic benchmark, AudioSet has become a foundational
-   resource driving advances in automatic audio event detection and classification.
+   classes designed to comprehensively cover real-world sound events. The corresponding dataset comprises 2,084,320
+   human-labeled 10-second clips from YouTube (totaling approximately 5.8 thousand hours) annotated across 527 of those
+   classes, offering one of the largest multi-label corpora for audio event research. Segments for annotation were
+   nominated through metadata, contextual cues (e.g., links), and content-based searches, then verified by human
+   annotators to confirm the presence of target sounds. By providing this large-scale, realistic benchmark, AudioSet has
+   become a foundational resource driving advances in automatic audio event detection and
+   classification. [Google Research][5], [Google Research][6]
 
 4. aGender
 5. AliMeeting
