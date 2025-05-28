@@ -110,6 +110,8 @@ other speech processing applications.*
 67. DiffSSD
 68. OOD-Speech
 69. AS-70
+70. DisfluencySpeech
+71. Boli
 
 ### Timeless
 
@@ -490,7 +492,7 @@ Reasons for inclusion in the list:
 316. Turkish Speech Corpus
 317. Multilingual Spoken Words Corpus
 318. Turkish Neural Voice (turkishvoicedataset)
-319. ...
+319. VOTE400
 320. ...
 321. ...
 322. ...
