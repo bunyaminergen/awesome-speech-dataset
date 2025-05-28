@@ -110,8 +110,7 @@ other speech processing applications.*
 
 ### Unlisted
 
-Reasons: Insufficient information, extracted/derived from another dataset, not open source, out of date, specific
-tasks, etc.
+Reasons for inclusion in the list:
 
 * Insufficient information: Lack of accompanying research paper, missing downloading steps, absence of metadata or
   data dictionary, and unclear or unspecified annotation, dataset sources, or recording/collecting details.
