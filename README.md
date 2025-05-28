@@ -91,6 +91,22 @@ other speech processing applications.*
 48. RVTALL
 49. AVE-Speech
 50. EARS
+51. MSceneSpeech
+52. StoryTTS
+53. YODAS
+54. Speak & Improve Corpus
+55. Unsupervised People’s Speech
+56. Helsinki Speech Challenge 2024 open audio dataset
+57. Fair-speech Dataset
+58. Casual Conversations
+59. ShiftySpeech
+60. SpeechCraft
+61. ODSS
+62. SSSD(Scalable Spontaneous Speech Dataset)
+63. BBS-S2T
+64. SIFT-50M
+65. EmoHopeSpeech
+66. CHSER
 
 ### Timeless
 
@@ -468,9 +484,9 @@ Reasons for inclusion in the list:
 313. VoxPopuli
 314. WHAM!
 315. Clarin-PL EMU (Studio Corpus)
-316. ...
-317. ...
-318. ...
+316. Turkish Speech Corpus
+317. Multilingual Spoken Words Corpus
+318. Turkish Neural Voice (turkishvoicedataset)
 319. ...
 320. ...
 321. ...
