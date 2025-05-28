@@ -504,8 +504,6 @@ Reasons for inclusion in the list:
 
 > **Note:** Please download the Markdown file to view the full list of references — GitHub’s web interface doesn’t
 > render reference definitions.
-> [1]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "(PDF) Speech Emotion
-> Recognition for Performance Interaction"
 
 
 [1]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "(PDF) Speech Emotion Recognition for Performance Interaction"
