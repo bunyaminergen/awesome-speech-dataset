@@ -112,6 +112,7 @@ other speech processing applications.*
 69. AS-70
 70. DisfluencySpeech
 71. Boli
+72. SPIRE-SIES
 
 ### Timeless
 
@@ -497,6 +498,7 @@ Reasons for inclusion in the list:
 321. FLEURS
 322. Czech Parliament Plenary
 323. SIWIS French Speech Synthesis Database
+324. MELD-ST
 
 ---
 
