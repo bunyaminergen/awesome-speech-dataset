@@ -502,7 +502,7 @@ Reasons for inclusion in the list:
 
 ## References
 
-[1]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "(PDF) Speech Emotion Recognition for Performance Interaction"
+- [1]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "(PDF) Speech Emotion Recognition for Performance Interaction"
 
 [2]: https://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/ "Acted Emotional Speech Dynamic Database - AESDD - M3C"
 
