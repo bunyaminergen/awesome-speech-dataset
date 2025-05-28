@@ -126,7 +126,7 @@ Reasons for inclusion in the list:
 
 1. AESDD
 
-   Acted Emotional Speech Dynamic Database (AESDD) is a publicly available Greek‐language speech emotion recognition
+   AESDD (Acted Emotional Speech Dynamic Database) is a publicly available Greek‐language speech emotion recognition
    corpus introduced by Vryzas et al., designed to overcome limitations of existing acted SER datasets like SAVEE. It
    comprises around 500 high‐quality studio recordings by five professional actors (two male, three female, aged 25–30),
    each rendering 19 scripted theatrical utterances plus one improvised line across five basic emotions—happiness,
