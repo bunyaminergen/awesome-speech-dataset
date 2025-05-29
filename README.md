@@ -520,6 +520,7 @@ Reasons for inclusion in the list:
 334. NHSS
 335. HateXplain
 336. KeSpeech
+337. BembaSpeech
 
 ---
 
