@@ -115,6 +115,13 @@ other speech processing applications.*
 72. SPIRE-SIES
 73. NaturalVoices
 74. ArmanTTS
+75. MetaHate
+76. THOS
+77. KazEmoTTS
+78. BaboonLand
+79. MOSA
+80. RescueSpeech
+81. ClArTTS
 
 ### Timeless
 
@@ -351,7 +358,7 @@ Reasons for inclusion in the list:
 172. SDN (Situated Dialogue Navigation)
 173. AVA-Speech
 174. AVASpeech-SMAD
-175. Arabic Speech Commands Dataset.
+175. Arabic Speech Commands Dataset
 176. DR-VCTK
 177. EVI
 178. EmoSpeech
@@ -465,44 +472,53 @@ Reasons for inclusion in the list:
 286. NIST SRE (SRE Data)
 287. SITW
 288. DIHARD
-289. DIHARD
-290. Voicebank DEMAND
-291. SLURP
-292. Tatoeba
-293. CMUDict
-294. Switchboard Dialog Act Corpus (SwDA)
-295. SGD (Schema-Guided Dialogue)
-296. AVSpeech
-297. MIT (Moments in Time Dataset)
-298. Multilingual LibriSpeech (MLS)
-299. AISHELL (4)
-300. ESD (Emotional Speech Database)
-301. WenetSpeech
-302. BEAT (Body-Expression-Audio-Text)
-303. BSTC (Baidu Speech Translation Corpus)
-304. SOMOS
-305. DAPS (Device and Produced Speech)
-306. GigaSpeech
-307. MS-SNSD (Microsoft Scalable Noisy Speech Dataset)
-308. Multilingual TEDx
-309. People's Speech
-310. Spoken Wikipedia Corpora
-311. TED-LIUM
-312. VoxConverse
-313. VoxPopuli
-314. WHAM!
-315. Clarin-PL EMU (Studio Corpus)
-316. Turkish Speech Corpus
-317. Multilingual Spoken Words Corpus
-318. Turkish Neural Voice (turkishvoicedataset)
-319. VOTE400
-320. M-AILABS Speech Dataset
-321. FLEURS
-322. Czech Parliament Plenary
-323. SIWIS French Speech Synthesis Database
-324. MELD-ST
-325. ETHOS
-326. Skit-S2I
+289. Voicebank DEMAND
+290. SLURP
+291. Tatoeba
+292. CMUDict
+293. Switchboard Dialog Act Corpus (SwDA)
+294. SGD (Schema-Guided Dialogue)
+295. AVSpeech
+296. MIT (Moments in Time Dataset)
+297. Multilingual LibriSpeech (MLS)
+298. AISHELL (4)
+299. ESD (Emotional Speech Database)
+300. WenetSpeech
+301. BEAT (Body-Expression-Audio-Text)
+302. BSTC (Baidu Speech Translation Corpus)
+303. SOMOS
+304. DAPS (Device and Produced Speech)
+305. GigaSpeech
+306. MS-SNSD (Microsoft Scalable Noisy Speech Dataset)
+307. Multilingual TEDx
+308. People's Speech
+309. Spoken Wikipedia Corpora
+310. TED-LIUM
+311. VoxConverse
+312. VoxPopuli
+313. WHAM!
+314. Clarin-PL EMU (Studio Corpus)
+315. Turkish Speech Corpus
+316. Multilingual Spoken Words Corpus
+317. Turkish Neural Voice (turkishvoicedataset)
+318. VOTE400
+319. M-AILABS Speech Dataset
+320. FLEURS
+321. Czech Parliament Plenary
+322. SIWIS French Speech Synthesis Database
+323. MELD-ST
+324. ETHOS
+325. Skit-S2I
+326. DailyTalk
+327. RedPen
+328. ASED (Amharic Speech Emotion Dataset)
+329. GreThE
+330. HERDPhobia
+331. ASMDD (Arabic Speech Mispronunciation Detection Dataset)
+332. TEET
+333. PodcastMix
+334. NHSS
+335. HateXplain
 
 ---
 
