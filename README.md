@@ -284,7 +284,7 @@ Reasons for inclusion in the list:
 97. ReefSet
 98. Respiratory and Drug Actuation Dataset
 99. ReVerb
-100. Russian LibriSpeech
+100. RuLS (Russian LibriSpeech)
 101. Samrómur Mimic 22.09
 102. SASPEECH
 103. SAVEE
@@ -546,6 +546,10 @@ Reasons for inclusion in the list:
 359. ReazonSpeech
 360. Chinese Mandarin Lip Reading (CMLR)
 361. ParlaSpeech-HR
+362. VoxLingua107
+363. JTubeSpeech
+364. Primewords
+365. ST-CMDS	
 
 ---
 
