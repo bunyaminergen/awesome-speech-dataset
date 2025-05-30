@@ -123,6 +123,7 @@ other speech processing applications.*
 80. RescueSpeech
 81. ClArTTS
 82. CORAAL
+83. Audio-FLAN
 
 ### Timeless
 
@@ -549,7 +550,38 @@ Reasons for inclusion in the list:
 362. VoxLingua107
 363. JTubeSpeech
 364. Primewords
-365. ST-CMDS	
+365. ST-CMDS
+366. NST Danish ASR Database
+367. NST Swedish ASR Database
+368. NST Norwegian ASR Database
+369. NorGovPCC (The Norwegian Government Press Conference Speech Corpus)
+370. ARU Speech Corpus
+371. Althingi Parliamentary Speech Corpus
+372. Pansori
+373. ALFFA (African Languages in the Field: speech Fundamentals and Automation)
+374. Hey Snips
+375. ACAV100M
+376. Mead
+377. PACS
+378. MAD
+379. Speech2Gesture
+380. VideoCC
+381. DeepMine
+382. BookTubeSpeech
+383. CSSD
+384. Carnatic Varnam Dataset
+385. Clotho
+386. CFAD: A Chinese Dataset for Fake Audio Detection
+387. FestCat
+388. USPDATRO
+389. FPT Open Speech Dataset (FOSD) - Vietnamese
+390. FOSD Female Speech Dataset
+391. How2
+392. KdConv
+393. Libriheavy
+394. MuAViC
+395. RealMAN
+396. WaveFake
 
 ---
 
