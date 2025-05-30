@@ -124,6 +124,7 @@ other speech processing applications.*
 81. ClArTTS
 82. CORAAL
 83. Audio-FLAN
+84. VocalMind
 
 ### Timeless
 
@@ -582,6 +583,13 @@ Reasons for inclusion in the list:
 394. MuAViC
 395. RealMAN
 396. WaveFake
+397. DECRO
+398. Chichewa
+399. Middle East Technical University Turkish Microphone Speech
+400. Turkish Broadcast News Speech and Transcripts
+401. Apollo Corpus
+402. Half-Truth
+403. LaFresCat
 
 ---
 
