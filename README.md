@@ -122,6 +122,7 @@ other speech processing applications.*
 79. MOSA
 80. RescueSpeech
 81. ClArTTS
+82. CORAAL
 
 ### Timeless
 
@@ -521,6 +522,30 @@ Reasons for inclusion in the list:
 335. HateXplain
 336. KeSpeech
 337. BembaSpeech
+338. Crowd-Sourced Speech Corpora
+339. EVBCorpus
+340. Modality Corpus
+341. SDS-200
+342. Lahjoita Puhetta
+343. MDCC (Multi-Domain Cantonese Corpus)
+344. 3MASSIV
+345. MGB
+346. QASR
+347. LRS2-BBC
+348. LRS3-Lang
+349. JSpeech
+350. L2-ARCTIC
+351. MyST Children's Conversational Speech
+352. National Speech Corpus
+353. DiDiSpeech
+354. RVTE database
+355. KsponSpeech
+356. Fearless Steps
+357. Bundestag
+358. UserLibri
+359. ReazonSpeech
+360. Chinese Mandarin Lip Reading (CMLR)
+361. ParlaSpeech-HR
 
 ---
 
