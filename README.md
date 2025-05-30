@@ -46,16 +46,10 @@ Emilia
 GTSinger
 EdAcc (Edinburgh International Accents of English Corpus)
 Vibravox
-
-FakeMusicCaps
-Granary
-OpenLID
-GlotLID
 VoxBlink
 VoxTube
-MSR-86K
+
 3D-Speaker
-EmoSet
 KBES
 Dusha
 M5SER
@@ -591,6 +585,11 @@ Reasons for inclusion in the list:
 419. Watch Your Mouth: Point Clouds based Speech Recognition Dataset
 420. InaGVAD
 421. SONICS
+422. FakeMusicCaps
+423. Granary
+424. OpenLID
+425. GlotLID
+426. MSR-86K
 
 ---
 
