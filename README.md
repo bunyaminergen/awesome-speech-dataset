@@ -41,90 +41,73 @@ other speech processing applications.*
 | 6     |              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                              |              |                            |         |                                                                                 |             |                                                                                                                                                                                                                                                                                                                              |
 | 7     |              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                              |              |                            |         |                                                                                 |             |                                                                                                                                                                                                                                                                                                                              |
 
-1. Sagalee
-2. SMIIP-TV dataset
-3. Pragmatic Similarity Judgments
-4. Kallaama
-5. SlideSpeech
-6. Emilia
-7. SpeechInstruct
-8. VietMed
-9. GTSinger
-10. EdAcc (Edinburgh International Accents of English Corpus)
-11. Neural Audio Fingerprint Dataset
-12. Jam-ALT
-13. CAS-VSR-S101
-14. CUCO Database
-15. DreamVoice
-16. LongVALE
-17. MSNER
-18. SpeechBrown
-19. United-MedSyn
-20. Vibravox
-21. Watch Your Mouth: Point Clouds based Speech Recognition Dataset
-22. inaGVAD
-23. SONICS
-24. FakeMusicCaps
-25. Granary
-26. OpenLID
-27. GlotLID
-28. VoxBlink
-29. VoxTube
-30. MSR-86K
-31. 3D-Speaker
-32. EmoSet
-33. KBES
-34. Dusha
-35. M5SER
-36. Divide and Remaster v3 (DnR v3)
-37. ITALIC
-38. FalAI
-39. TextrolSpeech
-40. Audiobox
-41. Lombard-GRID-2mix
-42. wTIMIT2mix
-43. SonicSet (SonicSim)
-44. TextrolMix
-45. MultiCAT (Multimodal Communication Annotations for Teams)
-46. KAN-AV
-47. Facestar
-48. RVTALL
-49. AVE-Speech
-50. EARS
-51. MSceneSpeech
-52. StoryTTS
-53. YODAS
-54. Speak & Improve Corpus
-55. Unsupervised People’s Speech
-56. Helsinki Speech Challenge 2024 open audio dataset
-57. Fair-speech Dataset
-58. Casual Conversations
-59. ShiftySpeech
-60. SpeechCraft
-61. ODSS
-62. SSSD(Scalable Spontaneous Speech Dataset)
-63. BBS-S2T
-64. SIFT-50M
-65. EmoHopeSpeech
-66. CHSER
-67. DiffSSD
-68. OOD-Speech
-69. AS-70
-70. DisfluencySpeech
-71. Boli
-72. SPIRE-SIES
-73. NaturalVoices
-74. ArmanTTS
-75. MetaHate
-76. THOS
-77. KazEmoTTS
-78. BaboonLand
-79. MOSA
-80. RescueSpeech
-81. ClArTTS
-82. CORAAL
-83. Audio-FLAN
-84. VocalMind
+SlideSpeech
+Emilia
+GTSinger
+EdAcc (Edinburgh International Accents of English Corpus)
+Vibravox
+
+FakeMusicCaps
+Granary
+OpenLID
+GlotLID
+VoxBlink
+VoxTube
+MSR-86K
+3D-Speaker
+EmoSet
+KBES
+Dusha
+M5SER
+Divide and Remaster v3 (DnR v3)
+ITALIC
+FalAI
+TextrolSpeech
+Audiobox
+Lombard-GRID-2mix
+wTIMIT2mix
+SonicSet (SonicSim)
+TextrolMix
+MultiCAT (Multimodal Communication Annotations for Teams)
+KAN-AV
+Facestar
+RVTALL
+AVE-Speech
+EARS
+MSceneSpeech
+StoryTTS
+YODAS
+Speak & Improve Corpus
+Unsupervised People’s Speech
+Helsinki Speech Challenge 2024 open audio dataset
+Fair-speech Dataset
+Casual Conversations
+ShiftySpeech
+SpeechCraft
+ODSS
+SSSD(Scalable Spontaneous Speech Dataset)
+BBS-S2T
+SIFT-50M
+EmoHopeSpeech
+CHSER
+DiffSSD
+OOD-Speech
+AS-70
+DisfluencySpeech
+Boli
+SPIRE-SIES
+NaturalVoices
+ArmanTTS
+MetaHate
+THOS
+KazEmoTTS
+BaboonLand
+MOSA
+RescueSpeech
+ClArTTS
+CORAAL
+Audio-FLAN
+VocalMind
 
 ### Timeless
 
@@ -149,7 +132,7 @@ Reasons for inclusion in the list:
 * Insufficient information: Lack of accompanying research paper, missing downloading steps, absence of metadata or
   data dictionary, and unclear or unspecified annotation, dataset sources, or recording/collecting details.
 
-* Extracted/Derived from another dataset:* Dataset has been derived or extracted from another pre-existing dataset.
+* Extracted/Derived from another dataset: Dataset has been derived or extracted from another pre-existing dataset.
 
 * Not open source: Limited access due to insufficient publicly available information, many aspects being
   confidential, or availability restricted only to paid access.
@@ -590,6 +573,24 @@ Reasons for inclusion in the list:
 401. Apollo Corpus
 402. Half-Truth
 403. LaFresCat
+404. Sagalee
+405. SMIIP-TV dataset
+406. Pragmatic Similarity Judgments
+407. Kallaama
+408. VietMed
+409. Neural Audio Fingerprint Dataset
+410. Jam-ALT
+411. CAS-VSR-S101
+412. CUCO Database
+413. Emozionalmente
+414. DreamVoice
+415. AnglistikVoices
+416. MSNER
+417. SpeechBrown
+418. United-MedSyn
+419. Watch Your Mouth: Point Clouds based Speech Recognition Dataset
+420. InaGVAD
+421. SONICS
 
 ---
 
