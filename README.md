@@ -48,33 +48,11 @@ EdAcc (Edinburgh International Accents of English Corpus)
 Vibravox
 VoxBlink
 VoxTube
-
 3D-Speaker
-KBES
-Dusha
-M5SER
-Divide and Remaster v3 (DnR v3)
-ITALIC
-FalAI
-TextrolSpeech
-Audiobox
-Lombard-GRID-2mix
-wTIMIT2mix
-SonicSet (SonicSim)
-TextrolMix
-MultiCAT (Multimodal Communication Annotations for Teams)
-KAN-AV
-Facestar
-RVTALL
-AVE-Speech
 EARS
-MSceneSpeech
-StoryTTS
 YODAS
-Speak & Improve Corpus
-Unsupervised People’s Speech
-Helsinki Speech Challenge 2024 open audio dataset
 Fair-speech Dataset
+
 Casual Conversations
 ShiftySpeech
 SpeechCraft
@@ -590,6 +568,27 @@ Reasons for inclusion in the list:
 425. GlotLID
 426. MSR-86K
 427. KazEmoTTS
+428. KBES
+429. Dusha
+430. M5SER
+431. Divide and Remaster v3 (DnR v3)
+432. ITALIC
+433. FalAI
+434. TextrolSpeech
+435. MMCSG
+436. Lombard-GRID-2mix
+437. MCAS
+438. TextrolMix
+439. Hi, KIA
+440. KAN-AV
+441. Facestar
+442. RVTALL
+443. AVE-Speech
+444. MSceneSpeech
+445. StoryTTS
+446. Speak & Improve Corpus
+447. Unsupervised People’s Speech
+448. Helsinki Speech Challenge 2024 open audio dataset
 
 ---
 
