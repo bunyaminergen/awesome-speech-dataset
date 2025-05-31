@@ -94,7 +94,6 @@ NaturalVoices
 ArmanTTS
 MetaHate
 THOS
-KazEmoTTS
 BaboonLand
 MOSA
 RescueSpeech
@@ -590,6 +589,7 @@ Reasons for inclusion in the list:
 424. OpenLID
 425. GlotLID
 426. MSR-86K
+427. KazEmoTTS
 
 ---
 
