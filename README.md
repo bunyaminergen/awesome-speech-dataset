@@ -31,54 +31,15 @@ other speech processing applications.*
 
 ### Datasets (2023-25)
 
-| Index | Dataset      | Automatic Speech Recognition (ASR) | Speaker Recognition | Emotion Recognition | Speaker Identification | Speaker Verification | Speech Separation | Speaker Diarisation (Diarization) | Voice Activity Detection (VAD) / Speech Activity Detection (SAD) / Speech Detection | Speech Enhancement | Answering Machine Detection (AMD) | Spoken Language Understanding (SLU) | Speech Translation (ST) | Language Identification (LID) | Text to Speech (TTS) | Spoken NER | Source separation | Dialogue Act Recognition | Keyword Spotting | Audio-Visual(AV) | Download                                                     | Multilingual | Source                     | Version | Paper                                                                           | Interspeech | Description                                                                                                                                                                                                                                                                                                                  |
-|-------|--------------|------------------------------------|---------------------|---------------------|------------------------|----------------------|-------------------|-----------------------------------|-------------------------------------------------------------------------------------|--------------------|-----------------------------------|-------------------------------------|-------------------------|-------------------------------|----------------------|------------|-------------------|--------------------------|------------------|------------------|--------------------------------------------------------------|--------------|----------------------------|---------|---------------------------------------------------------------------------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1     | Common Voice | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [Common Voice](https://commonvoice.mozilla.org/en/datasets)  | True         | Mozilla Foundation         | 21      |                                                                                 |             | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed).                                                                                                                                                                                                                    |
-| 2     | nEMO         | True                               |                     | True                |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               | True                 |            |                   |                          |                  |                  | [amu-cai/nEMO](https://huggingface.co/datasets/amu-cai/nEMO) |              | Adam Mickiewicz University |         | [nEMO: Dataset of Emotional Speech in Polish](https://arxiv.org/abs/2404.06292) |             | nEMO is a Creative Commons-licensed corpus of 4,481 Polish speech recordings by nine actors portraying six emotions (anger, fear, happiness, sadness, surprise, neutral), each with audio, orthographic and normalized transcriptions, and speaker metadata, designed for speech emotion recognition, ASR, and TTS research. |
-| 3     |              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                              |              |                            |         |                                                                                 |             |                                                                                                                                                                                                                                                                                                                              |
-| 4     |              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                              |              |                            |         |                                                                                 |             |                                                                                                                                                                                                                                                                                                                              |
-| 5     |              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                              |              |                            |         |                                                                                 |             |                                                                                                                                                                                                                                                                                                                              |
-| 6     |              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                              |              |                            |         |                                                                                 |             |                                                                                                                                                                                                                                                                                                                              |
-| 7     |              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                              |              |                            |         |                                                                                 |             |                                                                                                                                                                                                                                                                                                                              |
-
-SlideSpeech
-Emilia
-GTSinger
-EdAcc (Edinburgh International Accents of English Corpus)
-Vibravox
-VoxBlink
-VoxTube
-3D-Speaker
-EARS
-YODAS
-Fair-speech Dataset
-
-Casual Conversations
-ShiftySpeech
-SpeechCraft
-ODSS
-SSSD(Scalable Spontaneous Speech Dataset)
-BBS-S2T
-SIFT-50M
-EmoHopeSpeech
-CHSER
-DiffSSD
-OOD-Speech
-AS-70
-DisfluencySpeech
-Boli
-SPIRE-SIES
-NaturalVoices
-ArmanTTS
-MetaHate
-THOS
-BaboonLand
-MOSA
-RescueSpeech
-ClArTTS
-CORAAL
-Audio-FLAN
-VocalMind
+| Index | Dataset              | Automatic Speech Recognition (ASR) | Speaker Recognition | Emotion Recognition | Speaker Identification | Speaker Verification | Speech Separation | Speaker Diarisation (Diarization) | Voice Activity Detection (VAD) / Speech Activity Detection (SAD) / Speech Detection | Speech Enhancement | Answering Machine Detection (AMD) | Spoken Language Understanding (SLU) | Speech Translation (ST) | Language Identification (LID) | Text to Speech (TTS) | Spoken NER | Source separation | Dialogue Act Recognition | Keyword Spotting | Audio-Visual(AV) | Download                                                    | Multilingual | Source             | Version | Paper | Interspeech | Description                                                                                               |
+|-------|----------------------|------------------------------------|---------------------|---------------------|------------------------|----------------------|-------------------|-----------------------------------|-------------------------------------------------------------------------------------|--------------------|-----------------------------------|-------------------------------------|-------------------------|-------------------------------|----------------------|------------|-------------------|--------------------------|------------------|------------------|-------------------------------------------------------------|--------------|--------------------|---------|-------|-------------|-----------------------------------------------------------------------------------------------------------|
+| 1     | Casual Conversations |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                             |              |                    |         |       |             |                                                                                                           |
+| 2     | Common Voice         | True                               |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  | [Common Voice](https://commonvoice.mozilla.org/en/datasets) | True         | Mozilla Foundation | 21      |       |             | Massive multilingual, crowd-sourced speech corpus with 20,408+ hours across 124 languages (CC0 licensed). |
+| 3     | Emilia               |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                             |              |                    |         |       |             |                                                                                                           |
+| 4     | Vibravox             |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                             |              |                    |         |       |             |                                                                                                           |
+| 5     | VoxBlink             |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                             |              |                    |         |       |             |                                                                                                           |
+| 6     | VoxTube              |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                             |              |                    |         |       |             |                                                                                                           |
+| 7     | YODAS                |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                             |              |                    |         |       |             |                                                                                                           |
 
 ### Timeless
 
@@ -589,6 +550,42 @@ Reasons for inclusion in the list:
 446. Speak & Improve Corpus
 447. Unsupervised People’s Speech
 448. Helsinki Speech Challenge 2024 open audio dataset
+449. nEMO
+450. ODSS
+451. TIMIT-TTS
+452. BBS-S2T
+453. SIFT-50M
+454. MIVIA Speech Command
+455. TunSwitch
+456. DiffSSD
+457. OOD-Speech
+458. AS-70
+459. DisfluencySpeech
+460. Boli
+461. SPIRE-SIES
+462. NaturalVoices
+463. ArmanTTS
+464. KSoF (Kassel State of Fluency)
+465. RIRs (Room Impulse Responses)
+466. STAIR Captions
+467. EmoSeC
+468. RescueSpeech
+469. ClArTTS
+470. CORAAL
+471. Audio-FLAN
+472. VocalMind
+473. GTSinger
+474. Fair-speech Dataset
+475. 3D-Speaker
+476. EARS
+477. EdAcc (Edinburgh International Accents of English Corpus)
+478. ShiftySpeech
+479. SlideSpeech
+480. SpeechCraft
+
+---
+
+1.
 
 ---
 
