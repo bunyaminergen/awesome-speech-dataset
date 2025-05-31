@@ -582,10 +582,8 @@ Reasons for inclusion in the list:
 478. ShiftySpeech
 479. SlideSpeech
 480. SpeechCraft
-
----
-
-1.
+481. ...
+482. ...
 
 ---
 
