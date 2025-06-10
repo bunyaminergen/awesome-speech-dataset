@@ -582,8 +582,8 @@ Reasons for inclusion in the list:
 478. ShiftySpeech
 479. SlideSpeech
 480. SpeechCraft
-481. ...
-482. ...
+481. COVYT
+482. CitySpeechMix
 
 ---
 
