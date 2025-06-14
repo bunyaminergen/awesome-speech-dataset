@@ -69,7 +69,7 @@ Reasons for inclusion in the list:
 * Not open source: Limited access due to insufficient publicly available information, many aspects being
   confidential, or availability restricted only to paid access.
 
-* Out of date: Dataset is older than five years, indicating potential obsolescence.
+* Out of date: Dataset is older than two years, indicating potential obsolescence.
 
 * Specific tasks: Dataset is tailored for highly specialized subtasks or very specific applications.
 
