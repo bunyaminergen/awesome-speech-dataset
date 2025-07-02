@@ -59,13 +59,17 @@ other speech processing applications.*
 
 ### Other (by year)
 
-#### 2010-2020
+#### 1995-2000
 
-| Index | Dataset  | Main Task                                | Sub-Task(s)                      | Multilingual | Source                               | Year | Derived |
-|-------|----------|------------------------------------------|----------------------------------|--------------|--------------------------------------|------|---------|
-| 1     | aGender  | Automated age- and gender-classification | Dialog/persona adaptation in IVR |              | Deutsche Telekom AG Laboratories     | 2010 |         |
-| 2     | AudioSet | Audio-event recognition / detection      |                                  |              | Google Inc.                          | 2017 |         |
-| 3     | AESDD    | Speech Emotion Recognition (SER)         |                                  |              | Aristotle University of Thessaloniki | 2018 |         |
+#### 2000-2005
+
+#### 2005-2010
+
+#### 2010-2015
+
+| Index | Dataset | Main Task                                | Sub-Task(s)                      | Multilingual | Source                           | Year | Derived |
+|-------|---------|------------------------------------------|----------------------------------|--------------|----------------------------------|------|---------|
+| 1     | aGender | Automated age- and gender-classification | Dialog/persona adaptation in IVR |              | Deutsche Telekom AG Laboratories | 2010 |         |
 
 1. aGender
 
@@ -80,7 +84,14 @@ other speech processing applications.*
    earlier corpora lacked, enabling more reliable speaker-classification research and an open challenge for the
    community. [A Database of Age and Gender Annotated Telephone Speech][1]
 
-2. AudioSet
+#### 2015-2020
+
+| Index | Dataset  | Main Task                           | Sub-Task(s) | Multilingual | Source                               | Year | Derived |
+|-------|----------|-------------------------------------|-------------|--------------|--------------------------------------|------|---------|
+| 1     | AudioSet | Audio-event recognition / detection |             |              | Google Inc.                          | 2017 |         |
+| 2     | AESDD    | Speech Emotion Recognition (SER)    |             |              | Aristotle University of Thessaloniki | 2018 |         |
+
+1. AudioSet
 
    Presented at ICASSP 2017 by researchers at Google, Audio Set delivers a 4,971-hour corpus of more than 1.78 million
    human-labeled 10-second YouTube excerpts that span 632 sound-event categories arranged in a carefully designed
@@ -93,7 +104,7 @@ other speech processing applications.*
    community an open, comprehensive foundation from which to train and compare high-performance audio recognition
    systems. [Audio Set: An ontology and human-labeled dataset for audio events][2]
 
-3. AESDD
+2. AESDD
 
    Published in 2018 in the Journal of the Audio Engineering Society, the study from Aristotle University of
    Thessaloniki presents the Acted Emotional Speech Dynamic Database (AESDD)—an acted-speech corpus recorded for
@@ -109,10 +120,7 @@ other speech processing applications.*
 
 | Index | Dataset   | Main Task                      | Sub-Task(s)	                                             | Multilingual | Source                                        | Year | Derived       |
 |-------|-----------|--------------------------------|----------------------------------------------------------|--------------|-----------------------------------------------|------|---------------|
-|       |           |                                |                                                          |              |                                               |      |               |
 |       | Audiocite | Self-supervised learning (SSL) | Automatic Speech Recognition (ASR), Speaker Verification |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG | 2024 | audiocite.net |
-|       |           |                                |                                                          |              |                                               |      |               |
-|       |           |                                |                                                          |              |                                               |      |               |
 
 1. Audiocite
 
