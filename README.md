@@ -637,7 +637,7 @@ technology. [Audiocite.net: A Large Spoken Read Dataset in French][4]
 
 > **Note:** Please download the Markdown file to view the full list of references
 
-[1]: http://www.lrec-conf.org/proceedings/lrec2010/pdf/262_Paper.pdf "A Database of Age and Gender Annotated Telephone Speech "
+[1]: http://www.lrec-conf.org/proceedings/lrec2010/pdf/262_Paper.pdf "A Database of Age and Gender Annotated Telephone Speech"
 
 [2]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45857.pdf "Audio Set: An ontology and human-labeled dataset for audio events"
 
