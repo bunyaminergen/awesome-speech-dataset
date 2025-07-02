@@ -59,34 +59,42 @@ other speech processing applications.*
 
 ### Other (by year)
 
-| Index | Dataset   | Main Task   | Multilingual | Source                  | Year | Derived      |
-|-------|-----------|-------------|--------------|-------------------------|------|--------------|
-| 1     | Dataset 1 | ASR         | True         | University of Edinburgh | 19xx | LibriSpeech  |
-| 2     | Dataset 2 | Diarization |              |                         | 20xx |              |
-| 3     | Dataset 3 | TTS         | True         | University of Sheffield | 202x | Common Voice |
+#### 2010-2020
 
-#### 19xx
+| Index | Dataset | Main Task                        | Sub-Task(s) | Multilingual | Source                               | Year | Derived |
+|-------|---------|----------------------------------|-------------|--------------|--------------------------------------|------|---------|
+| 1     | AESDD   | Speech Emotion Recognition (SER) |             |              | Aristotle University of Thessaloniki | 2018 |         |
+| 2     |         |                                  |             |              |                                      |      |         |
 
 1. AESDD
 
-   AESDD (Acted Emotional Speech Dynamic Database) is a publicly available Greek‐language speech emotion recognition
-   corpus introduced by Vryzas et al., designed to overcome limitations of existing acted SER datasets like SAVEE. It
-   comprises around 500 high‐quality studio recordings by five professional actors (two male, three female, aged 25–30),
-   each rendering 19 scripted theatrical utterances plus one improvised line across five basic emotions—happiness,
-   sadness, anger, fear, and disgust—ensuring that every actor voices the same content in each emotional context; all
-   clips are peak‐normalized to –3 dB and meticulously annotated for emotion. AESDD is conceived as an ever‐growing,
-   project‐dependent resource, allowing collaborators to augment the database with new samples over time to support more
-   robust, generalized emotion recognition models in theatrical and interactive applications, and it is freely
-   accessible online for research purposes. [academia.edu][1], [m3c.web.auth.gr][2]
+   Published in **2018** in the *Journal of the Audio Engineering Society*, the study from Aristotle University of
+   Thessaloniki presents the **Acted Emotional Speech Dynamic Database (AESDD)**—an acted-speech corpus recorded for
+   core **speech-emotion recognition (SER)** research and benchmarked against the English-language SAVEE set. AESDD was
+   initially built **in Greek**, but the authors stress that the “dynamic” repository is already being **enriched with
+   new recordings in both Greek *and* English**, enabling broader cross-lingual experiments while remaining
+   predominantly Greek at this stage. Beyond supplying training data, the paper demonstrates live SER that can drive
+   emotion-aware stage lighting, interactive actor training and audience-engagement tools, as well as automated
+   archiving and retrieval of theatrical performances, illustrating the dataset’s dual technical and creative
+   value. [Speech Emotion Recognition for Performance Interaction][1]
 
-2. Audiocite
+#### 2020-2025
 
-   Audiocite.net is a large-scale French speech corpus introduced by Felice et al. (2024) that comprises 6,682 hours of
-   audiobook recordings read by 130 volunteer narrators, all harvested from the community‐driven audiocite.net platform;
-   the paper details the corpus construction—from data acquisition and cleaning to metadata annotation—providing
-   extensive statistics on speaker distribution, recording quality, and text coverage, and demonstrates how pre‐training
-   on this dataset measurably boosts the performance of LeBenchmark’s 14k speech models across multiple downstream
-   tasks. [aclanthology.org][3], [openslr.org][4]
+| Index   | Dataset   | Main Task                      | Sub-Task(s)	                                             | Multilingual | Source                                        | Year | Derived       |
+|---------|-----------|--------------------------------|----------------------------------------------------------|--------------|-----------------------------------------------|------|---------------|
+| 1       | Audiocite | Self-supervised learning (SSL) | Automatic Speech Recognition (ASR), Speaker Verification |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG | 2024 | audiocite.net |
+| 2       |           |                                |                                                          |              |                                               |      |               |
+
+1. Audiocite
+
+   Published in 2024, Audiocite.net: A Large Spoken Read Dataset in French introduces a 6,682-hour corpus of
+   volunteer-read audiobooks harvested from the Audiocité platform by researchers at Université Grenoble Alpes / CNRS /
+   Grenoble INP / LIG. Created to fuel self-supervised pre-training for French speech models, the monolingual French
+   dataset also supports downstream tasks such as ASR and speaker verification, and—despite lacking transcriptions—is
+   suitable for topic modelling, signal reconstruction and speech synthesis research. Entirely sourced from
+   Creative-Commons licensed audiobooks, Audiocite.net fills the size gap between English and French resources and has
+   already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
+   technology. [Audiocite.net: A Large Spoken Read Dataset in French][2]
 
 3. AudioSet
 
@@ -610,14 +618,7 @@ other speech processing applications.*
 
 > **Note:** Please download the Markdown file to view the full list of references
 
-[1]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "(PDF) Speech Emotion Recognition for Performance Interaction"
+[1]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "Speech Emotion Recognition for Performance Interaction"
 
-[2]: https://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/ "Acted Emotional Speech Dynamic Database - AESDD - M3C"
+[2]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
 
-[3]: https://aclanthology.org/2024.lrec-main.159/ "Audiocite.net : A Large Spoken Read Dataset in French"
-
-[4]: https://openslr.org/139/ "Audiocite.net - openslr.org"
-
-[5]: https://research.google.com/pubs/pub45857.html "Audio Set: An ontology and human-labeled dataset for audio events"
-
-[6]: https://research.google.com/audioset/ "AudioSet"
