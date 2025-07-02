@@ -61,10 +61,10 @@ other speech processing applications.*
 
 #### 2010-2020
 
-| Index | Dataset | Main Task                        | Sub-Task(s) | Multilingual | Source                               | Year | Derived |
-|-------|---------|----------------------------------|-------------|--------------|--------------------------------------|------|---------|
-| 1     | AESDD   | Speech Emotion Recognition (SER) |             |              | Aristotle University of Thessaloniki | 2018 |         |
-| 2     |         |                                  |             |              |                                      |      |         |
+| Index | Dataset    | Main Task                           | Sub-Task(s) | Multilingual | Source                               | Year  | Derived |
+|-------|------------|-------------------------------------|-------------|--------------|--------------------------------------|-------|---------|
+| 1     | AudioSet   | Audio-event recognition / detection |             |              |                                      | 2017  |         |
+| 2     | AESDD      | Speech Emotion Recognition (SER)    |             |              | Aristotle University of Thessaloniki | 2018  |         |
 
 1. AESDD
 
@@ -78,12 +78,25 @@ other speech processing applications.*
    archiving and retrieval of theatrical performances, illustrating the dataset’s dual technical and creative
    value. [Speech Emotion Recognition for Performance Interaction][1]
 
+2. AudioSet
+
+   Presented at ICASSP 2017 by researchers at Google, Audio Set delivers a 4,971-hour corpus of more than 1.78 million
+   human-labeled 10-second YouTube excerpts that span 632 sound-event categories arranged in a carefully designed
+   six-level ontology. Built expressly to push the state of large-scale audio-event recognition, the dataset provides a
+   balanced train/test split and a baseline benchmark, while its hierarchical labels support research on multi-label
+   classification, ontology-aware learning and broader acoustic-scene analysis. Because the clips are drawn from public
+   YouTube content, the collection is inherently language-agnostic—speech in many languages appears, but language itself
+   is not annotated—making the resource suitable for any task where the acoustic signature, rather than linguistic
+   content, is paramount. Audio Set therefore fills for sound the role that ImageNet played for vision, giving the
+   community an open, comprehensive foundation from which to train and compare high-performance audio recognition
+   systems. [Audio Set: An ontology and human-labeled dataset for audio events][3]
+
 #### 2020-2025
 
-| Index   | Dataset   | Main Task                      | Sub-Task(s)	                                             | Multilingual | Source                                        | Year | Derived       |
-|---------|-----------|--------------------------------|----------------------------------------------------------|--------------|-----------------------------------------------|------|---------------|
-| 1       | Audiocite | Self-supervised learning (SSL) | Automatic Speech Recognition (ASR), Speaker Verification |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG | 2024 | audiocite.net |
-| 2       |           |                                |                                                          |              |                                               |      |               |
+| Index | Dataset   | Main Task                      | Sub-Task(s)	                                             | Multilingual | Source                                        | Year | Derived       |
+|-------|-----------|--------------------------------|----------------------------------------------------------|--------------|-----------------------------------------------|------|---------------|
+| 1     | Audiocite | Self-supervised learning (SSL) | Automatic Speech Recognition (ASR), Speaker Verification |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG | 2024 | audiocite.net |
+| 2     |           |                                |                                                          |              |                                               |      |               |
 
 1. Audiocite
 
@@ -96,16 +109,7 @@ other speech processing applications.*
    already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
    technology. [Audiocite.net: A Large Spoken Read Dataset in French][2]
 
-3. AudioSet
-
-   AudioSet, introduced by Gemmeke et al. in their ICASSP 2017 paper, presents a hierarchical ontology of 635 audio
-   classes designed to comprehensively cover real-world sound events. The corresponding dataset comprises 2,084,320
-   human-labeled 10-second clips from YouTube (totaling approximately 5.8 thousand hours) annotated across 527 of those
-   classes, offering one of the largest multi-label corpora for audio event research. Segments for annotation were
-   nominated through metadata, contextual cues (e.g., links), and content-based searches, then verified by human
-   annotators to confirm the presence of target sounds. By providing this large-scale, realistic benchmark, AudioSet has
-   become a foundational resource driving advances in automatic audio event detection and
-   classification. [Google Research][5], [Google Research][6]
+---
 
 4. aGender
 5. AliMeeting
@@ -622,3 +626,4 @@ other speech processing applications.*
 
 [2]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
 
+[3]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45857.pdf "Audio Set: An ontology and human-labeled dataset for audio events"
