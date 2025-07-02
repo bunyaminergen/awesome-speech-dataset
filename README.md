@@ -61,22 +61,24 @@ other speech processing applications.*
 
 #### 2010-2020
 
-| Index | Dataset    | Main Task                           | Sub-Task(s) | Multilingual | Source                               | Year  | Derived |
-|-------|------------|-------------------------------------|-------------|--------------|--------------------------------------|-------|---------|
-| 1     | AudioSet   | Audio-event recognition / detection |             |              |                                      | 2017  |         |
-| 2     | AESDD      | Speech Emotion Recognition (SER)    |             |              | Aristotle University of Thessaloniki | 2018  |         |
+| Index | Dataset  | Main Task                                | Sub-Task(s)                      | Multilingual | Source                               | Year | Derived |
+|-------|----------|------------------------------------------|----------------------------------|--------------|--------------------------------------|------|---------|
+| 1     | aGender  | Automated age- and gender-classification | Dialog/persona adaptation in IVR |              | Deutsche Telekom AG Laboratories     | 2010 |         |
+| 2     | AudioSet | Audio-event recognition / detection      |                                  |              | Google Inc.                          | 2017 |         |
+| 3     | AESDD    | Speech Emotion Recognition (SER)         |                                  |              | Aristotle University of Thessaloniki | 2018 |         |
 
-1. AESDD
+1. aGender
 
-   Published in **2018** in the *Journal of the Audio Engineering Society*, the study from Aristotle University of
-   Thessaloniki presents the **Acted Emotional Speech Dynamic Database (AESDD)**—an acted-speech corpus recorded for
-   core **speech-emotion recognition (SER)** research and benchmarked against the English-language SAVEE set. AESDD was
-   initially built **in Greek**, but the authors stress that the “dynamic” repository is already being **enriched with
-   new recordings in both Greek *and* English**, enabling broader cross-lingual experiments while remaining
-   predominantly Greek at this stage. Beyond supplying training data, the paper demonstrates live SER that can drive
-   emotion-aware stage lighting, interactive actor training and audience-engagement tools, as well as automated
-   archiving and retrieval of theatrical performances, illustrating the dataset’s dual technical and creative
-   value. [Speech Emotion Recognition for Performance Interaction][1]
+   Published in 2010 by researchers at Deutsche Telekom Laboratories, this paper presents a 47-hour corpus of German
+   telephone speech whose 954 speakers are carefully balanced across seven age-and-gender categories (children, young,
+   middle-aged, seniors; male/female where applicable). Collected through six mobile-phone calls per participant and
+   augmented by a 659-speaker “VoiceClass” IVR set, the database provides short commands, dates, numbers and free
+   responses that mirror real customer-service dialogs. Its primary purpose is to train and evaluate automatic age and
+   gender detection for voice portals, but the authors also foresee secondary uses such as persona adaptation in dialog
+   systems, target-group advertising, market research and game-style applications. As a purpose-built, monolingual
+   German resource—yet methodologically compatible with SpeechDat—it supplies the balanced demographic coverage that
+   earlier corpora lacked, enabling more reliable speaker-classification research and an open challenge for the
+   community. [A Database of Age and Gender Annotated Telephone Speech][1]
 
 2. AudioSet
 
@@ -89,29 +91,42 @@ other speech processing applications.*
    is not annotated—making the resource suitable for any task where the acoustic signature, rather than linguistic
    content, is paramount. Audio Set therefore fills for sound the role that ImageNet played for vision, giving the
    community an open, comprehensive foundation from which to train and compare high-performance audio recognition
-   systems. [Audio Set: An ontology and human-labeled dataset for audio events][3]
+   systems. [Audio Set: An ontology and human-labeled dataset for audio events][2]
+
+3. AESDD
+
+   Published in 2018 in the Journal of the Audio Engineering Society, the study from Aristotle University of
+   Thessaloniki presents the Acted Emotional Speech Dynamic Database (AESDD)—an acted-speech corpus recorded for
+   core speech-emotion recognition (SER) research and benchmarked against the English-language SAVEE set. AESDD was
+   initially built in Greek, but the authors stress that the “dynamic” repository is already being enriched with
+   new recordings in both Greek and English, enabling broader cross-lingual experiments while remaining
+   predominantly Greek at this stage. Beyond supplying training data, the paper demonstrates live SER that can drive
+   emotion-aware stage lighting, interactive actor training and audience-engagement tools, as well as automated
+   archiving and retrieval of theatrical performances, illustrating the dataset’s dual technical and creative
+   value. [Speech Emotion Recognition for Performance Interaction][3]
 
 #### 2020-2025
 
 | Index | Dataset   | Main Task                      | Sub-Task(s)	                                             | Multilingual | Source                                        | Year | Derived       |
 |-------|-----------|--------------------------------|----------------------------------------------------------|--------------|-----------------------------------------------|------|---------------|
-| 1     | Audiocite | Self-supervised learning (SSL) | Automatic Speech Recognition (ASR), Speaker Verification |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG | 2024 | audiocite.net |
-| 2     |           |                                |                                                          |              |                                               |      |               |
+|       |           |                                |                                                          |              |                                               |      |               |
+|       | Audiocite | Self-supervised learning (SSL) | Automatic Speech Recognition (ASR), Speaker Verification |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG | 2024 | audiocite.net |
+|       |           |                                |                                                          |              |                                               |      |               |
+|       |           |                                |                                                          |              |                                               |      |               |
 
 1. Audiocite
 
-   Published in 2024, Audiocite.net: A Large Spoken Read Dataset in French introduces a 6,682-hour corpus of
-   volunteer-read audiobooks harvested from the Audiocité platform by researchers at Université Grenoble Alpes / CNRS /
-   Grenoble INP / LIG. Created to fuel self-supervised pre-training for French speech models, the monolingual French
-   dataset also supports downstream tasks such as ASR and speaker verification, and—despite lacking transcriptions—is
-   suitable for topic modelling, signal reconstruction and speech synthesis research. Entirely sourced from
-   Creative-Commons licensed audiobooks, Audiocite.net fills the size gap between English and French resources and has
-   already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
-   technology. [Audiocite.net: A Large Spoken Read Dataset in French][2]
+Published in 2024, Audiocite.net: A Large Spoken Read Dataset in French introduces a 6,682-hour corpus of
+volunteer-read audiobooks harvested from the Audiocité platform by researchers at Université Grenoble Alpes / CNRS /
+Grenoble INP / LIG. Created to fuel self-supervised pre-training for French speech models, the monolingual French
+dataset also supports downstream tasks such as ASR and speaker verification, and—despite lacking transcriptions—is
+suitable for topic modelling, signal reconstruction and speech synthesis research. Entirely sourced from
+Creative-Commons licensed audiobooks, Audiocite.net fills the size gap between English and French resources and has
+already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
+technology. [Audiocite.net: A Large Spoken Read Dataset in French][4]
 
 ---
 
-4. aGender
 5. AliMeeting
 6. ANAD
 7. Arabic Speech Corpus
@@ -622,8 +637,11 @@ other speech processing applications.*
 
 > **Note:** Please download the Markdown file to view the full list of references
 
-[1]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "Speech Emotion Recognition for Performance Interaction"
+[1]: http://www.lrec-conf.org/proceedings/lrec2010/pdf/262_Paper.pdf "A Database of Age and Gender Annotated Telephone Speech "
 
-[2]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
+[2]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45857.pdf "Audio Set: An ontology and human-labeled dataset for audio events"
 
-[3]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45857.pdf "Audio Set: An ontology and human-labeled dataset for audio events"
+[3]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "Speech Emotion Recognition for Performance Interaction"
+
+[4]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
+
