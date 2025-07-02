@@ -19,6 +19,13 @@ other speech processing applications.*
     * [Datasets (2023-25)](#2023-25)
     * [Timeless](#timeless)
     * [Other](#other-by-year)
+        * [1995-2000](#1995-2000)
+        * [2000-2005](#2000-2005)
+        * [2005-2010](#2005-2010)
+        * [2010-2015](#2010-2015)
+        * [2015-2020](#2015-2020)
+        * [2020-2025](#2020-2025)
+
 * [Hub / Database / Library](#hub--database--library)
     * [Open Source](#open-source)
     * [Closed Source](#closed-source)
@@ -124,14 +131,14 @@ other speech processing applications.*
 
 1. Audiocite
 
-Published in 2024, Audiocite.net: A Large Spoken Read Dataset in French introduces a 6,682-hour corpus of
-volunteer-read audiobooks harvested from the Audiocité platform by researchers at Université Grenoble Alpes / CNRS /
-Grenoble INP / LIG. Created to fuel self-supervised pre-training for French speech models, the monolingual French
-dataset also supports downstream tasks such as ASR and speaker verification, and—despite lacking transcriptions—is
-suitable for topic modelling, signal reconstruction and speech synthesis research. Entirely sourced from
-Creative-Commons licensed audiobooks, Audiocite.net fills the size gap between English and French resources and has
-already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
-technology. [Audiocite.net: A Large Spoken Read Dataset in French][4]
+   Published in 2024, Audiocite.net: A Large Spoken Read Dataset in French introduces a 6,682-hour corpus of
+   volunteer-read audiobooks harvested from the Audiocité platform by researchers at Université Grenoble Alpes / CNRS /
+   Grenoble INP / LIG. Created to fuel self-supervised pre-training for French speech models, the monolingual French
+   dataset also supports downstream tasks such as ASR and speaker verification, and—despite lacking transcriptions—is
+   suitable for topic modelling, signal reconstruction and speech synthesis research. Entirely sourced from
+   Creative-Commons licensed audiobooks, Audiocite.net fills the size gap between English and French resources and has
+   already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
+   technology. [Audiocite.net: A Large Spoken Read Dataset in French][4]
 
 ---
 
