@@ -16,9 +16,9 @@ other speech processing applications.*
 ## Table of Contents
 
 * [Tables of Datasets](#tables-of-datasets)
-    * [Datasets (2023-25)](#datasets-2023-25)
+    * [Datasets (2023-25)](#2023-25)
     * [Timeless](#timeless)
-    * [Unlisted](#unlisted)
+    * [Other](#other-by-year)
 * [Hub / Database / Library](#hub--database--library)
     * [Open Source](#open-source)
     * [Closed Source](#closed-source)
@@ -29,7 +29,7 @@ other speech processing applications.*
 
 ## Tables of Datasets
 
-### Datasets (2023-25)
+### 2023-25
 
 | Index | Dataset              | Automatic Speech Recognition (ASR) | Speaker Recognition | Emotion Recognition | Speaker Identification | Speaker Verification | Speech Separation | Speaker Diarisation (Diarization) | Voice Activity Detection (VAD) / Speech Activity Detection (SAD) / Speech Detection | Speech Enhancement | Answering Machine Detection (AMD) | Spoken Language Understanding (SLU) | Speech Translation (ST) | Language Identification (LID) | Text to Speech (TTS) | Spoken NER | Source separation | Dialogue Act Recognition | Keyword Spotting | Audio-Visual(AV) | Download                                                    | Multilingual | Source             | Version | Paper | Interspeech | Description                                                                                               |
 |-------|----------------------|------------------------------------|---------------------|---------------------|------------------------|----------------------|-------------------|-----------------------------------|-------------------------------------------------------------------------------------|--------------------|-----------------------------------|-------------------------------------|-------------------------|-------------------------------|----------------------|------------|-------------------|--------------------------|------------------|------------------|-------------------------------------------------------------|--------------|--------------------|---------|-------|-------------|-----------------------------------------------------------------------------------------------------------|
@@ -57,21 +57,15 @@ other speech processing applications.*
 | 10    | MUSAN                                                      |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                                                           |              |                                     |         |                                                                                                                                                |             |                                                                                                                                                                                                                                                                                                                                    |
 | 11    | VCTK (CSTR VCTK Corpus)                                    |                                    |                     |                     |                        |                      |                   |                                   |                                                                                     |                    |                                   |                                     |                         |                               |                      |            |                   |                          |                  |                  |                                                                                           |              |                                     |         |                                                                                                                                                |             |                                                                                                                                                                                                                                                                                                                                    |
 
-### Unlisted
+### Other (by year)
 
-Reasons for inclusion in the list:
+| Index | Dataset   | Main Task   | Multilingual | Source                  | Year | Derived      |
+|-------|-----------|-------------|--------------|-------------------------|------|--------------|
+| 1     | Dataset 1 | ASR         | True         | University of Edinburgh | 19xx | LibriSpeech  |
+| 2     | Dataset 2 | Diarization |              |                         | 20xx |              |
+| 3     | Dataset 3 | TTS         | True         | University of Sheffield | 202x | Common Voice |
 
-* Insufficient information: Lack of accompanying research paper, missing downloading steps, absence of metadata or
-  data dictionary, and unclear or unspecified annotation, dataset sources, or recording/collecting details.
-
-* Extracted/Derived from another dataset: Dataset has been derived or extracted from another pre-existing dataset.
-
-* Not open source: Limited access due to insufficient publicly available information, many aspects being
-  confidential, or availability restricted only to paid access.
-
-* Out of date: Dataset is older than two years, indicating potential obsolescence.
-
-* Specific tasks: Dataset is tailored for highly specialized subtasks or very specific applications.
+#### 19xx
 
 1. AESDD
 
