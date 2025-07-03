@@ -93,12 +93,23 @@ other speech processing applications.*
 
 #### 2015-2020
 
-| Index | Dataset  | Main Task                        | Sub-Task(s) | Multilingual | Source                               | Year | Derived |
-|-------|----------|----------------------------------|-------------|--------------|--------------------------------------|------|---------|
-|       | AudioSet |                                  |             |              | Google Inc.                          | 2017 |         |
-|       | AESDD    | Speech Emotion Recognition (SER) |             |              | Aristotle University of Thessaloniki | 2018 |         |
+| Index | Dataset              | Main Task                        | Sub-Task(s) | Multilingual | Source                               | Year | Derived |
+|-------|----------------------|----------------------------------|-------------|--------------|--------------------------------------|------|---------|
+|       | Arabic Speech Corpus | Speech Synthesis                 |             |              | University of Southampton            | 2016 |         |
+|       | AudioSet             |                                  |             |              | Google Inc.                          | 2017 |         |
+|       | AESDD                | Speech Emotion Recognition (SER) |             |              | Aristotle University of Thessaloniki | 2018 |         |
 
-1. AudioSet
+1. Arabic Speech Corpus
+
+   The Arabic Speech Corpus (≈ 1.5 GB) is an original Modern Standard Arabic dataset created at the University of
+   Southampton by PhD researcher Nawar Halabi for high-quality text-to-speech synthesis. Comprising over 3.7 hours of
+   professionally recorded Damascene-accent speech, it supplies time-aligned phoneme-level labels and explicit
+   word-stress annotations, allowing researchers not only to build natural-sounding Arabic TTS voices (as already
+   demonstrated) but also to explore auxiliary tasks such as phoneme segmentation, stress and prosody modelling, and
+   other Arabic speech studies. The recordings are newly produced in-house, so the corpus is not derived from any prior
+   dataset, and it is monolingual Arabic. [Modern Standard Arabic Phonetics for Speech Synthesis][2]
+
+2. AudioSet
 
    Presented at ICASSP 2017 by researchers at Google, Audio Set delivers a 4,971-hour corpus of more than 1.78 million
    human-labeled 10-second YouTube excerpts that span 632 sound-event categories arranged in a carefully designed
@@ -109,9 +120,9 @@ other speech processing applications.*
    is not annotated—making the resource suitable for any task where the acoustic signature, rather than linguistic
    content, is paramount. Audio Set therefore fills for sound the role that ImageNet played for vision, giving the
    community an open, comprehensive foundation from which to train and compare high-performance audio recognition
-   systems. [Audio Set: An ontology and human-labeled dataset for audio events][2]
+   systems. [Audio Set: An ontology and human-labeled dataset for audio events][3]
 
-2. AESDD
+3. AESDD
 
    Published in 2018 in the Journal of the Audio Engineering Society, the study from Aristotle University of
    Thessaloniki presents the Acted Emotional Speech Dynamic Database (AESDD)—an acted-speech corpus recorded for
@@ -121,14 +132,29 @@ other speech processing applications.*
    predominantly Greek at this stage. Beyond supplying training data, the paper demonstrates live SER that can drive
    emotion-aware stage lighting, interactive actor training and audience-engagement tools, as well as automated
    archiving and retrieval of theatrical performances, illustrating the dataset’s dual technical and creative
-   value. [Speech Emotion Recognition for Performance Interaction][3]
+   value. [Speech Emotion Recognition for Performance Interaction][4]
 
 #### 2020-2025
 
 | Index | Dataset    | Main Task                          | Sub-Task(s)                                                                                        | Multilingual | Source                                                                               | Year | Derived       |
 |-------|------------|------------------------------------|----------------------------------------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------|------|---------------|
+|       | Att-HACK   | Speech Synthesis                   | Speech Emotion Recognition (SER)                                                                   |              | STMS-Lab – IRCAM / CNRS / Sorbonne Université                                        | 2020 |               |
 |       | AliMeeting | Automatic Speech Recognition (ASR) | Speaker Verification, Speech Enhancement, Speech Separation, Speech Segmentation, Overlap Handling |              | Alibaba Group Speech Lab (China & Singapore), Beijing Shell Tech, AISHELL Foundation | 2022 |               |
 |       | Audiocite  |                                    | Automatic Speech Recognition (ASR), Speaker Verification                                           |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG                                        | 2024 | audiocite.net |
+
+1. Att-HACK
+
+   Att-HACK is a freely available French database released in 2020 by the STMS-Lab (IRCAM / CNRS / Sorbonne Université)
+   to push research on expressive speech and social attitudes beyond the usual “basic-emotion” corpora. It contains
+   roughly 30 hours of studio-quality speech in which 25 actors each read 100 short French sentences while deliberately
+   portraying four interpersonal attitudes – friendly, seductive, dominant, and distant – with 3-5 prosodically varied
+   repetitions per sentence, yielding more than 22 000 utterances so far. Besides waveform audio, the release includes
+   orthographic text, forced phonetic alignments and raw F0 tracks. While primarily intended for modelling and
+   synthesising prosody in socially-expressive TTS systems, the rich, repeated renditions also suit side tasks such as
+   social-attitude or emotion recognition, prosody analysis, and neutral-to-expressive voice conversion. The corpus is
+   entirely original (not derived from earlier data) and is monolingual French, distributed for academic use under a
+   Creative-Commons licence. [Att-HACK: An Expressive Speech Database with Social Attitudes][5]
+
 
 1. AliMeeting
 
@@ -142,7 +168,7 @@ other speech processing applications.*
    supports front-end enhancement and separation research. Although multilingual corpora exist for English, M2MeT fills
    a critical gap for Mandarin, enabling reproducible research on real-world meeting processing and advancing
    “who-spoke-what-when” technology in
-   Chinese. [M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge][4]
+   Chinese. [M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge][6]
 
 2. Audiocite
 
@@ -153,488 +179,487 @@ other speech processing applications.*
    suitable for topic modelling, signal reconstruction and speech synthesis research. Entirely sourced from
    Creative-Commons licensed audiobooks, Audiocite.net fills the size gap between English and French resources and has
    already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
-   technology. [Audiocite.net: A Large Spoken Read Dataset in French][5]
+   technology. [Audiocite.net: A Large Spoken Read Dataset in French][7]
 
 ---
 
-5.
-6. ANAD
-7. Arabic Speech Corpus
-8. Att-HACK
-9. AudioMNIST
-10. BAVED
-11. BibleTTS
-12. CALLHOME American English Speech
-13. Café
-14. ClovaCall
-15. CML-TTS
-16. CMU-MOSEI
-17. CN-CELEB
-18. Common Phone
-19. Coswara
-20. CoVoST
-21. CoVoST2
-22. CVSS
-23. DAPS
-24. DCASE 2014
-25. DEEP-VOICE
-26. DEMoS
-27. Earnings-21
-28. EasyCom
-29. Europarl-ST
-30. EMOVO
-31. Emo-DB
-32. EmoSynth
-33. EmoV-DB
-34. EPIC-KITCHENS-100
-35. EPIC-SOUNDS
-36. EMNS
-37. EmoFilm
-38. eNTERFACE05
-39. Fisher English Training Speech
-40. Flickr Audio Caption Corpus
-41. FMFCC-A
-42. Free Spoken Digit Dataset
-43. FSD50K
-44. GEMEP corpus
-45. GigaST
-46. Golos
-47. Hi-Fi TTS (Hi-Fi Multi-Speaker English TTS Dataset)
-48. HowTo100M
-49. Hume-VB
-50. HumBug Zooniverse
-51. IBM Voicemail Corpus
-52. ICSI Corpus
-53. IISc-MILE Kannada ASR Corpus
-54. IISc-MILE Tamil ASR Corpus
-55. InfantMarmosetsVox
-56. Infobip AMD
-57. Interview
-58. ISOLET
-59. JL corpus
-60. KazakhTTS
-61. KSC (Kazakh Speech Corpus)
-62. Keio-ESD
-63. Kosp2e
-64. LEGO Spoken Dialogue Corpus
-65. Libri-Adapt
-66. Libri-Mixed-Speakers
-67. LibriCSS
-68. LibriMix
-69. LibriTTS
-70. LibriTTS-R
-71. LJSpeech
-72. LJSpeech-1.1
-73. MaSS
-74. MeerKAT: Meerkat Kalahari Audio Transcripts
-75. Mini LibriSpeech
-76. MobvoiHotwords
-77. Mohammed
-78. MOSI
-79. MRDA (ICSI Meeting Recorder Dialog Act Corpus)
-80. MSP Podcast Corpus
-81. MSNER
-82. Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
-83. Multimodal PISA (Multimodal Piano Skills Assessment)
-84. MuSe-CAR
-85. Nepali Text-to-Speech Data (Male and Female)
-86. NTIMIT
-87. OGVC
-88. ParlamentParla
-89. PartialSpoof
-90. PC-GITA
-91. PCVC (Persian Consonant Vowel Combination)
-92. PodcastFillers
-93. PromptSpeech
-94. PromptTTS
-95. Puebla-Nahuatl
-96. RECOLA
-97. ReefSet
-98. Respiratory and Drug Actuation Dataset
-99. ReVerb
-100. RuLS (Russian LibriSpeech)
-101. Samrómur Mimic 22.09
-102. SASPEECH
-103. SAVEE
-104. SEWA
-105. SEMAINE
-106. SEOUL CORPUS
-107. SHALCAS22A
-108. ShEMO
-109. Silbo Gomero Speech Corpus
-110. SINGA:PURA (SINGApore: Polyphonic URban Audio)
-111. SingFake
-112. SLUE
-113. SparseLibriMix
-114. SpeechMatrix
-115. Speech Accent Archive
-116. Speech Wikimedia
-117. SPEECH-COCO
-118. Speech-MASSIVE
-119. Spiking Heidelberg Digits (SHD)
-120. Spiking Speech Commands (SSC)
-121. SPGISpeech
-122. Spotify Podcast Datase
-123. Spoken-SQuAD
-124. TAU Urban Acoustic Scenes 2019
-125. TAU-NIGENS Spatial Sound
-126. Tatoeba
-127. TESS
-128. THCHS-30
-129. Thorsten-Voice
-130. MC Speech Dataset
-131. TIMIT
-132. TUDA
-133. UGIF
-134. VCTK-2Mix
-135. VGG-Sound
-136. VGGSound-Sparse
-137. VIVAE
-138. VocalSound
-139. VOICES
-140. Yoloxóchitl-Mixtec
-141. YouTube-8M
-142. Wavix Voicemail
-143. WHAMR!
-144. Wikimedia Commons
-145. XBMU-AMDO31
-146. Zeroth-Korean
-147. DeToxy
-148. EasyCall
-149. REAL-M
-150. RTASC
-151. ReMASC
-152. Talking With Hands 16.2M
-153. Timers and Such
-154. ASR-GLUE
-155. EMOVIE
-156. LibriVoxDeEn
-157. NusaCrowd
-158. RESD
-159. SpokenSTS
-160. TaL Corpus (The Tongue and Lips Corpus)
-161. AV Digits Database
-162. BD-4SK-ASR
-163. CI-AVSR
-164. JVS-MuSiC
-165. LaboroTVSpeech
-166. MASRI-HEADSET
-167. MAVS
-168. NPSC
-169. MultiSV
-170. NeuroVoz
-171. RyanSpeech
-172. SDN (Situated Dialogue Navigation)
-173. AVA-Speech
-174. AVASpeech-SMAD
-175. Arabic Speech Commands Dataset
-176. DR-VCTK
-177. EVI
-178. EmoSpeech
-179. FT Speech
-180. Greek Parliament Proceedings
-181. JSS Dataset (Jejueo Single Speaker Speech)
-182. THVD (Talking Head Video Dataset)
-183. Kinect-WSJ
-184. LibriS2S
-185. MediBeng
-186. Persian Preschool Cognition Speech
-187. Quechua-SER
-188. RUSLAN
-189. VedantaNY-10M
-190. MCCSD (Mandarin Chinese Cued Speech Dataset)
-191. TurkicASR
-192. UrbanSound8K
-193. CMUARCTIC
-194. QUESST 2014
-195. SNIPS
-196. YESNO
-197. AccentDB
-198. Free Spoken Digit Dataset (FSDD)
-199. Libri-Light
-200. LRS3-TED
-201. CAS-VSR-W1k (LRW-1000)
-202. GLips
-203. DIRHA
-204. BERSt
-205. CANDOR
-206. MSP-Podcast
-207. EmoDB
-208. LSSED
-209. Doc2Dial
-210. Switchboard-1
-211. CPED (Chinese Personalized and Emotional Dialogue)
-212. LRW (Lip Reading in the Wild)
-213. CSS10
-214. iKala
-215. FKD (Football Keywords Dataset)
-216. mDRT
-217. BABEL Speech Corpus
-218. WiLI-2018
-219. Common Language
-220. NLI-PT
-221. FUSS (Free Universal Sound Separation)
-222. Auto-KWS
-223. AVMIT (Audiovisual Moments in Time)
-224. Lingala Read Speech Corpus
-225. Congolese Speech Radio Corpus
-226. Zambezi Voice
-227. Friends-MMC
-228. Laboro-ASV (LaboroTVSpeech-ASV)
-229. CAVES (Cantonese Audio-Visual Emotional Speech)
-230. BANSpEmo
-231. MDER
-232. EMOVOME
-233. Spanish MEACorpus 2023
-234. LibriheavyMix
-235. Echo2Mix
-236. RATS Low Speech Density
-237. BhasaAnuvaad
-238. AVMuST-TED
-239. RoDia
-240. NLSpeech
-241. Balinese TTS
-242. Rasa
-243. IndicVoices-R
-244. RASwDA (Re-Aligned Switchboard Dialog Act Corpus)
-245. MOCKS
-246. WenetPhrase
-247. MDSC
-248. LIP-RTVE
-249. SlideAVSR
-250. OLKAVS
-251. AVA Datasets
-252. DipCo (Dinner Party Corpus)
-253. Samanantar
-254. SEP-28k (Stuttering Events in Podcasts)
-255. GUM
-256. speechocean762
-257. MagicData-RAMC
-258. SwissDials
-259. Europarl-ASR
-260. Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
-261. ADIMA
-262. Samrómur L2 22.09
-263. MediaSpeech
-264. Totonac Resources
-265. ASCEND
-266. NISP
-267. NISQA Speech Quality Corpus
-268. Silent Speech EMG
-269. VESUS
-270. DDS (Device-Degraded Speech)
-271. WSJ0-2mix
-272. VoxForge
-273. VOCASET
-274. JVS corpus
-275. GRID
-276. CMU Wilderness Multilingual Speech Dataset
-277. MuST-C
-278. LRS2 (Lip Reading Sentences 2)
-279. MELD (Multimodal EmotionLines Dataset)
-280. MSP-IMPROV
-281. CREMA-D
-282. RAVDESS
-283. AVA (Atomic Visual Actions)
-284. Fluent Speech Commands
-285. MIR Corpora
-286. NIST SRE (SRE Data)
-287. SITW
-288. DIHARD
-289. Voicebank DEMAND
-290. SLURP
-291. Tatoeba
-292. CMUDict
-293. Switchboard Dialog Act Corpus (SwDA)
-294. SGD (Schema-Guided Dialogue)
-295. AVSpeech
-296. MIT (Moments in Time Dataset)
-297. Multilingual LibriSpeech (MLS)
-298. AISHELL (4)
-299. ESD (Emotional Speech Database)
-300. WenetSpeech
-301. BEAT (Body-Expression-Audio-Text)
-302. BSTC (Baidu Speech Translation Corpus)
-303. SOMOS
-304. DAPS (Device and Produced Speech)
-305. GigaSpeech
-306. MS-SNSD (Microsoft Scalable Noisy Speech Dataset)
-307. Multilingual TEDx
-308. People's Speech
-309. Spoken Wikipedia Corpora
-310. TED-LIUM
-311. VoxConverse
-312. VoxPopuli
-313. WHAM!
-314. Clarin-PL EMU (Studio Corpus)
-315. Turkish Speech Corpus
-316. Multilingual Spoken Words Corpus
-317. Turkish Neural Voice (turkishvoicedataset)
-318. VOTE400
-319. M-AILABS Speech Dataset
-320. FLEURS
-321. Czech Parliament Plenary
-322. SIWIS French Speech Synthesis Database
-323. MELD-ST
-324. ETHOS
-325. Skit-S2I
-326. DailyTalk
-327. RedPen
-328. ASED (Amharic Speech Emotion Dataset)
-329. GreThE
-330. HERDPhobia
-331. ASMDD (Arabic Speech Mispronunciation Detection Dataset)
-332. TEET
-333. PodcastMix
-334. NHSS
-335. HateXplain
-336. KeSpeech
-337. BembaSpeech
-338. Crowd-Sourced Speech Corpora
-339. EVBCorpus
-340. Modality Corpus
-341. SDS-200
-342. Lahjoita Puhetta
-343. MDCC (Multi-Domain Cantonese Corpus)
-344. 3MASSIV
-345. MGB
-346. QASR
-347. LRS2-BBC
-348. LRS3-Lang
-349. JSpeech
-350. L2-ARCTIC
-351. MyST Children's Conversational Speech
-352. National Speech Corpus
-353. DiDiSpeech
-354. RVTE database
-355. KsponSpeech
-356. Fearless Steps
-357. Bundestag
-358. UserLibri
-359. ReazonSpeech
-360. Chinese Mandarin Lip Reading (CMLR)
-361. ParlaSpeech-HR
-362. VoxLingua107
-363. JTubeSpeech
-364. Primewords
-365. ST-CMDS
-366. NST Danish ASR Database
-367. NST Swedish ASR Database
-368. NST Norwegian ASR Database
-369. NorGovPCC (The Norwegian Government Press Conference Speech Corpus)
-370. ARU Speech Corpus
-371. Althingi Parliamentary Speech Corpus
-372. Pansori
-373. ALFFA (African Languages in the Field: speech Fundamentals and Automation)
-374. Hey Snips
-375. ACAV100M
-376. Mead
-377. PACS
-378. MAD
-379. Speech2Gesture
-380. VideoCC
-381. DeepMine
-382. BookTubeSpeech
-383. CSSD
-384. Carnatic Varnam Dataset
-385. Clotho
-386. CFAD: A Chinese Dataset for Fake Audio Detection
-387. FestCat
-388. USPDATRO
-389. FPT Open Speech Dataset (FOSD) - Vietnamese
-390. FOSD Female Speech Dataset
-391. How2
-392. KdConv
-393. Libriheavy
-394. MuAViC
-395. RealMAN
-396. WaveFake
-397. DECRO
-398. Chichewa
-399. Middle East Technical University Turkish Microphone Speech
-400. Turkish Broadcast News Speech and Transcripts
-401. Apollo Corpus
-402. Half-Truth
-403. LaFresCat
-404. Sagalee
-405. SMIIP-TV dataset
-406. Pragmatic Similarity Judgments
-407. Kallaama
-408. VietMed
-409. Neural Audio Fingerprint Dataset
-410. Jam-ALT
-411. CAS-VSR-S101
-412. CUCO Database
-413. Emozionalmente
-414. DreamVoice
-415. AnglistikVoices
-416. MSNER
-417. SpeechBrown
-418. United-MedSyn
-419. Watch Your Mouth: Point Clouds based Speech Recognition Dataset
-420. InaGVAD
-421. SONICS
-422. FakeMusicCaps
-423. Granary
-424. OpenLID
-425. GlotLID
-426. MSR-86K
-427. KazEmoTTS
-428. KBES
-429. Dusha
-430. M5SER
-431. Divide and Remaster v3 (DnR v3)
-432. ITALIC
-433. FalAI
-434. TextrolSpeech
-435. MMCSG
-436. Lombard-GRID-2mix
-437. MCAS
-438. TextrolMix
-439. Hi, KIA
-440. KAN-AV
-441. Facestar
-442. RVTALL
-443. AVE-Speech
-444. MSceneSpeech
-445. StoryTTS
-446. Speak & Improve Corpus
-447. Unsupervised People’s Speech
-448. Helsinki Speech Challenge 2024 open audio dataset
-449. nEMO
-450. ODSS
-451. TIMIT-TTS
-452. BBS-S2T
-453. SIFT-50M
-454. MIVIA Speech Command
-455. TunSwitch
-456. DiffSSD
-457. OOD-Speech
-458. AS-70
-459. DisfluencySpeech
-460. Boli
-461. SPIRE-SIES
-462. NaturalVoices
-463. ArmanTTS
-464. KSoF (Kassel State of Fluency)
-465. RIRs (Room Impulse Responses)
-466. STAIR Captions
-467. EmoSeC
-468. RescueSpeech
-469. ClArTTS
-470. CORAAL
-471. Audio-FLAN
-472. VocalMind
-473. GTSinger
-474. Fair-speech Dataset
-475. 3D-Speaker
-476. EARS
-477. EdAcc (Edinburgh International Accents of English Corpus)
-478. ShiftySpeech
-479. SlideSpeech
-480. SpeechCraft
-481. COVYT
-482. CitySpeechMix
+* Att-HACK
+* AudioMNIST
+* BAVED
+* BibleTTS
+* CALLHOME American English Speech
+* Café
+* ClovaCall
+* CML-TTS
+* CMU-MOSEI
+* CN-CELEB
+* Common Phone
+* Coswara
+* CoVoST
+* CoVoST2
+* CVSS
+* DAPS
+* DCASE 2014
+* DEEP-VOICE
+* DEMoS
+* Earnings-21
+* EasyCom
+* Europarl-ST
+* EMOVO
+* Emo-DB
+* EmoSynth
+* EmoV-DB
+* EPIC-KITCHENS-100
+* EPIC-SOUNDS
+* EMNS
+* EmoFilm
+* eNTERFACE05
+* Fisher English Training Speech
+* Flickr Audio Caption Corpus
+* FMFCC-A
+* Free Spoken Digit Dataset
+* FSD50K
+* GEMEP corpus
+* GigaST
+* Golos
+* Hi-Fi TTS (Hi-Fi Multi-Speaker English TTS Dataset)
+* HowTo100M
+* Hume-VB
+* HumBug Zooniverse
+* IBM Voicemail Corpus
+* ICSI Corpus
+* IISc-MILE Kannada ASR Corpus
+* IISc-MILE Tamil ASR Corpus
+* InfantMarmosetsVox
+* Infobip AMD
+* Interview
+* ISOLET
+* JL corpus
+* KazakhTTS
+* KSC (Kazakh Speech Corpus)
+* Keio-ESD
+* Kosp2e
+* LEGO Spoken Dialogue Corpus
+* Libri-Adapt
+* Libri-Mixed-Speakers
+* LibriCSS
+* LibriMix
+* LibriTTS
+* LibriTTS-R
+* LJSpeech
+* LJSpeech-1.1
+* MaSS
+* MeerKAT: Meerkat Kalahari Audio Transcripts
+* Mini LibriSpeech
+* MobvoiHotwords
+* Mohammed
+* MOSI
+* MRDA (ICSI Meeting Recorder Dialog Act Corpus)
+* MSP Podcast Corpus
+* MSNER
+* Mudestreda (Mudestreda Multimodal Device State Recognition Dataset)
+* Multimodal PISA (Multimodal Piano Skills Assessment)
+* MuSe-CAR
+* Nepali Text-to-Speech Data (Male and Female)
+* NTIMIT
+* OGVC
+* ParlamentParla
+* PartialSpoof
+* PC-GITA
+* PCVC (Persian Consonant Vowel Combination)
+* PodcastFillers
+* PromptSpeech
+* PromptTTS
+* Puebla-Nahuatl
+* RECOLA
+* ReefSet
+* Respiratory and Drug Actuation Dataset
+* ReVerb
+* RuLS (Russian LibriSpeech)
+* Samrómur Mimic 22.09
+* SASPEECH
+* SAVEE
+* SEWA
+* SEMAINE
+* SEOUL CORPUS
+* SHALCAS22A
+* ShEMO
+* Silbo Gomero Speech Corpus
+* SINGA:PURA (SINGApore: Polyphonic URban Audio)
+* SingFake
+* SLUE
+* SparseLibriMix
+* SpeechMatrix
+* Speech Accent Archive
+* Speech Wikimedia
+* SPEECH-COCO
+* Speech-MASSIVE
+* Spiking Heidelberg Digits (SHD)
+* Spiking Speech Commands (SSC)
+* SPGISpeech
+* Spotify Podcast Datase
+* Spoken-SQuAD
+* TAU Urban Acoustic Scenes 2019
+* TAU-NIGENS Spatial Sound
+* Tatoeba
+* TESS
+* THCHS-30
+* Thorsten-Voice
+* MC Speech Dataset
+* TIMIT
+* TUDA
+* UGIF
+* VCTK-2Mix
+* VGG-Sound
+* VGGSound-Sparse
+* VIVAE
+* VocalSound
+* VOICES
+* Yoloxóchitl-Mixtec
+* YouTube-8M
+* Wavix Voicemail
+* WHAMR!
+* Wikimedia Commons
+* XBMU-AMDO31
+* Zeroth-Korean
+* DeToxy
+* EasyCall
+* REAL-M
+* RTASC
+* ReMASC
+* Talking With Hands 16.2M
+* Timers and Such
+* ASR-GLUE
+* EMOVIE
+* LibriVoxDeEn
+* NusaCrowd
+* RESD
+* SpokenSTS
+* TaL Corpus (The Tongue and Lips Corpus)
+* AV Digits Database
+* BD-4SK-ASR
+* CI-AVSR
+* JVS-MuSiC
+* LaboroTVSpeech
+* MASRI-HEADSET
+* MAVS
+* NPSC
+* MultiSV
+* NeuroVoz
+* RyanSpeech
+* SDN (Situated Dialogue Navigation)
+* AVA-Speech
+* AVASpeech-SMAD
+* Arabic Speech Commands Dataset
+* DR-VCTK
+* EVI
+* EmoSpeech
+* FT Speech
+* Greek Parliament Proceedings
+* JSS Dataset (Jejueo Single Speaker Speech)
+* THVD (Talking Head Video Dataset)
+* Kinect-WSJ
+* LibriS2S
+* MediBeng
+* Persian Preschool Cognition Speech
+* Quechua-SER
+* RUSLAN
+* VedantaNY-10M
+* MCCSD (Mandarin Chinese Cued Speech Dataset)
+* TurkicASR
+* UrbanSound8K
+* CMUARCTIC
+* QUESST 2014
+* SNIPS
+* YESNO
+* AccentDB
+* Free Spoken Digit Dataset (FSDD)
+* Libri-Light
+* LRS3-TED
+* CAS-VSR-W1k (LRW-1000)
+* GLips
+* DIRHA
+* BERSt
+* CANDOR
+* MSP-Podcast
+* EmoDB
+* LSSED
+* Doc2Dial
+* Switchboard-1
+* CPED (Chinese Personalized and Emotional Dialogue)
+* LRW (Lip Reading in the Wild)
+* CSS10
+* iKala
+* FKD (Football Keywords Dataset)
+* mDRT
+* BABEL Speech Corpus
+* WiLI-2018
+* Common Language
+* NLI-PT
+* FUSS (Free Universal Sound Separation)
+* Auto-KWS
+* AVMIT (Audiovisual Moments in Time)
+* Lingala Read Speech Corpus
+* Congolese Speech Radio Corpus
+* Zambezi Voice
+* Friends-MMC
+* Laboro-ASV (LaboroTVSpeech-ASV)
+* CAVES (Cantonese Audio-Visual Emotional Speech)
+* BANSpEmo
+* MDER
+* EMOVOME
+* Spanish MEACorpus 2023
+* LibriheavyMix
+* Echo2Mix
+* RATS Low Speech Density
+* BhasaAnuvaad
+* AVMuST-TED
+* RoDia
+* NLSpeech
+* Balinese TTS
+* Rasa
+* IndicVoices-R
+* RASwDA (Re-Aligned Switchboard Dialog Act Corpus)
+* MOCKS
+* WenetPhrase
+* MDSC
+* LIP-RTVE
+* SlideAVSR
+* OLKAVS
+* AVA Datasets
+* DipCo (Dinner Party Corpus)
+* Samanantar
+* SEP-28k (Stuttering Events in Podcasts)
+* GUM
+* speechocean762
+* MagicData-RAMC
+* SwissDials
+* Europarl-ASR
+* Vāksañcayaḥ (Sanskrit Speech Corpus by IIT Bombay)
+* ADIMA
+* Samrómur L2 22.09
+* MediaSpeech
+* Totonac Resources
+* ASCEND
+* NISP
+* NISQA Speech Quality Corpus
+* Silent Speech EMG
+* VESUS
+* DDS (Device-Degraded Speech)
+* WSJ0-2mix
+* VoxForge
+* VOCASET
+* JVS corpus
+* GRID
+* CMU Wilderness Multilingual Speech Dataset
+* MuST-C
+* LRS2 (Lip Reading Sentences 2)
+* MELD (Multimodal EmotionLines Dataset)
+* MSP-IMPROV
+* CREMA-D
+* RAVDESS
+* AVA (Atomic Visual Actions)
+* Fluent Speech Commands
+* MIR Corpora
+* NIST SRE (SRE Data)
+* SITW
+* DIHARD
+* Voicebank DEMAND
+* SLURP
+* Tatoeba
+* CMUDict
+* Switchboard Dialog Act Corpus (SwDA)
+* SGD (Schema-Guided Dialogue)
+* AVSpeech
+* MIT (Moments in Time Dataset)
+* Multilingual LibriSpeech (MLS)
+* AISHELL (4)
+* ESD (Emotional Speech Database)
+* WenetSpeech
+* BEAT (Body-Expression-Audio-Text)
+* BSTC (Baidu Speech Translation Corpus)
+* SOMOS
+* DAPS (Device and Produced Speech)
+* GigaSpeech
+* MS-SNSD (Microsoft Scalable Noisy Speech Dataset)
+* Multilingual TEDx
+* People's Speech
+* Spoken Wikipedia Corpora
+* TED-LIUM
+* VoxConverse
+* VoxPopuli
+* WHAM!
+* Clarin-PL EMU (Studio Corpus)
+* Turkish Speech Corpus
+* Multilingual Spoken Words Corpus
+* Turkish Neural Voice (turkishvoicedataset)
+* VOTE400
+* M-AILABS Speech Dataset
+* FLEURS
+* Czech Parliament Plenary
+* SIWIS French Speech Synthesis Database
+* MELD-ST
+* ETHOS
+* Skit-S2I
+* DailyTalk
+* RedPen
+* ASED (Amharic Speech Emotion Dataset)
+* GreThE
+* HERDPhobia
+* ASMDD (Arabic Speech Mispronunciation Detection Dataset)
+* TEET
+* PodcastMix
+* NHSS
+* HateXplain
+* KeSpeech
+* BembaSpeech
+* Crowd-Sourced Speech Corpora
+* EVBCorpus
+* Modality Corpus
+* SDS-200
+* Lahjoita Puhetta
+* MDCC (Multi-Domain Cantonese Corpus)
+* 3MASSIV
+* MGB
+* QASR
+* LRS2-BBC
+* LRS3-Lang
+* JSpeech
+* L2-ARCTIC
+* MyST Children's Conversational Speech
+* National Speech Corpus
+* DiDiSpeech
+* RVTE database
+* KsponSpeech
+* Fearless Steps
+* Bundestag
+* UserLibri
+* ReazonSpeech
+* Chinese Mandarin Lip Reading (CMLR)
+* ParlaSpeech-HR
+* VoxLingua107
+* JTubeSpeech
+* Primewords
+* ST-CMDS
+* NST Danish ASR Database
+* NST Swedish ASR Database
+* NST Norwegian ASR Database
+* NorGovPCC (The Norwegian Government Press Conference Speech Corpus)
+* ARU Speech Corpus
+* Althingi Parliamentary Speech Corpus
+* Pansori
+* ALFFA (African Languages in the Field: speech Fundamentals and Automation)
+* Hey Snips
+* ACAV100M
+* Mead
+* PACS
+* MAD
+* Speech2Gesture
+* VideoCC
+* DeepMine
+* BookTubeSpeech
+* CSSD
+* Carnatic Varnam Dataset
+* Clotho
+* CFAD: A Chinese Dataset for Fake Audio Detection
+* FestCat
+* USPDATRO
+* FPT Open Speech Dataset (FOSD) - Vietnamese
+* FOSD Female Speech Dataset
+* How2
+* KdConv
+* Libriheavy
+* MuAViC
+* RealMAN
+* WaveFake
+* DECRO
+* Chichewa
+* Middle East Technical University Turkish Microphone Speech
+* Turkish Broadcast News Speech and Transcripts
+* Apollo Corpus
+* Half-Truth
+* LaFresCat
+* Sagalee
+* SMIIP-TV dataset
+* Pragmatic Similarity Judgments
+* Kallaama
+* VietMed
+* Neural Audio Fingerprint Dataset
+* Jam-ALT
+* CAS-VSR-S101
+* CUCO Database
+* Emozionalmente
+* DreamVoice
+* AnglistikVoices
+* MSNER
+* SpeechBrown
+* United-MedSyn
+* Watch Your Mouth: Point Clouds based Speech Recognition Dataset
+* InaGVAD
+* SONICS
+* FakeMusicCaps
+* Granary
+* OpenLID
+* GlotLID
+* MSR-86K
+* KazEmoTTS
+* KBES
+* Dusha
+* M5SER
+* Divide and Remaster v3 (DnR v3)
+* ITALIC
+* FalAI
+* TextrolSpeech
+* MMCSG
+* Lombard-GRID-2mix
+* MCAS
+* TextrolMix
+* Hi, KIA
+* KAN-AV
+* Facestar
+* RVTALL
+* AVE-Speech
+* MSceneSpeech
+* StoryTTS
+* Speak & Improve Corpus
+* Unsupervised People’s Speech
+* Helsinki Speech Challenge 2024 open audio dataset
+* nEMO
+* ODSS
+* TIMIT-TTS
+* BBS-S2T
+* SIFT-50M
+* MIVIA Speech Command
+* TunSwitch
+* DiffSSD
+* OOD-Speech
+* AS-70
+* DisfluencySpeech
+* Boli
+* SPIRE-SIES
+* NaturalVoices
+* ArmanTTS
+* KSoF (Kassel State of Fluency)
+* RIRs (Room Impulse Responses)
+* STAIR Captions
+* EmoSeC
+* RescueSpeech
+* ClArTTS
+* CORAAL
+* Audio-FLAN
+* VocalMind
+* GTSinger
+* Fair-speech Dataset
+* 3D-Speaker
+* EARS
+* EdAcc (Edinburgh International Accents of English Corpus)
+* ShiftySpeech
+* SlideSpeech
+* SpeechCraft
+* COVYT
+* CitySpeechMix
+
+-2
 
 ---
 
@@ -669,11 +694,15 @@ other speech processing applications.*
 
 [1]: http://www.lrec-conf.org/proceedings/lrec2010/pdf/262_Paper.pdf "A Database of Age and Gender Annotated Telephone Speech"
 
-[2]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45857.pdf "Audio Set: An ontology and human-labeled dataset for audio events"
+[2]: https://en.arabicspeechcorpus.com/Nawar%20Halabi%20PhD%20Thesis%20Revised.pdf "Modern Standard Arabic Phonetics for Speech Synthesis"
 
-[3]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "Speech Emotion Recognition for Performance Interaction"
+[3]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45857.pdf "Audio Set: An ontology and human-labeled dataset for audio events"
 
-[4]: https://arxiv.org/abs/2110.07393 "M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge"
+[4]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "Speech Emotion Recognition for Performance Interaction"
 
-[5]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
+[5]: https://arxiv.org/abs/2004.04410 "Att-HACK: An Expressive Speech Database with Social Attitudes"
+
+[6]: https://arxiv.org/abs/2110.07393 "M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge"
+
+[7]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
 
