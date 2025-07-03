@@ -74,9 +74,9 @@ other speech processing applications.*
 
 #### 2010-2015
 
-| Index | Dataset | Main Task                                | Sub-Task(s)                      | Multilingual | Source                           | Year | Derived |
-|-------|---------|------------------------------------------|----------------------------------|--------------|----------------------------------|------|---------|
-| 1     | aGender | Automated age- and gender-classification | Dialog/persona adaptation in IVR |              | Deutsche Telekom AG Laboratories | 2010 |         |
+| Index | Dataset | Main Task | Sub-Task(s) | Multilingual | Source                           | Year | Derived |
+|-------|---------|-----------|-------------|--------------|----------------------------------|------|---------|
+|       | aGender |           |             |              | Deutsche Telekom AG Laboratories | 2010 |         |
 
 1. aGender
 
