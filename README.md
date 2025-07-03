@@ -183,7 +183,6 @@ other speech processing applications.*
 
 ---
 
-* Att-HACK
 * AudioMNIST
 * BAVED
 * BibleTTS
