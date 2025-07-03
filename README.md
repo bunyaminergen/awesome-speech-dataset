@@ -93,10 +93,10 @@ other speech processing applications.*
 
 #### 2015-2020
 
-| Index | Dataset  | Main Task                           | Sub-Task(s) | Multilingual | Source                               | Year | Derived |
-|-------|----------|-------------------------------------|-------------|--------------|--------------------------------------|------|---------|
-| 1     | AudioSet | Audio-event recognition / detection |             |              | Google Inc.                          | 2017 |         |
-| 2     | AESDD    | Speech Emotion Recognition (SER)    |             |              | Aristotle University of Thessaloniki | 2018 |         |
+| Index | Dataset  | Main Task                        | Sub-Task(s) | Multilingual | Source                               | Year | Derived |
+|-------|----------|----------------------------------|-------------|--------------|--------------------------------------|------|---------|
+|       | AudioSet |                                  |             |              | Google Inc.                          | 2017 |         |
+|       | AESDD    | Speech Emotion Recognition (SER) |             |              | Aristotle University of Thessaloniki | 2018 |         |
 
 1. AudioSet
 
@@ -125,11 +125,26 @@ other speech processing applications.*
 
 #### 2020-2025
 
-| Index | Dataset   | Main Task                      | Sub-Task(s)	                                             | Multilingual | Source                                        | Year | Derived       |
-|-------|-----------|--------------------------------|----------------------------------------------------------|--------------|-----------------------------------------------|------|---------------|
-|       | Audiocite | Self-supervised learning (SSL) | Automatic Speech Recognition (ASR), Speaker Verification |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG | 2024 | audiocite.net |
+| Index | Dataset    | Main Task                          | Sub-Task(s)                                                                                        | Multilingual | Source                                                                               | Year | Derived       |
+|-------|------------|------------------------------------|----------------------------------------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------|------|---------------|
+|       | AliMeeting | Automatic Speech Recognition (ASR) | Speaker Verification, Speech Enhancement, Speech Separation, Speech Segmentation, Overlap Handling |              | Alibaba Group Speech Lab (China & Singapore), Beijing Shell Tech, AISHELL Foundation | 2022 |               |
+|       | Audiocite  |                                    | Automatic Speech Recognition (ASR), Speaker Verification                                           |              | Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG                                        | 2024 | audiocite.net |
 
-1. Audiocite
+1. AliMeeting
+
+   The M2MeT Challenge, introduced at ICASSP 2022, provides the first large-scale public benchmark for multi-channel,
+   multi-speaker Mandarin meeting transcription. Developed jointly by Alibaba Group’s Speech Labs, Beijing Shell Tech,
+   and the AISHELL Foundation, the release centres on AliMeeting, a 120-hour corpus of real meetings recorded with an
+   8-microphone circular array plus parallel headset tracks, covering 2-4 participants, diverse rooms and a high (≈42 %)
+   overlap ratio. The challenge defines two core tasks—speaker diarization and multi-speaker automatic speech
+   recognition (ASR)—with sub-tracks that either restrict or allow external data (notably AISHELL-4 and CN-Celeb). By
+   supplying time-aligned transcriptions, per-speaker head-set audio and far-field array recordings, the dataset also
+   supports front-end enhancement and separation research. Although multilingual corpora exist for English, M2MeT fills
+   a critical gap for Mandarin, enabling reproducible research on real-world meeting processing and advancing
+   “who-spoke-what-when” technology in
+   Chinese. [M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge][4]
+
+2. Audiocite
 
    Published in 2024, Audiocite.net: A Large Spoken Read Dataset in French introduces a 6,682-hour corpus of
    volunteer-read audiobooks harvested from the Audiocité platform by researchers at Université Grenoble Alpes / CNRS /
@@ -138,11 +153,11 @@ other speech processing applications.*
    suitable for topic modelling, signal reconstruction and speech synthesis research. Entirely sourced from
    Creative-Commons licensed audiobooks, Audiocite.net fills the size gap between English and French resources and has
    already been used to boost the 14 k-hour LeBenchmark models, demonstrating its practical impact on French speech
-   technology. [Audiocite.net: A Large Spoken Read Dataset in French][4]
+   technology. [Audiocite.net: A Large Spoken Read Dataset in French][5]
 
 ---
 
-5. AliMeeting
+5.
 6. ANAD
 7. Arabic Speech Corpus
 8. Att-HACK
@@ -658,5 +673,7 @@ other speech processing applications.*
 
 [3]: https://www.academia.edu/37375381/Speech_Emotion_Recognition_for_Performance_Interaction "Speech Emotion Recognition for Performance Interaction"
 
-[4]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
+[4]: https://arxiv.org/abs/2110.07393 "M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge"
+
+[5]: https://aclanthology.org/2024.lrec-main.159 "Audiocite.net: A Large Spoken Read Dataset in French"
 
